@@ -1,0 +1,16 @@
+function metrics = computeSmoothnessMetrics(result,dt)
+%COMPUTESMOOTHNESSMETRICS Steering/yaw path metrics supported by logged model.
+
+    steering=[result.log.steering]; yaw=result.egoHistory(:,3).';
+    steeringChange=diff(steering); headingChange=atan2(sin(diff(yaw)),cos(diff(yaw)));
+    distanceSteps=hypot(diff(result.egoHistory(:,1)),diff(result.egoHistory(:,2))).';
+    valid=distanceSteps>1e-6;
+    curvature=zeros(size(headingChange)); curvature(valid)=abs(headingChange(valid))./distanceSteps(valid);
+    metrics=struct('RMSSteering',sqrt(mean(steering.^2)), ...
+        'MaximumAbsoluteSteering',max(abs(steering)), ...
+        'CumulativeAbsoluteSteeringChange',sum(abs(steeringChange)), ...
+        'MeanAbsoluteSteeringRateProxy',mean(abs(steeringChange))/dt, ...
+        'CumulativeAbsoluteHeadingChange',sum(abs(headingChange)), ...
+        'MeanPathCurvature',mean(curvature(valid),'omitnan'));
+    if ~any(valid), metrics.MeanPathCurvature=0; end
+end

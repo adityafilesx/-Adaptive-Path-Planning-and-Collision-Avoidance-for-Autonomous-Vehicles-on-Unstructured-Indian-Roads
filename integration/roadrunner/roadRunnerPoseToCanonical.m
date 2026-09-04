@@ -9,9 +9,13 @@ function canonical = roadRunnerPoseToCanonical(rr, transformValue)
         roadHeading = atan2(pose(2,2), pose(1,2));
         velocity = [0 0 0];
     else
-        if isfield(rr, 'PoseMatrix'), pose = double(rr.PoseMatrix);
-        elseif isfield(rr, 'Pose'), pose = double(rr.Pose);
-        else, pose = []; end
+        if isfield(rr, 'PoseMatrix')
+            pose = double(rr.PoseMatrix);
+        elseif isfield(rr, 'Pose')
+            pose = double(rr.Pose);
+        else
+            pose = [];
+        end
         if ~isempty(pose)
             assert(isequal(size(pose), [4 4]), 'RoadRunner Pose must be 4-by-4.');
             position = pose(1:3,4).';
@@ -20,8 +24,11 @@ function canonical = roadRunnerPoseToCanonical(rr, transformValue)
             position = double(rr.Position(:).');
             roadHeading = double(rr.Yaw) + pi/2;
         end
-        if isfield(rr, 'Velocity'), velocity = double(rr.Velocity(:).');
-        else, velocity = [0 0 0]; end
+        if isfield(rr, 'Velocity')
+            velocity = double(rr.Velocity(:).');
+        else
+            velocity = [0 0 0];
+        end
     end
     canonicalPosition = transform.positionRotation.' * ...
         (position(:)-transform.translation(:));

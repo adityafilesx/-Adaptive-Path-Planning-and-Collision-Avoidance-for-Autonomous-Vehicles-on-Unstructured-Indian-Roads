@@ -1,0 +1,13 @@
+Metric,Value,Unit,Context
+Main deterministic scenario families,5,count,Five Phase 8 families
+Collision-free rate,100,percent,Tested deterministic main scenarios
+Goal reach rate,80,percent,Safe termination excluded from goal count
+Safe terminations,1,count,Explicit non-goal safe outcomes
+Worst observed actor clearance,7.00894685068509,m,Across five main scenarios
+Robustness recovery rate,100,percent,Eight controlled Phase 9 disturbances
+Unsafe active-path moving frames,0,frames,Benchmark plus robustness
+Mean replanning latency,27.9704764784946,ms,MATLAB development hardware
+95th-percentile replanning latency,59.5840999999999,ms,MATLAB development hardware
+Maximum replanning latency,272.184875,ms,MATLAB development hardware
+Mean incremental ACARG overhead,0.311789611360239,ms/frame,Recorded-track replay
+Closed-loop control period,200,ms,Configured controller timestep

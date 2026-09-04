@@ -7,7 +7,7 @@ function report = validateRoadRunnerManifest(manifest)
         'egoInitialState','goalPose','actors'};
     for i = 1:numel(required)
         if ~isfield(manifest, required{i})
-            errors(end+1) = "Missing manifest field: " + required{i};
+            errors(end+1) = "Missing manifest field: " + required{i}; %#ok<AGROW>
         end
     end
     if isempty(errors)
@@ -17,7 +17,11 @@ function report = validateRoadRunnerManifest(manifest)
         if ~endsWith(string(manifest.roadRunnerScenario), '.rrscenario')
             errors(end+1) = "roadRunnerScenario must name a future .rrscenario asset.";
         end
-        portableText = jsonencode(manifest);
+        portableManifest = manifest;
+        if isfield(portableManifest, 'manifestPath')
+            portableManifest = rmfield(portableManifest, 'manifestPath');
+        end
+        portableText = jsonencode(portableManifest);
         if contains(portableText, 'C:\\') || contains(portableText, '/Users/') || ...
                 contains(portableText, '\\Users\\')
             errors(end+1) = "Manifest contains a machine-specific absolute path.";
@@ -39,12 +43,12 @@ function report = validateRoadRunnerManifest(manifest)
         for i = 1:numel(actors)
             [mapped, detail] = mapRoadRunnerActorClass(actors(i).canonicalClass);
             if detail.usedFallback || mapped ~= string(actors(i).canonicalClass)
-                errors(end+1) = "Unsupported canonical class for actor " + ids(i) + ".";
+                errors(end+1) = "Unsupported canonical class for actor " + ids(i) + "."; %#ok<AGROW>
             end
             values = [poseValues(actors(i).initialPose), ...
                 velocityValues(actors(i).velocity), dimensionValues(actors(i).dimensions)];
             if any(~isfinite(values)) || any(dimensionValues(actors(i).dimensions)<=0)
-                errors(end+1) = "Actor " + ids(i) + " has invalid state/dimensions.";
+                errors(end+1) = "Actor " + ids(i) + " has invalid state/dimensions."; %#ok<AGROW>
             end
         end
         ego = poseValues(manifest.egoInitialState);
