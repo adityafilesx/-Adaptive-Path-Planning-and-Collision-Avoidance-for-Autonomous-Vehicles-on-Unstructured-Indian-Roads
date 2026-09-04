@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "scenarioKey": "villageRoad",
+  "scenarioName": "Unmarked Village Road",
+  "priority": 1,
+  "roadRunnerScene": "VillageRoad.rrscene",
+  "roadRunnerScenario": "VillageRoad.rrscenario",
+  "egoActorName": "EgoVehicle",
+  "bridgeMode": "MATLAB_AUTHORITATIVE",
+  "coordinateTransform": {
+    "positionRotation": [[1,0,0],[0,1,0],[0,0,1]],
+    "translation": [0,0,0]
+  },
+  "egoInitialState": {"x":0,"y":0,"z":0,"yaw":0,"speed":0},
+  "goalPose": {"x":85,"y":0,"z":0,"yaw":0},
+  "actors": [
+    {
+      "logicalActorID": 301,
+      "canonicalClass": "pushcart",
+      "roadRunnerActorName": "VillagePushcart301",
+      "visualAsset": "custom pushcart or vendor-cart movable object",
+      "fallbackAsset": "bicycle actor with pushcart dimensions",
+      "initialPose": {"x":60,"y":16,"z":0,"yaw":-1.2490457723982544},
+      "velocity": {"x":0.5,"y":-1.5,"z":0},
+      "dimensions": {"length":2.0,"width":1.0,"height":1.5},
+      "notes": "Exact Phase 8 logical actor 301; visual asset does not change the pushcart ACARG class."
+    }
+  ]
+}

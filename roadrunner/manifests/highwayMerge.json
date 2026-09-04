@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "scenarioKey": "highwayMerge",
+  "scenarioName": "Highway Slow-Vehicle Merge",
+  "priority": 3,
+  "roadRunnerScene": "HighwayMerge.rrscene",
+  "roadRunnerScenario": "HighwayMerge.rrscenario",
+  "egoActorName": "EgoVehicle",
+  "bridgeMode": "MATLAB_AUTHORITATIVE",
+  "coordinateTransform": {"positionRotation":[[1,0,0],[0,1,0],[0,0,1]],"translation":[0,0,0]},
+  "egoInitialState": {"x":0,"y":0,"z":0,"yaw":0,"speed":0},
+  "goalPose": {"x":90,"y":0,"z":0,"yaw":0},
+  "actors": [
+    {"logicalActorID":501,"canonicalClass":"car","roadRunnerActorName":"SlowLead501","visualAsset":"standard sedan","fallbackAsset":"any vehicle actor","initialPose":{"x":42,"y":7,"z":0,"yaw":0},"velocity":{"x":1,"y":0,"z":0},"dimensions":{"length":4.7,"width":1.8,"height":1.5},"notes":"Optional target; Phase 8 actor 501."},
+    {"logicalActorID":502,"canonicalClass":"car","roadRunnerActorName":"MergingCar502","visualAsset":"standard sedan","fallbackAsset":"any vehicle actor","initialPose":{"x":32,"y":-14,"z":0,"yaw":0.14888994760949725},"velocity":{"x":2,"y":0.3,"z":0},"dimensions":{"length":4.7,"width":1.8,"height":1.5},"notes":"Optional target; Phase 8 actor 502."}
+  ]
+}

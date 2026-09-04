@@ -1,0 +1,19 @@
+function scenario = createVillageRoadScenario(config)
+%CREATEVILLAGEROADSCENARIO Slow cart and roadside pedestrian without lanes.
+
+    if nargin < 1, config = feval('config'); end
+    ego = egoState(0, 0, 0, 0);
+    actors(1) = makePhase8Actor(301, 'pushcart', [60 16], [0.5 -1.5], ...
+        [2.0 1.0], 'Slow village cart');
+    scenario = makePhase8Scenario('Unmarked Village Road', ...
+        ['A slow cart and laterally ambiguous pedestrian constrain a narrow ' ...
+        'unmarked travel corridor without lane assumptions.'], ...
+        ego, [85 0 0], actors, 26, 'Cautious overtaking with safe completion', ...
+        801, config);
+    scenario.roadContext = struct('nominalWidth', 9, 'laneMarkings', false);
+end
+
+function state = egoState(x, y, yaw, speed)
+state = struct('x', x, 'y', y, 'yaw', yaw, 'speed', speed, ...
+    'Position', [x y 0], 'Velocity', [speed*cos(yaw) speed*sin(yaw) 0]);
+end

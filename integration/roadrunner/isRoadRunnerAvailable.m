@@ -1,0 +1,36 @@
+function capability = isRoadRunnerAvailable(cfg)
+%ISROADRUNNERAVAILABLE Report capability without throwing when unavailable.
+
+    if nargin < 1 || isempty(cfg), cfg = config(); end
+    paths = getRoadRunnerPaths(cfg);
+    platformSupported = ispc || (isunix && ~ismac);
+    matlabAPIFound = exist('roadrunner', 'file') == 2 || ...
+        exist('roadrunner', 'class') == 8;
+    projectConfigured = strlength(paths.projectRoot) > 0;
+    requiredFoldersFound = projectConfigured && ...
+        isfolder(paths.sceneRoot) && isfolder(paths.scenarioRoot) && ...
+        isfolder(paths.assetRoot);
+    available = platformSupported && matlabAPIFound && ...
+        projectConfigured && requiredFoldersFound;
+    if ismac
+        reason = "RoadRunner runtime is not supported on macOS.";
+    elseif ~platformSupported
+        reason = "RoadRunner runtime requires supported Windows or Linux x86-64.";
+    elseif ~matlabAPIFound
+        reason = "MATLAB RoadRunner API was not found; verify RoadRunner and Automated Driving Toolbox installation/licensing.";
+    elseif ~projectConfigured
+        reason = "RoadRunner project root is not configured.";
+    elseif ~requiredFoldersFound
+        reason = "Configured RoadRunner project is missing Assets, Scenes, or Scenarios folders.";
+    else
+        reason = "RoadRunner runtime prerequisites are available.";
+    end
+    capability = struct('available', available, ...
+        'platformSupported', platformSupported, ...
+        'matlabAPIFound', matlabAPIFound, ...
+        'projectConfigured', projectConfigured, ...
+        'requiredFoldersFound', requiredFoldersFound, ...
+        'executionEnabled', logical(cfg.roadrunner.enabled), ...
+        'runtimeReady', available && logical(cfg.roadrunner.enabled), ...
+        'platform', string(computer), 'reason', reason, 'paths', paths);
+end

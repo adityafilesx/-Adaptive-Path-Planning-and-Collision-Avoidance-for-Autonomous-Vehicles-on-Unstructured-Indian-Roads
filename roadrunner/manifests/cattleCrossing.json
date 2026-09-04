@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "scenarioKey": "cattleCrossing",
+  "scenarioName": "Sudden Cattle Crossing",
+  "priority": 5,
+  "roadRunnerScene": "CattleCrossing.rrscene",
+  "roadRunnerScenario": "CattleCrossing.rrscenario",
+  "egoActorName": "EgoVehicle",
+  "bridgeMode": "MATLAB_AUTHORITATIVE",
+  "coordinateTransform": {"positionRotation":[[1,0,0],[0,1,0],[0,0,1]],"translation":[0,0,0]},
+  "egoInitialState": {"x":0,"y":0,"z":0,"yaw":0,"speed":0},
+  "goalPose": {"x":95,"y":0,"z":0,"yaw":0},
+  "actors": [
+    {"logicalActorID":701,"canonicalClass":"cattle","roadRunnerActorName":"CrossingCattle701","visualAsset":"cattle mesh as movable actor if available","fallbackAsset":"generic movable-object proxy with cattle dimensions","initialPose":{"x":70,"y":16,"z":0,"yaw":-1.5707963267948966},"velocity":{"x":0,"y":-2,"z":0},"dimensions":{"length":2.4,"width":1.0,"height":1.5},"notes":"Optional target; proxy remains canonical/ACARG class cattle."}
+  ]
+}

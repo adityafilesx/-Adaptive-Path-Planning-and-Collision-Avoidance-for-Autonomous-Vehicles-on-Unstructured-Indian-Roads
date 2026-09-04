@@ -1,0 +1,13 @@
+function scenario = createConservativeStopRecoveryScenario(cfg)
+%CREATECONSERVATIVESTOPRECOVERYSCENARIO Real crossing risk that clears.
+
+    actors(1) = makePhase8Actor(820, 'cattle', [43 11], [0 -2.0], ...
+        [2.4 1.0], 'Crossing cattle');
+    actors(2) = makePhase8Actor(821, 'pedestrian', [48 -9], [0 1.7], ...
+        [0.6 0.6], 'Opposing pedestrian');
+    scenario = makePhase9Scenario('Conservative Stop Recovery', 'stop-recovery', ...
+        'Two crossing risks force a genuine stop and then clear without a manual state reset.', ...
+        actors, [72 0 0], 26, 907, cfg);
+    scenario.disturbanceWindow = [4 12];
+    scenario.recoveryCriterion = 'stop-exit';
+end

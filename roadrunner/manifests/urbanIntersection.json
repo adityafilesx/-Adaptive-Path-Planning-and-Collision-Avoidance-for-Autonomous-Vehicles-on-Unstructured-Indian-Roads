@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "scenarioKey": "urbanIntersection",
+  "scenarioName": "Unsignalized Urban Intersection",
+  "priority": 2,
+  "roadRunnerScene": "UrbanIntersection.rrscene",
+  "roadRunnerScenario": "UrbanIntersection.rrscenario",
+  "egoActorName": "EgoVehicle",
+  "bridgeMode": "MATLAB_AUTHORITATIVE",
+  "coordinateTransform": {
+    "positionRotation": [[1,0,0],[0,1,0],[0,0,1]],
+    "translation": [0,0,0]
+  },
+  "egoInitialState": {"x":0,"y":0,"z":0,"yaw":0,"speed":0},
+  "goalPose": {"x":100,"y":0,"z":0,"yaw":0},
+  "actors": [
+    {
+      "logicalActorID": 401,
+      "canonicalClass": "car",
+      "roadRunnerActorName": "CrossingCar401",
+      "visualAsset": "standard sedan or compact car",
+      "fallbackAsset": "any RoadRunner vehicle actor",
+      "initialPose": {"x":65,"y":18,"z":0,"yaw":-1.5707963267948966},
+      "velocity": {"x":0,"y":-2.2,"z":0},
+      "dimensions": {"length":4.7,"width":1.8,"height":1.5},
+      "notes": "Exact Phase 8 logical actor 401 crossing toward negative Y."
+    },
+    {
+      "logicalActorID": 402,
+      "canonicalClass": "auto",
+      "roadRunnerActorName": "CrossingAuto402",
+      "visualAsset": "auto-rickshaw visual mesh if licensed/available",
+      "fallbackAsset": "compact vehicle actor scaled to 3.2 by 1.5 metres",
+      "initialPose": {"x":90,"y":-18,"z":0,"yaw":1.5707963267948966},
+      "velocity": {"x":0,"y":2.2,"z":0},
+      "dimensions": {"length":3.2,"width":1.5,"height":1.5},
+      "notes": "Visual fallback remains canonical/ACARG class auto."
+    }
+  ]
+}
