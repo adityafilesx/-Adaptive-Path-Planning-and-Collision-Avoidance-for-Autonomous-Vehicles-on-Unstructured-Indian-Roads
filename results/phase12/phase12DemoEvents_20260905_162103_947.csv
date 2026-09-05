@@ -1,0 +1,11 @@
+Time,Type,Description
+0,REPLAN,PATH UPDATED: No active path.
+3,REPLAN,PATH UPDATED: Maximum replanning interval elapsed.
+3.4,STATE,NORMAL > CAUTIOUS
+4.8,REPLAN,PATH UPDATED: Upcoming active path is unsafe.
+7.6,REPLAN,PATH UPDATED: Risk changed significantly.
+9.8,STATE,CAUTIOUS > NORMAL
+9.8,RECOVERY,Governor relaxes after risk falls
+9.8,REPLAN,PATH UPDATED: Governor state changed. / Risk changed significantly.
+13,REPLAN,PATH UPDATED: Maximum replanning interval elapsed.
+15.6,GOAL,Goal reached

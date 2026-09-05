@@ -1,0 +1,23 @@
+
+	Trial License -- for use to evaluate programs for possible purchase as an end-user only.
+
+Phase 12 EXPORT | Sudden Cattle Crossing | goal 1 | collision 0 | 17.8 s | 8 replans
+Replay values verified: 1. RoadRunner runtime: pending Windows/Linux.
+Phase 12 LIVE | Sudden Cattle Crossing | goal 1 | collision 0 | 17.8 s | 8 replans
+Replay values verified: 1. RoadRunner runtime: pending Windows/Linux.
+testPhase12Demo: 35 passed, 0 failed.
+Phase 12 EXPORT | Sudden Cattle Crossing | goal 1 | collision 0 | 17.8 s | 8 replans
+Replay values verified: 1. RoadRunner runtime: pending Windows/Linux.
+/Users/aditya1981/Downloads/SIH_Ps37/results/phase12/phase12DemoSummary_20260905_162330_851.mat
+            Name            Frame    Time           State             Risk                                                          File                                                     
+    ____________________    _____    ____    ___________________    ________    _____________________________________________________________________________________________________________
+
+    "A_low_risk"              1         0    "NORMAL"               0.033935    "/Users/aditya1981/Downloads/SIH_Ps37/results/phase12/screenshots/20260905_162330_851/A_low_risk.png"        
+    "B_rising_risk"          13       2.4    "NORMAL"               0.065753    "/Users/aditya1981/Downloads/SIH_Ps37/results/phase12/screenshots/20260905_162330_851/B_rising_risk.png"     
+    "C_cautious"             32       6.2    "CAUTIOUS"              0.56062    "/Users/aditya1981/Downloads/SIH_Ps37/results/phase12/screenshots/20260905_162330_851/C_cautious.png"        
+    "D_largest_envelope"     67      13.2    "CONSERVATIVE_STOP"     0.70369    "/Users/aditya1981/Downloads/SIH_Ps37/results/phase12/screenshots/20260905_162330_851/D_largest_envelope.png"
+    "E_replanned"            42       8.2    "CAUTIOUS"              0.53008    "/Users/aditya1981/Downloads/SIH_Ps37/results/phase12/screenshots/20260905_162330_851/E_replanned.png"       
+    "F_recovery"             72      14.2    "NORMAL"                0.24779    "/Users/aditya1981/Downloads/SIH_Ps37/results/phase12/screenshots/20260905_162330_851/F_recovery.png"        
+    "G_final_outcome"        90      17.8    "NORMAL"                0.11709    "/Users/aditya1981/Downloads/SIH_Ps37/results/phase12/screenshots/20260905_162330_851/G_final_outcome.png"   
+
+PHASE12_VISUAL_VALIDATION_COMPLETE

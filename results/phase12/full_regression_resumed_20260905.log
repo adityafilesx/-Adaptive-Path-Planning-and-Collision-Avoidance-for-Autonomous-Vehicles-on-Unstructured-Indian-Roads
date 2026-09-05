@@ -58,3 +58,265 @@ Runtime skip reason: RoadRunner runtime is not supported on macOS.
 Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
 Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
 testPhase11Evaluation: 35 passed, 0 failed.
+Phase 12 EXPORT | Sudden Cattle Crossing | goal 1 | collision 0 | 17.8 s | 8 replans
+Replay values verified: 1. RoadRunner runtime: pending Windows/Linux.
+Phase 12 LIVE | Sudden Cattle Crossing | goal 1 | collision 0 | 17.8 s | 8 replans
+Replay values verified: 1. RoadRunner runtime: pending Windows/Linux.
+testPhase12Demo: 35 passed, 0 failed.
+PHASE12_ALL_TEST_SUITES_COMPLETE
+============================================================
+ SIH26037 - Phase 6: Adaptive Confidence-Aware Risk Governor
+============================================================
+--- RUN 1: Baseline (ACARG Disabled) ---
+Baseline Path Valid: 1
+ 
+--- RUN 2: Enhanced (ACARG Enabled) ---
+ACARG Decision:
+  State:          CAUTIOUS
+  Total Risk:     0.41
+  Safety Scale:   1.20
+  Speed Scale:    0.65
+  Replan Urgency: 0.37 (Requested: 0)
+ 
+Actor Risk Details:
+  Actor 101 (car):
+    Risk: 0.05 (Conf: 0.98, Uncert: 0.01, CPA: 0.00, Dist: 0.20)
+    Safety Scale: 1.07
+  Actor 102 (pedestrian):
+    Risk: 0.38 (Conf: 0.70, Uncert: 0.08, CPA: 0.32, Dist: 0.31)
+    Safety Scale: 1.57
+
+Enhanced Path Valid: 1
+ 
+--- VISUALIZATION ---
+============================================================
+ SIH26037 - Phase 7: Closed-Loop Motion and Online Replanning
+============================================================
+Termination:              Goal reached.
+Goal reached:             1
+Collision occurred:       0
+Simulation time:          14.80 s
+Distance travelled:       70.42 m
+Initial path length:      70.00 m
+Successful replans:       5
+Failed replans:           0
+Mean / max speed:         4.73 / 6.00 m/s
+Minimum actor distance:   12.16 m
+Mean / maximum risk:      0.263 / 0.647
+Time NORMAL:              10.80 s
+Time CAUTIOUS:            4.20 s
+Time CONSERVATIVE_STOP:   0.00 s
+State transition at 4.40 s: NORMAL -> CAUTIOUS (risk 0.358)
+State transition at 5.00 s: CAUTIOUS -> NORMAL (risk 0.236)
+State transition at 6.80 s: NORMAL -> CAUTIOUS (risk 0.382)
+State transition at 10.40 s: CAUTIOUS -> NORMAL (risk 0.241)
+Plan event at 0.00 s: success=1 initial=1 replaced=0 length=70.00 m
+Plan event at 3.00 s: success=1 initial=0 replaced=1 length=61.61 m
+Plan event at 4.40 s: success=1 initial=0 replaced=1 length=55.63 m
+Plan event at 6.40 s: success=1 initial=0 replaced=1 length=43.99 m
+Plan event at 9.60 s: success=1 initial=0 replaced=1 length=28.29 m
+Plan event at 12.80 s: success=1 initial=0 replaced=1 length=12.18 m
+============================================================
+ PHASE 8 - MULTI-SCENARIO VALIDATION
+============================================================
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+
+Unmarked Village Road
+Goal reached: YES
+Collision: NO
+Safe termination: NO
+Replans / failed: 15 / 0
+Max risk: 0.656
+Min actor distance: 11.29 m
+Simulation time: 19.60 s
+
+Unsignalized Urban Intersection
+Goal reached: NO
+Collision: NO
+Safe termination: YES
+Replans / failed: 11 / 6
+Max risk: 0.429
+Min actor distance: 8.52 m
+Simulation time: 11.00 s
+
+Highway Slow-Vehicle Merge
+Goal reached: YES
+Collision: NO
+Safe termination: NO
+Replans / failed: 7 / 0
+Max risk: 0.658
+Min actor distance: 7.01 m
+Simulation time: 17.20 s
+
+Dense Mixed-Traffic Market
+Goal reached: YES
+Collision: NO
+Safe termination: NO
+Replans / failed: 9 / 0
+Max risk: 0.655
+Min actor distance: 13.05 m
+Simulation time: 22.60 s
+
+Sudden Cattle Crossing
+Goal reached: YES
+Collision: NO
+Safe termination: NO
+Replans / failed: 8 / 0
+Max risk: 0.704
+Min actor distance: 12.13 m
+Simulation time: 17.80 s
+
+============================================================
+AGGREGATE
+============================================================
+Scenarios completed: 4 / 5 (80.0%)
+Goals reached: 4 / 5 (80.0%)
+Collision-free: 5 / 5 (100.0%)
+Mean replans: 10.00
+Mean replanning latency: 29.06 ms
+Worst replanning latency: 476.36 ms
+Benchmark wall-clock time: 28.08 s
+Saved benchmark: /Users/aditya1981/Downloads/SIH_Ps37/results/phase8/phase8Benchmark_20260905_155153_322.mat
+Saved summary: /Users/aditya1981/Downloads/SIH_Ps37/results/phase8/phase8ScenarioSummary_20260905_155153_322.csv
+============================================================
+ PHASE 9 - ROBUSTNESS AND ACARG EXPLAINABILITY
+============================================================
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+
+Confidence Drop
+Goal / collision / safe termination: YES / NO / NO
+State sequence: NORMAL -> CAUTIOUS -> NORMAL
+Maximum risk: 0.641 | Replans / failed: 5 / 0
+Recovered: YES | Unsafe forward-command frames: 0
+
+Temporary Detection Loss
+Goal / collision / safe termination: YES / NO / NO
+State sequence: NORMAL -> CAUTIOUS -> NORMAL -> CAUTIOUS -> NORMAL
+Maximum risk: 0.589 | Replans / failed: 7 / 0
+Recovered: YES | Unsafe forward-command frames: 0
+
+Sudden Direction Reversal
+Goal / collision / safe termination: NO / NO / YES
+State sequence: NORMAL -> CAUTIOUS -> NORMAL
+Maximum risk: 0.693 | Replans / failed: 38 / 12
+Recovered: YES | Unsafe forward-command frames: 0
+
+Multiple Simultaneous Risks
+Goal / collision / safe termination: YES / NO / NO
+State sequence: NORMAL -> CAUTIOUS -> NORMAL
+Maximum risk: 0.694 | Replans / failed: 16 / 34
+Recovered: YES | Unsafe forward-command frames: 0
+
+Temporary Path Obstruction
+Goal / collision / safe termination: YES / NO / NO
+State sequence: NORMAL -> CAUTIOUS -> NORMAL -> CAUTIOUS -> NORMAL -> CAUTIOUS -> NORMAL -> CAUTIOUS -> NORMAL
+Maximum risk: 0.477 | Replans / failed: 13 / 0
+Recovered: YES | Unsafe forward-command frames: 0
+
+Replan Failure Recovery
+Goal / collision / safe termination: YES / NO / NO
+State sequence: NORMAL -> CAUTIOUS -> NORMAL
+Maximum risk: 0.660 | Replans / failed: 7 / 9
+Recovered: YES | Unsafe forward-command frames: 0
+
+Conservative Stop Recovery
+Goal / collision / safe termination: NO / NO / YES
+State sequence: NORMAL -> CAUTIOUS -> CONSERVATIVE_STOP -> CAUTIOUS -> CONSERVATIVE_STOP -> CAUTIOUS -> NORMAL -> CAUTIOUS -> NORMAL
+Maximum risk: 0.757 | Replans / failed: 23 / 29
+Recovered: YES | Unsafe forward-command frames: 0
+
+Rapid Risk Fluctuation
+Goal / collision / safe termination: YES / NO / NO
+State sequence: NORMAL -> CAUTIOUS -> NORMAL -> CAUTIOUS -> NORMAL
+Maximum risk: 0.660 | Replans / failed: 10 / 0
+Recovered: YES | Unsafe forward-command frames: 0
+
+Dense Market legacy classification: C. Genuine implementation defect (time urgency overrode spatial evidence).
+Legacy STOP: totalRisk 0.701145 vs threshold 0.70; actor 601 at 30.772 m.
+Post-fix Dense Market: goal=YES, collision=NO, maximum risk=0.655.
+
+Robustness: 8 scenarios, 8 collision-free, 8 recovered, 0 unexplained failures.
+Wall-clock time: 91.82 s
+Saved result: /Users/aditya1981/Downloads/SIH_Ps37/results/phase9/phase9Robustness_20260905_155336_881.mat
+============================================================
+ PHASE 10 - ROADRUNNER INTEGRATION ARCHITECTURE
+============================================================
+PASS  Directory manifests -- /Users/aditya1981/Downloads/SIH_Ps37/roadrunner/manifests
+PASS  Directory specs -- /Users/aditya1981/Downloads/SIH_Ps37/roadrunner/specs
+PASS  Directory project -- /Users/aditya1981/Downloads/SIH_Ps37/roadrunner/project
+PASS  Directory assets -- /Users/aditya1981/Downloads/SIH_Ps37/roadrunner/assets
+PASS  Directory exports -- /Users/aditya1981/Downloads/SIH_Ps37/roadrunner/exports
+PASS  Directory validation -- /Users/aditya1981/Downloads/SIH_Ps37/roadrunner/validation
+PASS  Manifest village -- actors=1
+PASS  Manifest urban -- actors=2
+PASS  Manifest highway -- actors=2
+PASS  Manifest denseMarket -- actors=2
+PASS  Manifest cattle -- actors=1
+PASS  Specification VILLAGE_ROAD_SPEC.md -- /Users/aditya1981/Downloads/SIH_Ps37/roadrunner/specs/VILLAGE_ROAD_SPEC.md
+PASS  Specification URBAN_INTERSECTION_SPEC.md -- /Users/aditya1981/Downloads/SIH_Ps37/roadrunner/specs/URBAN_INTERSECTION_SPEC.md
+PASS  Coordinate round trip -- position 9.04e-16 m, yaw 4.44e-16 rad, velocity 4.44e-16 m/s
+PASS  Actor class mappings -- car,auto,pedestrian,bicycle,pushcart,cattle,truck
+PASS  Phase 8 manifest correspondence -- All five manifests exactly match Phase 8 logical states.
+PASS  Core RoadRunner independence -- No core module references RoadRunner.
+PASS  Core regression entry points -- 12/12 available
+PASS  Integration configuration -- 
+RoadRunner runtime validation: SKIPPED -- RoadRunner runtime is not supported on macOS.
+PHASE 10 ARCHITECTURE: COMPLETE
+ROADRUNNER RUNTIME VALIDATION: PENDING
+============================================================
+ PHASE 11 - FINAL EVALUATION
+============================================================
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Authoritative benchmark: POST_PHASE9_FIX
+Main scenarios: 5 | goal reached: 4 | safe terminations: 1 | collision-free: 5
+Robustness: 8 scenarios | recovery 100.0% | collision-free 100.0%
+Replanning latency mean / p95 / maximum: 29.073 / 50.572 / 435.314 ms
+Worst-latency scenario: Unsignalized Urban Intersection
+Unsafe moving frames: 0
+Mean incremental ACARG overhead: 0.304 ms (0.152% of 200 ms period)
+Evidence scope: closed-loop MATLAB simulation on development hardware.
+RoadRunner runtime evidence: PENDING Windows/Linux validation.
+{Error using runPhase12Demo (line 42)
+Demo window closed before completion.
+
+Error in mainPhase12 (line 7)
+summary=runPhase12Demo(cfg.demo);
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+} 

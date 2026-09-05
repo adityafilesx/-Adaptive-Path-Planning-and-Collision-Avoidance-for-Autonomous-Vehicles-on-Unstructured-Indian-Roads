@@ -39,7 +39,7 @@ end
 drawBody(ax,[f.egoX f.egoY],f.egoYaw, ...
     [data.scenario.config.vehicle.length data.scenario.config.vehicle.width],[.05 .4 .65],2,'ego');
 quiver(ax,f.egoX,f.egoY,4*cos(f.egoYaw),4*sin(f.egoYaw),0,'Color',[.05 .3 .55],'LineWidth',2);
-text(ax,f.egoX,f.egoY-3,'EGO','FontWeight','bold');
+text(ax,f.egoX,f.egoY+3,'EGO','FontWeight','bold');
 axis(ax,'equal');xlim(ax,[-5 105]);ylim(ax,[-22 22]);grid(ax,'on');
 xlabel(ax,'World X (m)');ylabel(ax,'World Y (m)');
 title(ax,sprintf('%s  |  %.1f s  |  MATLAB diagnostic view',data.scenario.name,f.time),'FontSize',13);
