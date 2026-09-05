@@ -1,0 +1,23 @@
+function state = formatDemoState(data,index)
+%FORMATDEMOSTATE All displayed values are copied from this simulation frame.
+f=data.result.log(index); p=data.result.presentationFrames(index);
+state=struct('time',f.time,'risk',f.totalRisk,'state',string(f.acargState), ...
+    'speedScale',f.speedScale,'safetyScale',f.safetyScale, ...
+    'desiredSpeed',f.desiredSpeed,'actualSpeed',f.egoSpeed, ...
+    'urgency',f.replanUrgency,'pathSafe',f.pathSafe, ...
+    'collision',p.collisionOccurred,'goal',p.goalReached, ...
+    'dominantID',f.acargDiagnostics.dominantActorID,'actor',struct(), ...
+    'path',p.pathStates,'replan',false,'replanText',"");
+if ~isempty(f.actorRiskDetails)
+    k=find([f.actorRiskDetails.ActorID]==state.dominantID,1);
+    if ~isempty(k),state.actor=f.actorRiskDetails(k);end
+end
+recent=find([data.result.log(1:index).plannerInvoked] & ...
+    f.time-[data.result.log(1:index).time]<=0.8+eps,1,'last');
+if ~isempty(recent)
+    state.replan=true; event=data.result.log(recent);
+    if event.pathReplaced,state.replanText="PATH UPDATED";else,state.replanText="PLAN FAILED / BRAKING";end
+    reasons=strjoin(string(event.replanReasons),', ');
+    state.replanText=state.replanText+newline+reasons;
+end
+end

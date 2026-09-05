@@ -23,6 +23,9 @@ function result = runClosedLoopSimulation(demo)
     egoHistory = [ego.x ego.y ego.yaw ego.speed];
     actorHistory = reshape([actors.Position], 3, []).';
     goalReached = false;
+    capturePresentation = isfield(demo, 'capturePresentation') && demo.capturePresentation;
+    presentationFrames = struct('pathStates', {}, 'predictions', {}, ...
+        'collisionOccurred', {}, 'goalReached', {});
     collisionOccurred = false;
     terminationReason = 'Maximum simulation time reached safely.';
 
@@ -107,6 +110,17 @@ function result = runClosedLoopSimulation(demo)
             minimumActorDistance, detections, tracks, actors, ...
             replanReasons, pathSafeBefore, latestAdaptiveMap); %#ok<AGROW>
 
+        % Optional read-only presentation instrumentation; no control inputs.
+        if capturePresentation
+            presentation = struct('pathStates', activePath.states, ...
+                'predictions', {latestRiskMap.actorPredictions}, ...
+                'collisionOccurred', collisionOccurred, 'goalReached', goalNow);
+            presentationFrames(end + 1, 1) = presentation; %#ok<AGROW>
+            if isfield(demo, 'frameObserver') && ~isempty(demo.frameObserver)
+                demo.frameObserver(logEntries(end), presentation);
+            end
+        end
+
         if collisionOccurred
             terminationReason = 'Collision detected.';
             break;
@@ -149,6 +163,7 @@ function result = runClosedLoopSimulation(demo)
         'latestPlanner', latestPlanner, 'terminationReason', terminationReason, ...
         'goalDistanceError', goalDistance);
     result.metrics = summarizeClosedLoop(logEntries, result, cfg);
+    if capturePresentation, result.presentationFrames = presentationFrames; end
 end
 
 function path = emptyActivePath()

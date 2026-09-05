@@ -1,0 +1,60 @@
+
+	Trial License -- for use to evaluate programs for possible purchase as an end-user only.
+
+testPerception: all checks passed.
+testTracking: all checks passed.
+testOccupancy: all checks passed.
+testPlanning: all checks passed.
+============================================================
+ Running Phase 6 tests: Adaptive Confidence-Aware Risk Governor
+============================================================
+
+Phase 6 Tests Complete: 18 passed, 0 failed.
+testClosedLoop: 25 passed, 0 failed.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+testPhase8Scenarios: 30 passed, 0 failed.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+testPhase9Robustness: 35 passed, 0 failed.
+testRoadRunnerIntegration platform-independent: 28 PASS, 0 FAIL.
+testRoadRunnerIntegration runtime: 0 PASS, 0 FAIL, 12 SKIPPED.
+Runtime skip reason: RoadRunner runtime is not supported on macOS.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+testPhase11Evaluation: 35 passed, 0 failed.
