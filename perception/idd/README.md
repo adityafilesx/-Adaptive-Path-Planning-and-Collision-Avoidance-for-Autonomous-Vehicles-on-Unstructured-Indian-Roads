@@ -204,7 +204,7 @@ SMOKE. No competition-ready detection samples can be claimed before this runs.
 
 ## Verification and evidence
 
-`testIDDIntegration` contains 55 checks: 37 independent contracts and 18 conditional
+`testIDDIntegration` now contains 65 checks: 47 independent contracts and 18 conditional
 genuine-data/model checks. Numeric `SCHEMA_TEST` boxes test types and bounds only;
 they are not fake IDD samples or model predictions. By default training tests skip.
 For a real smoke test, supply the explicit SMOKE configuration above to
@@ -217,3 +217,94 @@ See `results/idd/PHASE12_5_AUDIT.md`, `integration_test_results.csv`, timestampe
 status reports and regression logs for executed outcomes. The architecture PNG
 is a diagram, not perception-performance evidence. No mAP, loss, training duration,
 model artifact or IDD qualitative result is reported before genuine execution.
+
+## Milestone 1: genuine-data bring-up
+
+Run from the project root:
+
+```matlab
+addpath(genpath(pwd));
+result = mainMilestone1IDD();
+```
+
+No configured root means a clean stop of the genuine-data branch, not a fake
+dataset or successful smoke run. Environment/function/add-on/GPU/disk checks
+still run and are written to `results/idd/milestone1/environment_report.txt`.
+Timestamped status MAT files preserve the capability and configuration snapshot.
+The Milestone 1 entry reports tests separately; it does not rerun all expensive
+core suites every time a user checks the environment.
+
+### Exact place to configure the dataset
+
+`config.m` intentionally has **no persistent IDD setting**; it is frozen autonomy
+configuration. The isolated default is the `'root', ""` field in
+`perception/idd/getIDDConfig.m`. Prefer a caller override so the machine-specific
+dataset path stays out of shared source:
+
+```matlab
+cfg.idd.root = "/Volumes/ExternalSSD/datasets/IDD_Detection";
+result = mainMilestone1IDD(cfg);
+```
+
+The example path is not asserted to exist. It must be your manually obtained,
+licensed IDD-Detection extraction containing `JPEGImages`, `Annotations` and
+official train/validation lists. `IDD_ROOT` is also supported. The configured
+directory alone does not prove IDD availability; actual split/file parsing must
+succeed. No licensed dataset download is automated.
+
+### What the guarded genuine-data branch prepares
+
+The entry reuses `prepareIDDData`, `buildIDDDetectionDatastore`, the centralized
+mapper, conservative augmentation, YOLOX constructor, trainer, checkpoint loader,
+inference and canonical adapter. It does not replace the Phase 12.5 implementation.
+
+- Default deterministic SMOKE subset: up to 32 train and 32 validation images,
+  seed 125, one epoch, batch one, 320×320 input, pretrained `tiny-coco`.
+- Official splits retained. Uniform seeded selection is recorded explicitly;
+  it is not claimed to be stratified or to guarantee every class is represented.
+- Before training: 20 genuine ground-truth overlays, 20 single-sample datastore
+  reads compared to the source pixels/labels/boxes, and 10 photometric
+  augmentation checks. At least 20 held-out validation images are required.
+- Milestone 1 disables geometric augmentation; brightness/contrast must leave
+  boxes and labels exactly unchanged. Ground-truth overlays use accepted original
+  annotation labels and safely clipped boxes, not model predictions.
+- Inventory retains per-official-split counts. Counts cover supplied official
+  lists/accepted annotations, not an invented whole-release census. Rejected,
+  difficult and clipping issues are recorded; test annotations remain unopened.
+- Model vocabulary remains the actual selected raw IDD labels. Canonical aliases
+  are applied at the image-detection adapter, not invented as dataset labels.
+- Training and pretrained weight downloads remain explicit opt-ins. Training
+  uses the existing 5 GiB minimum guard and 180-second SMOKE callback budget;
+  an individual slow CPU iteration cannot be preempted by that callback.
+- Successful training must produce a nonempty checkpoint with a loadable detector
+  and training info, then reload the saved IDD-trained model. Genuine held-out
+  inference overlays are labelled `SMOKE MODEL - NOT FINAL ACCURACY` and include
+  a saved image-path/canonical-packet proof. Empty detections are not replaced by
+  fabricated examples. Any inherited subset evaluation is diagnostic only.
+
+Future explicit smoke invocation, **after dataset/environment/disk checks and
+reviewing genuine annotation/augmentation overlays**:
+
+```matlab
+cfg.idd.enabled = true;
+cfg.idd.runTraining = true;
+cfg.idd.allowWeightDownload = true; % Only pretrained model weights, never IDD
+cfg.idd.executionEnvironment = "cpu"; % Only if a short smoke run is practical
+result = mainMilestone1IDD(cfg);
+```
+
+Do not run this as a full-dataset CPU job. FULL/DEVELOPMENT profiles, a non-tiny
+model, geometric augmentation and checkpoint resume are rejected by the
+milestone configuration. GPU/full training is outside this milestone.
+
+**Current execution limitation:** no genuine IDD root or YOLOX support is
+available, so the new genuine-data/overlay/training branch has not been exercised
+against real data. Only missing-prerequisite behavior and independent contracts
+are validated. Audit: `results/idd/milestone1/MILESTONE1_AUDIT.md`.
+
+Image-to-world boundary remains:
+
+`IDD RGB → YOLOX → raw label / mapped class / pixel bbox / confidence`
+
+A future calibrated state estimator is required for metric position, velocity,
+yaw and CPA-ready state. This milestone adds no such estimates or guessed zeros.

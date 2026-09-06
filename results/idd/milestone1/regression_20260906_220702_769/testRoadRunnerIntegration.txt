@@ -1,0 +1,4 @@
+testRoadRunnerIntegration platform-independent: 28 PASS, 0 FAIL.
+testRoadRunnerIntegration runtime: 0 PASS, 0 FAIL, 12 SKIPPED.
+Runtime skip reason: RoadRunner runtime is not supported on macOS.
+

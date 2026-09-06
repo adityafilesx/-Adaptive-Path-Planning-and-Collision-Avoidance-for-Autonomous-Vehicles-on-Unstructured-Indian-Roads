@@ -1,0 +1,2457 @@
+[
+  {
+    "file": "results/phase11/run_20260905_050131_260/figures/figure01_benchmark_outcomes.pdf",
+    "bytes": 16030,
+    "sha256": "97175c8988c50f43e56cf31ff20b8bca26704847eedf8634a9d18a75735a4c5d"
+  },
+  {
+    "file": "results/phase11/run_20260905_050131_260/figures/figure01_benchmark_outcomes.png",
+    "bytes": 50049,
+    "sha256": "a74d937f92681d0ad84dbfd0c21b029e18475a932187c6b9ecb7c66b2d056c37"
+  },
+  {
+    "file": "results/phase11/run_20260905_050131_260/figures/figure02_minimum_clearance.pdf",
+    "bytes": 14926,
+    "sha256": "1c327190daa9e850e0ade7bf9e806a7891d8ece3adc592917d74a5c27aeb576f"
+  },
+  {
+    "file": "results/phase11/run_20260905_050131_260/figures/figure02_minimum_clearance.png",
+    "bytes": 40472,
+    "sha256": "c6fe04461bafd701ec02f0a4eeea69a506e9f4508a7e4de2c421d6806d9147ab"
+  },
+  {
+    "file": "results/phase11/run_20260905_050131_260/figures/figure03_replanning_latency.pdf",
+    "bytes": 15486,
+    "sha256": "7e65e35839c09fe59c023421df0f8080a1ef18889e81a07ff38e9a2e708d81db"
+  },
+  {
+    "file": "results/phase11/run_20260905_050131_260/figures/figure03_replanning_latency.png",
+    "bytes": 49097,
+    "sha256": "d9008aedeeb470e07aa26847b960ebb893ddd17cc1d534df414b32836b96c0c8"
+  },
+  {
+    "file": "results/phase11/run_20260905_050131_260/figures/figure04_cattle_risk_speed_timeline.pdf",
+    "bytes": 19947,
+    "sha256": "188a224f4a92b56b24abea1ce73db9fa8088f6596ecef1187514b6a06fc19a0f"
+  },
+  {
+    "file": "results/phase11/run_20260905_050131_260/figures/figure04_cattle_risk_speed_timeline.png",
+    "bytes": 103893,
+    "sha256": "c0a605f0e6460f26ee811cf5b7fa74aaa7b58424936bf20c4d2fdaa0d3a03210"
+  },
+  {
+    "file": "results/phase11/run_20260905_050131_260/figures/figure05_confidence_adaptive_scale.pdf",
+    "bytes": 16196,
+    "sha256": "a0620b868137508c0de908352bd153aa8cb59bbca2b8fbdb196a9f6cd7dcb6a3"
+  },
+  {
+    "file": "results/phase11/run_20260905_050131_260/figures/figure05_confidence_adaptive_scale.png",
+    "bytes": 60852,
+    "sha256": "2a89eec2a4612771a1d5217a3d4caddf4569d28b6197d9895b43d2607d18eda2"
+  },
+  {
+    "file": "results/phase11/run_20260905_050131_260/figures/figure06_cpa_vs_distance.pdf",
+    "bytes": 16447,
+    "sha256": "9b20626fdd34b69ea41eb0a3fd5b570da31b2e5cc9fe43712547371e72e9c0f0"
+  },
+  {
+    "file": "results/phase11/run_20260905_050131_260/figures/figure06_cpa_vs_distance.png",
+    "bytes": 67843,
+    "sha256": "b9820a3ee603b55af1bd0fabe402628cb99ff25f7d62e0adc3ef6ab75d15c1de"
+  },
+  {
+    "file": "results/phase11/run_20260905_050131_260/figures/figure07_acarg_state_time.pdf",
+    "bytes": 15658,
+    "sha256": "baa18701ba38b17be7a35899f0716fd34979b21835434ac9ed8186e3bb066699"
+  },
+  {
+    "file": "results/phase11/run_20260905_050131_260/figures/figure07_acarg_state_time.png",
+    "bytes": 47512,
+    "sha256": "dbbb657f9e7999978bdd20b6b919e32d5b067284eb9baa437d25f37429094477"
+  },
+  {
+    "file": "results/phase11/run_20260905_050131_260/figures/figure08_baseline_vs_acarg.pdf",
+    "bytes": 15840,
+    "sha256": "6e96d6a20c9433ebf3f469e4d8f0129570274491e3d7b99a257b43672eed067b"
+  },
+  {
+    "file": "results/phase11/run_20260905_050131_260/figures/figure08_baseline_vs_acarg.png",
+    "bytes": 50207,
+    "sha256": "f99803910ed17ccd35362436a8089c778ee5310324c011cde9a3590c323b0189"
+  },
+  {
+    "file": "results/phase11/run_20260905_050131_260/figures/figure09_robustness_outcomes.pdf",
+    "bytes": 16883,
+    "sha256": "64a005888cbd800b2c2a1ba9b112b8128edbec535c70e7ef2e5ed488e7d6bcf1"
+  },
+  {
+    "file": "results/phase11/run_20260905_050131_260/figures/figure09_robustness_outcomes.png",
+    "bytes": 72654,
+    "sha256": "6ab080904621a242c5dee43ad52fe0c0dc2b8a2156ca9f84a43c2375334569e1"
+  },
+  {
+    "file": "results/phase11/run_20260905_050131_260/phase11AblationResults.csv",
+    "bytes": 3364,
+    "sha256": "6be50d91ccecea3f5768eb3d87cc5b1c408ad6af2c5dd539d3d7d1e8b0bad5da"
+  },
+  {
+    "file": "results/phase11/run_20260905_050131_260/phase11BaselineComparison.csv",
+    "bytes": 2221,
+    "sha256": "28cd068b3eb5d7a6af850f5585ae0f467b86bfefb1ecf2bd55e6ce48939bb27c"
+  },
+  {
+    "file": "results/phase11/run_20260905_050131_260/phase11Evaluation_20260905_050131_260.mat",
+    "bytes": 357937505,
+    "sha256": "b2b3aef39090ae7afaf0c411965f5f6c15fe25589005923ac4ba8ba84e33140d"
+  },
+  {
+    "file": "results/phase11/run_20260905_050131_260/phase11HeadlineMetrics.csv",
+    "bytes": 884,
+    "sha256": "3e04fa33cf171fab498658d09df003cafb20b3e860ace8852088655937b8d559"
+  },
+  {
+    "file": "results/phase11/run_20260905_050131_260/phase11RobustnessSummary.csv",
+    "bytes": 2860,
+    "sha256": "9352dfe41a67b4b974a429dfedae75de9b26bfb168dbf2710ce6617788931232"
+  },
+  {
+    "file": "results/phase11/run_20260905_050131_260/phase11ScenarioMetrics.csv",
+    "bytes": 4023,
+    "sha256": "1833a6879c11b07e7942459b8bfadf1c3e03cb7d5bf401bfb37e27a5054c7ed5"
+  },
+  {
+    "file": "results/phase11/run_20260905_050131_260/phase11StateTransitions.csv",
+    "bytes": 6076,
+    "sha256": "5f3b0c33a19670d24fc6287236d6691ae58583e4b3170e94e11a7e028fc37a9b"
+  },
+  {
+    "file": "results/phase11/run_20260905_050131_260/provenance/phase11Provenance.mat",
+    "bytes": 5155,
+    "sha256": "cd826e73dae1cb2905a61b5d74bfe748737e85f1709e3c5eaa7571df7c94bad8"
+  },
+  {
+    "file": "results/phase11/run_20260905_154829_586/figures/figure01_benchmark_outcomes.pdf",
+    "bytes": 16030,
+    "sha256": "3c864c55b30c051238793020b4df1bc6916b1a9311ec9691c9201a7c951703a1"
+  },
+  {
+    "file": "results/phase11/run_20260905_154829_586/figures/figure01_benchmark_outcomes.png",
+    "bytes": 50049,
+    "sha256": "e7cc0016ee6a19514e0888fa7154f26139d7e957390e25eae0bbc5f5acc05678"
+  },
+  {
+    "file": "results/phase11/run_20260905_154829_586/figures/figure02_minimum_clearance.pdf",
+    "bytes": 14926,
+    "sha256": "0c380942da8cb6780c825bbe258bd81cd5ca848d7f4064b696f09cafba086cbf"
+  },
+  {
+    "file": "results/phase11/run_20260905_154829_586/figures/figure02_minimum_clearance.png",
+    "bytes": 40472,
+    "sha256": "7434dc4c55d400845fd2babeca7e83dfdd015e8c9d8459b45e2a7cb7d1898f90"
+  },
+  {
+    "file": "results/phase11/run_20260905_154829_586/figures/figure03_replanning_latency.pdf",
+    "bytes": 15449,
+    "sha256": "bffa466fa9e6642c8417b0891ce1e24f4fc4350e078b939ff4b61f1c57ac04dc"
+  },
+  {
+    "file": "results/phase11/run_20260905_154829_586/figures/figure03_replanning_latency.png",
+    "bytes": 47420,
+    "sha256": "6621d755a876853a89aae1c678a01079ecdbacf526ad95f19b71e46e9accec5b"
+  },
+  {
+    "file": "results/phase11/run_20260905_154829_586/figures/figure04_cattle_risk_speed_timeline.pdf",
+    "bytes": 19947,
+    "sha256": "452ffcf0f5f8b6c7a9b6701a5eb3747d55c3e054996350872ca41af292b762af"
+  },
+  {
+    "file": "results/phase11/run_20260905_154829_586/figures/figure04_cattle_risk_speed_timeline.png",
+    "bytes": 103893,
+    "sha256": "e9199e4369d81625fae2403d0b9f90756e42a7a83d361311c5ec24098ac9fe8a"
+  },
+  {
+    "file": "results/phase11/run_20260905_154829_586/figures/figure05_confidence_adaptive_scale.pdf",
+    "bytes": 16196,
+    "sha256": "b2b32d29d869e5f4069ff6eb5999b6117c5607f7816e56e5a83a8f06409e8a2c"
+  },
+  {
+    "file": "results/phase11/run_20260905_154829_586/figures/figure05_confidence_adaptive_scale.png",
+    "bytes": 60852,
+    "sha256": "734238d889f198160eb7796c89c2c63d824e83edb3070b85b1b9dd099a4e9b47"
+  },
+  {
+    "file": "results/phase11/run_20260905_154829_586/figures/figure06_cpa_vs_distance.pdf",
+    "bytes": 16447,
+    "sha256": "231a4b020dfa31bccbd8f1ec0e920f4772ae6346f80121e71178e9e648b2bba4"
+  },
+  {
+    "file": "results/phase11/run_20260905_154829_586/figures/figure06_cpa_vs_distance.png",
+    "bytes": 67843,
+    "sha256": "87d3ea75a52e1b19c8fd9ce70ba72c2a61a54579062d36686824e23d10700482"
+  },
+  {
+    "file": "results/phase11/run_20260905_154829_586/figures/figure07_acarg_state_time.pdf",
+    "bytes": 15658,
+    "sha256": "ce20df50316ec7b97b93151a438167b9e151dcdaece2d76a887e8224a46b07c9"
+  },
+  {
+    "file": "results/phase11/run_20260905_154829_586/figures/figure07_acarg_state_time.png",
+    "bytes": 47512,
+    "sha256": "7bf22f5bfd4c9ab61df674ae076485a9d6f4e5b1f36bd20d62f6363599d790e0"
+  },
+  {
+    "file": "results/phase11/run_20260905_154829_586/figures/figure08_baseline_vs_acarg.pdf",
+    "bytes": 15840,
+    "sha256": "1b90f4ec01fc6e163af61144fe30c7d2a4203046f21764e4008122e5b71a279e"
+  },
+  {
+    "file": "results/phase11/run_20260905_154829_586/figures/figure08_baseline_vs_acarg.png",
+    "bytes": 50207,
+    "sha256": "aec309aad9b01f15a53fca0a7027fe3aea5462789504d7d7d4c5bafec87856ba"
+  },
+  {
+    "file": "results/phase11/run_20260905_154829_586/figures/figure09_robustness_outcomes.pdf",
+    "bytes": 16883,
+    "sha256": "083a3a96d8e9a671550cc2b57a2798ec6b31102e9b995e7fb936aca7221e4ad7"
+  },
+  {
+    "file": "results/phase11/run_20260905_154829_586/figures/figure09_robustness_outcomes.png",
+    "bytes": 72654,
+    "sha256": "fd45c41240307c3c55bf709a32df4d52febf6d973e2ebdf54cbf8f921b71dd5d"
+  },
+  {
+    "file": "results/phase11/run_20260905_154829_586/phase11AblationResults.csv",
+    "bytes": 3364,
+    "sha256": "6be50d91ccecea3f5768eb3d87cc5b1c408ad6af2c5dd539d3d7d1e8b0bad5da"
+  },
+  {
+    "file": "results/phase11/run_20260905_154829_586/phase11BaselineComparison.csv",
+    "bytes": 2228,
+    "sha256": "0469f6d961d6ad218a3a3286273b434ce5dc7b4588623607dfbc182d8d8aef4d"
+  },
+  {
+    "file": "results/phase11/run_20260905_154829_586/phase11Evaluation_20260905_154829_586.mat",
+    "bytes": 357937505,
+    "sha256": "501026cb3c2ddf86eee398e443312ae94500bdff7f96c1adfe88a42b94b6137f"
+  },
+  {
+    "file": "results/phase11/run_20260905_154829_586/phase11HeadlineMetrics.csv",
+    "bytes": 878,
+    "sha256": "7502148ff54f6b217777f564d79e88d02837242bf685ab09caf377259bd0acc7"
+  },
+  {
+    "file": "results/phase11/run_20260905_154829_586/phase11RobustnessSummary.csv",
+    "bytes": 2860,
+    "sha256": "9352dfe41a67b4b974a429dfedae75de9b26bfb168dbf2710ce6617788931232"
+  },
+  {
+    "file": "results/phase11/run_20260905_154829_586/phase11ScenarioMetrics.csv",
+    "bytes": 3991,
+    "sha256": "afed37295019bb1deefbf7d6269ba7ba2232a485fb8d000376ab1366d15e916d"
+  },
+  {
+    "file": "results/phase11/run_20260905_154829_586/phase11StateTransitions.csv",
+    "bytes": 6076,
+    "sha256": "5f3b0c33a19670d24fc6287236d6691ae58583e4b3170e94e11a7e028fc37a9b"
+  },
+  {
+    "file": "results/phase11/run_20260905_154829_586/provenance/phase11Provenance.mat",
+    "bytes": 5157,
+    "sha256": "f6ff6db363541b09d550aa460e3a87048e4de2e49300ec22db0c0eaf8f0c8b09"
+  },
+  {
+    "file": "results/phase11/run_20260905_155433_630/figures/figure01_benchmark_outcomes.pdf",
+    "bytes": 16030,
+    "sha256": "9ae218e5b3385dea6482e634333ed7d01f23986469e786a3fbb6599f92cd4ae5"
+  },
+  {
+    "file": "results/phase11/run_20260905_155433_630/figures/figure01_benchmark_outcomes.png",
+    "bytes": 50049,
+    "sha256": "6854cb0aeadeb4eab6241a9cceb5c32b71b4ea3b5a810460f74195a5942369f3"
+  },
+  {
+    "file": "results/phase11/run_20260905_155433_630/figures/figure02_minimum_clearance.pdf",
+    "bytes": 14926,
+    "sha256": "02653d9161127a6aaf1eb5bf860d3fc260d6b4a1cf89aed81a2b28301b58e429"
+  },
+  {
+    "file": "results/phase11/run_20260905_155433_630/figures/figure02_minimum_clearance.png",
+    "bytes": 40472,
+    "sha256": "f87cbecc547c64347de2f15c91132f9108d0813ad213d30393449a7b55d0c5fb"
+  },
+  {
+    "file": "results/phase11/run_20260905_155433_630/figures/figure03_replanning_latency.pdf",
+    "bytes": 15646,
+    "sha256": "9d22717b33e6286b1c77d2a4728683d14d81d83c19bfd11367e4a2de937085e5"
+  },
+  {
+    "file": "results/phase11/run_20260905_155433_630/figures/figure03_replanning_latency.png",
+    "bytes": 51416,
+    "sha256": "504f8c29e84541fcc13d91b90983787cb040e2a30bc2bd0ed5f5b6755552af8e"
+  },
+  {
+    "file": "results/phase11/run_20260905_155433_630/figures/figure04_cattle_risk_speed_timeline.pdf",
+    "bytes": 19947,
+    "sha256": "f12cdbae98d448f9da95ddad09cb6722722cf85678a67a6e96338ee3311d9035"
+  },
+  {
+    "file": "results/phase11/run_20260905_155433_630/figures/figure04_cattle_risk_speed_timeline.png",
+    "bytes": 103893,
+    "sha256": "1d884238cdd7985bde974c343634d1b0277cf21d33436c71f8a14058a505867a"
+  },
+  {
+    "file": "results/phase11/run_20260905_155433_630/figures/figure05_confidence_adaptive_scale.pdf",
+    "bytes": 16196,
+    "sha256": "1567b51514dbfce96ace334b930430df5a9d506c3fc0bdc1e33bb91fb8743d94"
+  },
+  {
+    "file": "results/phase11/run_20260905_155433_630/figures/figure05_confidence_adaptive_scale.png",
+    "bytes": 60852,
+    "sha256": "11ad6085c49d3e2f3672798621401ace7582c9a898e4e41be85d2c8f81691134"
+  },
+  {
+    "file": "results/phase11/run_20260905_155433_630/figures/figure06_cpa_vs_distance.pdf",
+    "bytes": 16447,
+    "sha256": "e5c8e92e3cd8e60a49979ece543ccc9d79826484e084726f146b1ec5a99a56fd"
+  },
+  {
+    "file": "results/phase11/run_20260905_155433_630/figures/figure06_cpa_vs_distance.png",
+    "bytes": 67843,
+    "sha256": "69646dc22f16ae6e0ff9accd841de1258c223068d383ddaed56dab5e7cfab7c1"
+  },
+  {
+    "file": "results/phase11/run_20260905_155433_630/figures/figure07_acarg_state_time.pdf",
+    "bytes": 15658,
+    "sha256": "ae4ae3909b03add7cb651648cfb647f21df89b8ffd48bd8c3819295ce13d58c9"
+  },
+  {
+    "file": "results/phase11/run_20260905_155433_630/figures/figure07_acarg_state_time.png",
+    "bytes": 47512,
+    "sha256": "0b44ad5816fe610af35ea44e11e3fd4e196e1038bb2d7b0237c07cd0c25c1b85"
+  },
+  {
+    "file": "results/phase11/run_20260905_155433_630/figures/figure08_baseline_vs_acarg.pdf",
+    "bytes": 15840,
+    "sha256": "f8ec782db5f73515de97d48be94cb427317f9f530a5e7d9d6631674a996f9d33"
+  },
+  {
+    "file": "results/phase11/run_20260905_155433_630/figures/figure08_baseline_vs_acarg.png",
+    "bytes": 50207,
+    "sha256": "788ab703c7dd3358348405b5e98a5593fc51dc22eaa4299e07ec6428a25adfd8"
+  },
+  {
+    "file": "results/phase11/run_20260905_155433_630/figures/figure09_robustness_outcomes.pdf",
+    "bytes": 16883,
+    "sha256": "afe8cbc23cb540b662699e1d879048bf2178fc0df697326a8b85b8625229e1ce"
+  },
+  {
+    "file": "results/phase11/run_20260905_155433_630/figures/figure09_robustness_outcomes.png",
+    "bytes": 72654,
+    "sha256": "7d876c5ccc68324482f1ed49ec92940b1e77a0d9c4f60f87efba74e79ede15ec"
+  },
+  {
+    "file": "results/phase11/run_20260905_155433_630/phase11AblationResults.csv",
+    "bytes": 3364,
+    "sha256": "6be50d91ccecea3f5768eb3d87cc5b1c408ad6af2c5dd539d3d7d1e8b0bad5da"
+  },
+  {
+    "file": "results/phase11/run_20260905_155433_630/phase11BaselineComparison.csv",
+    "bytes": 2227,
+    "sha256": "ee75617ccbbc5e60e03b708eca2bd311632b4dbf1deacee8e907f46c7575994b"
+  },
+  {
+    "file": "results/phase11/run_20260905_155433_630/phase11Evaluation_20260905_155433_630.mat",
+    "bytes": 357937866,
+    "sha256": "3b9fb12f29b77761b0b2da4c25eb2fe6a1ffa8d334e3c3e93be93058b1464f09"
+  },
+  {
+    "file": "results/phase11/run_20260905_155433_630/phase11HeadlineMetrics.csv",
+    "bytes": 883,
+    "sha256": "baac68c49c5ff03221eb13d79f7281c3baa2815fd8cedfa3451c913579dad838"
+  },
+  {
+    "file": "results/phase11/run_20260905_155433_630/phase11RobustnessSummary.csv",
+    "bytes": 2860,
+    "sha256": "9352dfe41a67b4b974a429dfedae75de9b26bfb168dbf2710ce6617788931232"
+  },
+  {
+    "file": "results/phase11/run_20260905_155433_630/phase11ScenarioMetrics.csv",
+    "bytes": 4021,
+    "sha256": "21a33589557e43fdd4ffb3cfedc5901f5a4f78eeeb8239430b02bc56764406e7"
+  },
+  {
+    "file": "results/phase11/run_20260905_155433_630/phase11StateTransitions.csv",
+    "bytes": 6076,
+    "sha256": "5f3b0c33a19670d24fc6287236d6691ae58583e4b3170e94e11a7e028fc37a9b"
+  },
+  {
+    "file": "results/phase11/run_20260905_155433_630/provenance/phase11Provenance.mat",
+    "bytes": 5166,
+    "sha256": "c213c9123f50b8f4a9ebabecb2d85703c889875dc559772050da6d2b265a6ec6"
+  },
+  {
+    "file": "results/phase11/run_20260906_050044_270/figures/figure01_benchmark_outcomes.pdf",
+    "bytes": 16030,
+    "sha256": "d6dd4a610bb6ce78e55e4fb3835fffc60ea5f81b01df967d59f10b67c4a73482"
+  },
+  {
+    "file": "results/phase11/run_20260906_050044_270/figures/figure01_benchmark_outcomes.png",
+    "bytes": 50049,
+    "sha256": "a18625937bd7313256bf3d0aa549e0c4998f36262da12d4712e54878c7b3ba07"
+  },
+  {
+    "file": "results/phase11/run_20260906_050044_270/figures/figure02_minimum_clearance.pdf",
+    "bytes": 14926,
+    "sha256": "6f591bdc1326eb2cf8848ce2cad5f5901ad1cc292e13479ddfdc4c4175c6c491"
+  },
+  {
+    "file": "results/phase11/run_20260906_050044_270/figures/figure02_minimum_clearance.png",
+    "bytes": 40472,
+    "sha256": "4cc19089196a6effd9a9ec260d9d50fed2a89b550d1d9b8e67bf1a8a04302ede"
+  },
+  {
+    "file": "results/phase11/run_20260906_050044_270/figures/figure03_replanning_latency.pdf",
+    "bytes": 15490,
+    "sha256": "ac667fefa79ac967b403e14502f5529ea057394c0db7b9d009f5d93608eadd4a"
+  },
+  {
+    "file": "results/phase11/run_20260906_050044_270/figures/figure03_replanning_latency.png",
+    "bytes": 49123,
+    "sha256": "7841bd125594091845aa3aa46fc80de6f6f4bb425a7e965740a3fd02e3cc820a"
+  },
+  {
+    "file": "results/phase11/run_20260906_050044_270/figures/figure04_cattle_risk_speed_timeline.pdf",
+    "bytes": 19947,
+    "sha256": "28d7b14c4573253bd5cb56181b7dd5bca3cbee248752d04f882f02666928969b"
+  },
+  {
+    "file": "results/phase11/run_20260906_050044_270/figures/figure04_cattle_risk_speed_timeline.png",
+    "bytes": 103893,
+    "sha256": "01cb2b9267d756b5571df88bf53a2aa0804100358b1198452d31f941b3b6c014"
+  },
+  {
+    "file": "results/phase11/run_20260906_050044_270/figures/figure05_confidence_adaptive_scale.pdf",
+    "bytes": 16196,
+    "sha256": "3d9f808f7fc93c598041ad173637b59381206d24701324b89efa91f057bfd2c9"
+  },
+  {
+    "file": "results/phase11/run_20260906_050044_270/figures/figure05_confidence_adaptive_scale.png",
+    "bytes": 60852,
+    "sha256": "f6d1ff653361389938a68f3c71321d5fc25b9ebea9dcf0f0775e467e5dcc95c0"
+  },
+  {
+    "file": "results/phase11/run_20260906_050044_270/figures/figure06_cpa_vs_distance.pdf",
+    "bytes": 16447,
+    "sha256": "4713275a50db3b1a4389c11ca2339e74ad6f3a43a6dc84465960d80ae79e54e8"
+  },
+  {
+    "file": "results/phase11/run_20260906_050044_270/figures/figure06_cpa_vs_distance.png",
+    "bytes": 67843,
+    "sha256": "0cfb4d6c91d86b942ef46a50d3effdcdd90282947b231af67171d4ff0dbccb4d"
+  },
+  {
+    "file": "results/phase11/run_20260906_050044_270/figures/figure07_acarg_state_time.pdf",
+    "bytes": 15658,
+    "sha256": "243348662de010d98f9bd921fa99b908bc88a10a22e4fc9b645bffd8ef4243f4"
+  },
+  {
+    "file": "results/phase11/run_20260906_050044_270/figures/figure07_acarg_state_time.png",
+    "bytes": 47512,
+    "sha256": "009f235290d6120136064a5c66adb60de207980960b767fb7932dff8b509d801"
+  },
+  {
+    "file": "results/phase11/run_20260906_050044_270/figures/figure08_baseline_vs_acarg.pdf",
+    "bytes": 15840,
+    "sha256": "300fa76c5bf8fc5b9530dde6816af724675f0ca885a221170e3f62ea81f75661"
+  },
+  {
+    "file": "results/phase11/run_20260906_050044_270/figures/figure08_baseline_vs_acarg.png",
+    "bytes": 50207,
+    "sha256": "ebf6c46074250db1ab692e8319f4210742cdc8d25a06aae375c93355207b1ea3"
+  },
+  {
+    "file": "results/phase11/run_20260906_050044_270/figures/figure09_robustness_outcomes.pdf",
+    "bytes": 16883,
+    "sha256": "f28dc64240cb42bffa4875714e1cf8e40d44e34e6d0b135fe51c83d440f865b1"
+  },
+  {
+    "file": "results/phase11/run_20260906_050044_270/figures/figure09_robustness_outcomes.png",
+    "bytes": 72654,
+    "sha256": "a62a503f2b06fd75210af3c945ffdb30e2cf32679989c029bd477722967a227e"
+  },
+  {
+    "file": "results/phase11/run_20260906_050044_270/phase11AblationResults.csv",
+    "bytes": 3364,
+    "sha256": "6be50d91ccecea3f5768eb3d87cc5b1c408ad6af2c5dd539d3d7d1e8b0bad5da"
+  },
+  {
+    "file": "results/phase11/run_20260906_050044_270/phase11BaselineComparison.csv",
+    "bytes": 2240,
+    "sha256": "aec32cbc6c506dff27beb325a73d6e67a2ac0ea827dbe411b7042180a260fa8a"
+  },
+  {
+    "file": "results/phase11/run_20260906_050044_270/phase11Evaluation_20260906_050044_270.mat",
+    "bytes": 357937866,
+    "sha256": "2340012a9e041cd2b9dee3da27ef65c75eaf6983984f8d72056b3e93a5c4e5b6"
+  },
+  {
+    "file": "results/phase11/run_20260906_050044_270/phase11HeadlineMetrics.csv",
+    "bytes": 884,
+    "sha256": "cc06d3cd93572fd2383dc16c43092d8db9955c73a3a980cf7c4b8bfd6f992b34"
+  },
+  {
+    "file": "results/phase11/run_20260906_050044_270/phase11RobustnessSummary.csv",
+    "bytes": 2860,
+    "sha256": "9352dfe41a67b4b974a429dfedae75de9b26bfb168dbf2710ce6617788931232"
+  },
+  {
+    "file": "results/phase11/run_20260906_050044_270/phase11ScenarioMetrics.csv",
+    "bytes": 4028,
+    "sha256": "f625ae693c5d3dbff0fbb5ccf719e8af02ebc47dcfd254267c13f18b9a18bd84"
+  },
+  {
+    "file": "results/phase11/run_20260906_050044_270/phase11StateTransitions.csv",
+    "bytes": 6076,
+    "sha256": "5f3b0c33a19670d24fc6287236d6691ae58583e4b3170e94e11a7e028fc37a9b"
+  },
+  {
+    "file": "results/phase11/run_20260906_050044_270/provenance/phase11Provenance.mat",
+    "bytes": 5163,
+    "sha256": "ea1b74ce5d490660d27229e5ca4a6f20f61a205a33b36cc0a203faf3646e6123"
+  },
+  {
+    "file": "results/phase11/run_20260906_050810_702/figures/figure01_benchmark_outcomes.pdf",
+    "bytes": 16030,
+    "sha256": "a292ba27ddfb54bac78cf1e59bdf5947786f6e65d10a3489b809359f985faaa0"
+  },
+  {
+    "file": "results/phase11/run_20260906_050810_702/figures/figure01_benchmark_outcomes.png",
+    "bytes": 50049,
+    "sha256": "988bd47503e023ef8d2598ca6e0e6a948066ae92cdc80675e98068411e453587"
+  },
+  {
+    "file": "results/phase11/run_20260906_050810_702/figures/figure02_minimum_clearance.pdf",
+    "bytes": 14926,
+    "sha256": "8768851f9e715f6a52586de814042be4f8adbbc270cc1241d414288228c010bd"
+  },
+  {
+    "file": "results/phase11/run_20260906_050810_702/figures/figure02_minimum_clearance.png",
+    "bytes": 40472,
+    "sha256": "70ca5c09c272985d9b6f130366b230475facc7cf91c6ae08f0ded3b94ddb4a3f"
+  },
+  {
+    "file": "results/phase11/run_20260906_050810_702/figures/figure03_replanning_latency.pdf",
+    "bytes": 15791,
+    "sha256": "2395755af8bc5c0eba13603fb7520f680b6e493c70717828b439d506f51d0de9"
+  },
+  {
+    "file": "results/phase11/run_20260906_050810_702/figures/figure03_replanning_latency.png",
+    "bytes": 52370,
+    "sha256": "5b04e053259d13d5ba604f1305f40f6251c7d6369f8dd3dbd1a72af4625b2229"
+  },
+  {
+    "file": "results/phase11/run_20260906_050810_702/figures/figure04_cattle_risk_speed_timeline.pdf",
+    "bytes": 19947,
+    "sha256": "b53ce92a78148cbd70fbd3bdc9c51b6bf41244cfb18dbbeee86f157cabf0f7b7"
+  },
+  {
+    "file": "results/phase11/run_20260906_050810_702/figures/figure04_cattle_risk_speed_timeline.png",
+    "bytes": 103893,
+    "sha256": "0a736c45393ede2369e2db92851f9b935a239c2226fd4003ce94ddc87bedfb49"
+  },
+  {
+    "file": "results/phase11/run_20260906_050810_702/figures/figure05_confidence_adaptive_scale.pdf",
+    "bytes": 16196,
+    "sha256": "b05a2a65d7b285cc5ca91f4e8773c2bb253ddde59d2fe30716f48d67f9ffa8b2"
+  },
+  {
+    "file": "results/phase11/run_20260906_050810_702/figures/figure05_confidence_adaptive_scale.png",
+    "bytes": 60852,
+    "sha256": "c8ea1eec5ba74c8c895743984cf57a2c3656e581d36b5bcd521e9eec35f84f87"
+  },
+  {
+    "file": "results/phase11/run_20260906_050810_702/figures/figure06_cpa_vs_distance.pdf",
+    "bytes": 16447,
+    "sha256": "6ebe624c08cfc26e3130e983768bd2bceb3d118555dd27dd2d957e14f37f5df9"
+  },
+  {
+    "file": "results/phase11/run_20260906_050810_702/figures/figure06_cpa_vs_distance.png",
+    "bytes": 67843,
+    "sha256": "308a388c9ff81888ce94d0b636a4316e2c58a0366b5ccedf1e88af8d096d1396"
+  },
+  {
+    "file": "results/phase11/run_20260906_050810_702/figures/figure07_acarg_state_time.pdf",
+    "bytes": 15658,
+    "sha256": "0466c59b1c262b1743ca67a3d55e2fa72b496cbe98a9de598f841db786798b3e"
+  },
+  {
+    "file": "results/phase11/run_20260906_050810_702/figures/figure07_acarg_state_time.png",
+    "bytes": 47512,
+    "sha256": "46b503f69ae97d663040e8860562dbc441340c8d06652dc927c27402ff62bae6"
+  },
+  {
+    "file": "results/phase11/run_20260906_050810_702/figures/figure08_baseline_vs_acarg.pdf",
+    "bytes": 15840,
+    "sha256": "8adc6ce712c0559ca430e13aca73896ab395ee5aad3479b2142df395a3dc17b8"
+  },
+  {
+    "file": "results/phase11/run_20260906_050810_702/figures/figure08_baseline_vs_acarg.png",
+    "bytes": 50207,
+    "sha256": "7c82ce7d35cfd4b58321b72afbb4028ede823a81afc041dfedc42fb9d7b886d2"
+  },
+  {
+    "file": "results/phase11/run_20260906_050810_702/figures/figure09_robustness_outcomes.pdf",
+    "bytes": 16883,
+    "sha256": "ef1cd819cad64f6ef9fab5fccc5381c6f3308f131acbda83710c085eb3a9797e"
+  },
+  {
+    "file": "results/phase11/run_20260906_050810_702/figures/figure09_robustness_outcomes.png",
+    "bytes": 72654,
+    "sha256": "85c36e8cfbfadfddf17c5554ea067b87c3c2ce0859b7ed248b5d57cb4523a1f4"
+  },
+  {
+    "file": "results/phase11/run_20260906_050810_702/phase11AblationResults.csv",
+    "bytes": 3364,
+    "sha256": "6be50d91ccecea3f5768eb3d87cc5b1c408ad6af2c5dd539d3d7d1e8b0bad5da"
+  },
+  {
+    "file": "results/phase11/run_20260906_050810_702/phase11BaselineComparison.csv",
+    "bytes": 2230,
+    "sha256": "32e554b4d01078e5c42f17c7be3c3953db1326389bb6b9b906c90838a0c4735c"
+  },
+  {
+    "file": "results/phase11/run_20260906_050810_702/phase11Evaluation_20260906_050810_702.mat",
+    "bytes": 357938620,
+    "sha256": "ea2ac8cffed86bd1de8292a14b1c135894ca6da76dad42300cb4102a82da44ea"
+  },
+  {
+    "file": "results/phase11/run_20260906_050810_702/phase11HeadlineMetrics.csv",
+    "bytes": 869,
+    "sha256": "e39d611e9f0c56035512cd9c76070a27ec0c18c278702d9687c348b5137cff39"
+  },
+  {
+    "file": "results/phase11/run_20260906_050810_702/phase11RobustnessSummary.csv",
+    "bytes": 2860,
+    "sha256": "9352dfe41a67b4b974a429dfedae75de9b26bfb168dbf2710ce6617788931232"
+  },
+  {
+    "file": "results/phase11/run_20260906_050810_702/phase11ScenarioMetrics.csv",
+    "bytes": 4016,
+    "sha256": "065412cf8dc182a124d95d4e7d7ddf8c9e1e77fcbfad36fd38cafcb48e68ca7d"
+  },
+  {
+    "file": "results/phase11/run_20260906_050810_702/phase11StateTransitions.csv",
+    "bytes": 6076,
+    "sha256": "5f3b0c33a19670d24fc6287236d6691ae58583e4b3170e94e11a7e028fc37a9b"
+  },
+  {
+    "file": "results/phase11/run_20260906_050810_702/provenance/phase11Provenance.mat",
+    "bytes": 5185,
+    "sha256": "ef1d0eeab2cda10513dd25959c9c2dfdc7cd71509f9d92d53c3ec20fd6f907e7"
+  },
+  {
+    "file": "results/phase11/run_20260906_151859_505/figures/figure01_benchmark_outcomes.pdf",
+    "bytes": 16030,
+    "sha256": "34e996972fadff3efdfe4456aeb60502d4e00029542663a64ae444fb7efd1976"
+  },
+  {
+    "file": "results/phase11/run_20260906_151859_505/figures/figure01_benchmark_outcomes.png",
+    "bytes": 50049,
+    "sha256": "dfa9d7d621f38aec44b1e8cc9d10cc9bedbeb45ebc5f95b34665de25ea3b1fae"
+  },
+  {
+    "file": "results/phase11/run_20260906_151859_505/figures/figure02_minimum_clearance.pdf",
+    "bytes": 14926,
+    "sha256": "df11f03a5a8e0a70af4fc1f8b9c522cecb6fd73edd5e19072e9510db50fddf12"
+  },
+  {
+    "file": "results/phase11/run_20260906_151859_505/figures/figure02_minimum_clearance.png",
+    "bytes": 40472,
+    "sha256": "03706f99843757550896087dda05a30bc0011f70be363b36817994cca1474b2d"
+  },
+  {
+    "file": "results/phase11/run_20260906_151859_505/figures/figure03_replanning_latency.pdf",
+    "bytes": 15701,
+    "sha256": "d42ba78afe14011c194c5fb8be698a1e18835ad307b7c6e6bfd5cd0df356f75d"
+  },
+  {
+    "file": "results/phase11/run_20260906_151859_505/figures/figure03_replanning_latency.png",
+    "bytes": 51234,
+    "sha256": "0bb7abe85a8f47485f9a92e97bb85fbcdf92d2eb606f528b1652fc132e3c75f8"
+  },
+  {
+    "file": "results/phase11/run_20260906_151859_505/figures/figure04_cattle_risk_speed_timeline.pdf",
+    "bytes": 19947,
+    "sha256": "daf193df29c37570ec199abc6b405cfd07f1a5e8dfa2c9161cff3c90eaee73e1"
+  },
+  {
+    "file": "results/phase11/run_20260906_151859_505/figures/figure04_cattle_risk_speed_timeline.png",
+    "bytes": 103893,
+    "sha256": "e554f60736604c8829250f2ec1d2bfda0eb0cf595b9401bf34680e770898f6e9"
+  },
+  {
+    "file": "results/phase11/run_20260906_151859_505/figures/figure05_confidence_adaptive_scale.pdf",
+    "bytes": 16196,
+    "sha256": "d45cc67d236416669c4edc86eb2cdc0dd0734d1004cda415120c0cb4eaceeccf"
+  },
+  {
+    "file": "results/phase11/run_20260906_151859_505/figures/figure05_confidence_adaptive_scale.png",
+    "bytes": 60852,
+    "sha256": "ad168c0988594c376cdfbcf6f9daa18b2394d21ef4c56b491cbd9a2d05c25320"
+  },
+  {
+    "file": "results/phase11/run_20260906_151859_505/figures/figure06_cpa_vs_distance.pdf",
+    "bytes": 16447,
+    "sha256": "7b48a33acb96567334b88f5d34e1424a0a552d8e92f4ca7b55ce301aee5511b4"
+  },
+  {
+    "file": "results/phase11/run_20260906_151859_505/figures/figure06_cpa_vs_distance.png",
+    "bytes": 67843,
+    "sha256": "f9f3662e9ec20f3f401e640784738c7b1746cd2d61ed7c5a65ea44161bc6171a"
+  },
+  {
+    "file": "results/phase11/run_20260906_151859_505/figures/figure07_acarg_state_time.pdf",
+    "bytes": 15658,
+    "sha256": "cfbf10fede0fcd872fd8c2e3d1fdd76ad9cd1ae396860dedc8578f09bb2acd5a"
+  },
+  {
+    "file": "results/phase11/run_20260906_151859_505/figures/figure07_acarg_state_time.png",
+    "bytes": 47512,
+    "sha256": "da0c924a3d93b6b80513cdd41c24def82119ebf3b3bc3d22b1cd8f7b13283f12"
+  },
+  {
+    "file": "results/phase11/run_20260906_151859_505/figures/figure08_baseline_vs_acarg.pdf",
+    "bytes": 15840,
+    "sha256": "dae57ebd1b9dcc6434536b9114f1dff80b682c63b93f1ebfb988f2a2a3aee63c"
+  },
+  {
+    "file": "results/phase11/run_20260906_151859_505/figures/figure08_baseline_vs_acarg.png",
+    "bytes": 50207,
+    "sha256": "1aed7a15cae26f1a2cab4e2dd8d12031aaed60a795ebb3c29efb635254c70f67"
+  },
+  {
+    "file": "results/phase11/run_20260906_151859_505/figures/figure09_robustness_outcomes.pdf",
+    "bytes": 16883,
+    "sha256": "b9c96318c359de5d01954a9b16783756fb519eb2f2e7d7369c601ac902276066"
+  },
+  {
+    "file": "results/phase11/run_20260906_151859_505/figures/figure09_robustness_outcomes.png",
+    "bytes": 72654,
+    "sha256": "cb5d8b06f37f87f0060ce106f6441d500da5a2cff8a5d7dbf7df7cf847a36129"
+  },
+  {
+    "file": "results/phase11/run_20260906_151859_505/phase11AblationResults.csv",
+    "bytes": 3364,
+    "sha256": "6be50d91ccecea3f5768eb3d87cc5b1c408ad6af2c5dd539d3d7d1e8b0bad5da"
+  },
+  {
+    "file": "results/phase11/run_20260906_151859_505/phase11BaselineComparison.csv",
+    "bytes": 2223,
+    "sha256": "fd750f10ec62a9ce9223160dea912f48052c7efc9add0ab6ec216ac84f9936eb"
+  },
+  {
+    "file": "results/phase11/run_20260906_151859_505/phase11Evaluation_20260906_151859_505.mat",
+    "bytes": 357938620,
+    "sha256": "4ba5636c7fa093e5e3498a134a3cefb8d841c4469510822fbff984e0b88ee553"
+  },
+  {
+    "file": "results/phase11/run_20260906_151859_505/phase11HeadlineMetrics.csv",
+    "bytes": 871,
+    "sha256": "2b45958bca7955c18ffcaebf23391e3e594ac29b25290e6679a4b5cc074b0ef0"
+  },
+  {
+    "file": "results/phase11/run_20260906_151859_505/phase11RobustnessSummary.csv",
+    "bytes": 2860,
+    "sha256": "9352dfe41a67b4b974a429dfedae75de9b26bfb168dbf2710ce6617788931232"
+  },
+  {
+    "file": "results/phase11/run_20260906_151859_505/phase11ScenarioMetrics.csv",
+    "bytes": 4035,
+    "sha256": "904d2e50e4a2d3bad3e9d4e0c4aa5fc7f4d42bfd29ae14abc76c8ae417e5a076"
+  },
+  {
+    "file": "results/phase11/run_20260906_151859_505/phase11StateTransitions.csv",
+    "bytes": 6076,
+    "sha256": "5f3b0c33a19670d24fc6287236d6691ae58583e4b3170e94e11a7e028fc37a9b"
+  },
+  {
+    "file": "results/phase11/run_20260906_151859_505/provenance/phase11Provenance.mat",
+    "bytes": 5188,
+    "sha256": "10be8512266115f4ff9eaaca372a50a7f6d281fd501b9ad5b3fdebe0bc104346"
+  },
+  {
+    "file": "results/phase11/run_20260906_152818_252/figures/figure01_benchmark_outcomes.pdf",
+    "bytes": 16030,
+    "sha256": "9cf53de35dc8bc40a7916defb1f8c4775597ee3d0e70d6de70dac1e4a7462c66"
+  },
+  {
+    "file": "results/phase11/run_20260906_152818_252/figures/figure01_benchmark_outcomes.png",
+    "bytes": 50049,
+    "sha256": "5e1bb7812592f8f687cc07a860e22b8cd6254b8237018bc1fce8913292cc5347"
+  },
+  {
+    "file": "results/phase11/run_20260906_152818_252/figures/figure02_minimum_clearance.pdf",
+    "bytes": 14926,
+    "sha256": "5aeef44a80dd7d80bda4ec6a219c6328be152ac2d03a6adf987fd17f883c78a0"
+  },
+  {
+    "file": "results/phase11/run_20260906_152818_252/figures/figure02_minimum_clearance.png",
+    "bytes": 40472,
+    "sha256": "bf05a1ff846198758ab876ab92fcf43c56696fa04791954d11df252345a24f9a"
+  },
+  {
+    "file": "results/phase11/run_20260906_152818_252/figures/figure03_replanning_latency.pdf",
+    "bytes": 15640,
+    "sha256": "3f77295e99a32e2c5741c36768274255b4bc534ba5a92e4e890744dcf941de22"
+  },
+  {
+    "file": "results/phase11/run_20260906_152818_252/figures/figure03_replanning_latency.png",
+    "bytes": 49963,
+    "sha256": "92927b802219cdefdc756876b9edd10aba25328dd021531e64aa86aa6126fc34"
+  },
+  {
+    "file": "results/phase11/run_20260906_152818_252/figures/figure04_cattle_risk_speed_timeline.pdf",
+    "bytes": 19947,
+    "sha256": "1e163a6ed5dc5dfa3871ce2efe59d5d90abe59f74036ae02c8db161802e0b5bb"
+  },
+  {
+    "file": "results/phase11/run_20260906_152818_252/figures/figure04_cattle_risk_speed_timeline.png",
+    "bytes": 103893,
+    "sha256": "fcd43a73a27f6c0bd3cf486b7a07b7e35c22537c2874e27a42b53ccb11f86587"
+  },
+  {
+    "file": "results/phase11/run_20260906_152818_252/figures/figure05_confidence_adaptive_scale.pdf",
+    "bytes": 16196,
+    "sha256": "9318c25106fec25600fa00f65101ece02d6b29b01f554ae31773f3b7f0a55b9a"
+  },
+  {
+    "file": "results/phase11/run_20260906_152818_252/figures/figure05_confidence_adaptive_scale.png",
+    "bytes": 60852,
+    "sha256": "189f3161c86fe6a8dc766e43625fdbae4208f8a5fcd28237d60aa98d6477aa0d"
+  },
+  {
+    "file": "results/phase11/run_20260906_152818_252/figures/figure06_cpa_vs_distance.pdf",
+    "bytes": 16447,
+    "sha256": "9a49490e5d6743f24079731eee1fd5d240f28f2591c0a0a4c680486c32774b20"
+  },
+  {
+    "file": "results/phase11/run_20260906_152818_252/figures/figure06_cpa_vs_distance.png",
+    "bytes": 67843,
+    "sha256": "7ea2fcc21ea5b9bb055f33db60a8f9787caa9fd709ec0fe784e282038499c937"
+  },
+  {
+    "file": "results/phase11/run_20260906_152818_252/figures/figure07_acarg_state_time.pdf",
+    "bytes": 15658,
+    "sha256": "5630a65ca708d6e8b9be523cdb6ca895f581ce280f322712f6c9c7a4eee3307b"
+  },
+  {
+    "file": "results/phase11/run_20260906_152818_252/figures/figure07_acarg_state_time.png",
+    "bytes": 47512,
+    "sha256": "1a322122932c0e3bb487b529abdb1aa0778bc611d2d4a45e79e96fcece93b202"
+  },
+  {
+    "file": "results/phase11/run_20260906_152818_252/figures/figure08_baseline_vs_acarg.pdf",
+    "bytes": 15840,
+    "sha256": "661a70b19b6ec661a9bf4714617e1d93134675f04868e0e76c7c14d6ff701709"
+  },
+  {
+    "file": "results/phase11/run_20260906_152818_252/figures/figure08_baseline_vs_acarg.png",
+    "bytes": 50207,
+    "sha256": "832309e3cd759b45ee3991ec100baeffaaf35a9664d2df09b3c9fb203f9efcad"
+  },
+  {
+    "file": "results/phase11/run_20260906_152818_252/figures/figure09_robustness_outcomes.pdf",
+    "bytes": 16883,
+    "sha256": "17198aa838eddcab049ec3215223f61c369cec1922e6a0681b310375c8d34403"
+  },
+  {
+    "file": "results/phase11/run_20260906_152818_252/figures/figure09_robustness_outcomes.png",
+    "bytes": 72654,
+    "sha256": "bf6e976daf4922f5d86a40067f9bbc3137494e86390eb49af1f3e6452858867b"
+  },
+  {
+    "file": "results/phase11/run_20260906_152818_252/phase11AblationResults.csv",
+    "bytes": 3364,
+    "sha256": "6be50d91ccecea3f5768eb3d87cc5b1c408ad6af2c5dd539d3d7d1e8b0bad5da"
+  },
+  {
+    "file": "results/phase11/run_20260906_152818_252/phase11BaselineComparison.csv",
+    "bytes": 2225,
+    "sha256": "0c85455a47615970178552d3a775fae703fc19a2261d51da289d847827e6ae82"
+  },
+  {
+    "file": "results/phase11/run_20260906_152818_252/phase11Evaluation_20260906_152818_252.mat",
+    "bytes": 357938994,
+    "sha256": "bbedac56ce16db773fbb0cdaa11a19f23a32764ff7c2ddc9e4674bd3c83d6207"
+  },
+  {
+    "file": "results/phase11/run_20260906_152818_252/phase11HeadlineMetrics.csv",
+    "bytes": 877,
+    "sha256": "facbf861870a7ecf41a9701fecc3040ed3336e0fd6013b9e17840b87b65a838b"
+  },
+  {
+    "file": "results/phase11/run_20260906_152818_252/phase11RobustnessSummary.csv",
+    "bytes": 2860,
+    "sha256": "9352dfe41a67b4b974a429dfedae75de9b26bfb168dbf2710ce6617788931232"
+  },
+  {
+    "file": "results/phase11/run_20260906_152818_252/phase11ScenarioMetrics.csv",
+    "bytes": 3990,
+    "sha256": "60c551e7803cde0f90dcf0778452ded2556fbbf55dce27e8fd5a2cf494f6468c"
+  },
+  {
+    "file": "results/phase11/run_20260906_152818_252/phase11StateTransitions.csv",
+    "bytes": 6076,
+    "sha256": "5f3b0c33a19670d24fc6287236d6691ae58583e4b3170e94e11a7e028fc37a9b"
+  },
+  {
+    "file": "results/phase11/run_20260906_152818_252/provenance/phase11Provenance.mat",
+    "bytes": 5202,
+    "sha256": "8dedd11bcbed11ac175552287345b03a2467e659344e5c0b3aea634f3eb0e5c6"
+  },
+  {
+    "file": "results/phase12/figures/20260905_094241_461/baseline_vs_acarg.pdf",
+    "bytes": 21970,
+    "sha256": "85d52401fe27c23a77ce14cc63a334de10cef0540044da8d491c8907385fc8f3"
+  },
+  {
+    "file": "results/phase12/figures/20260905_094241_461/baseline_vs_acarg.png",
+    "bytes": 125809,
+    "sha256": "8055375cfe019d18b57388c27e29f9d7a8c2d75cceddb4b29bc84dd0fe0441e4"
+  },
+  {
+    "file": "results/phase12/figures/20260905_094241_461/before_after_path.pdf",
+    "bytes": 17311,
+    "sha256": "ecf3b125d1fddd89c75ecd203975e0355d4f497213a44d16f8a7ff8a7bac298b"
+  },
+  {
+    "file": "results/phase12/figures/20260905_094241_461/before_after_path.png",
+    "bytes": 47962,
+    "sha256": "e7787f9e8cc73e405b5c7916a6428cd6ff7af6fff5eccac8c4e8e0c36fce142f"
+  },
+  {
+    "file": "results/phase12/figures/20260905_094241_461/confidence_evidence.pdf",
+    "bytes": 17684,
+    "sha256": "a21f550e07f668956c947849f56e3c768278499cb5329f88be81c917937236b2"
+  },
+  {
+    "file": "results/phase12/figures/20260905_094241_461/confidence_evidence.png",
+    "bytes": 137613,
+    "sha256": "63de4f32d6d716f07677ed1cba86d257bc312acafdc6fab8471342e4ae971e42"
+  },
+  {
+    "file": "results/phase12/figures/20260905_094241_461/cpa_evidence.pdf",
+    "bytes": 19403,
+    "sha256": "aae0c3f5c848332a3a25131bcb94d6da21b906c5a9580dfa89bffe8338cc6641"
+  },
+  {
+    "file": "results/phase12/figures/20260905_094241_461/cpa_evidence.png",
+    "bytes": 59683,
+    "sha256": "857ad32d7d8d8e3a219165b993de7039172987cb2383b5b12329dcbd98b8e0f9"
+  },
+  {
+    "file": "results/phase12/figures/20260905_162016_912/baseline_vs_acarg.pdf",
+    "bytes": 21970,
+    "sha256": "ddd8e2aec4c7ae6f16410e1836cb8808763fc1a7a82b66aca259020cbf2c8c75"
+  },
+  {
+    "file": "results/phase12/figures/20260905_162016_912/baseline_vs_acarg.png",
+    "bytes": 125809,
+    "sha256": "ad74a61348a657903dbc13078b6d3e66a5847e1d117f27052f7c8e2f581476c3"
+  },
+  {
+    "file": "results/phase12/figures/20260905_162016_912/before_after_path.pdf",
+    "bytes": 22757,
+    "sha256": "379cd7594fe00f966f26505ea44330435adebea9454dfe51e09cc0714c2dc5f1"
+  },
+  {
+    "file": "results/phase12/figures/20260905_162016_912/before_after_path.png",
+    "bytes": 61217,
+    "sha256": "56185a5338af289e381ecf937b30aeafa69e06fd454a10a128856e042aa9663b"
+  },
+  {
+    "file": "results/phase12/figures/20260905_162016_912/confidence_evidence.pdf",
+    "bytes": 17765,
+    "sha256": "d02fc1476f187e984eb5a99a714aa8e0d1f597bf2dfdb85dcf8c4bb44fd2f7ee"
+  },
+  {
+    "file": "results/phase12/figures/20260905_162016_912/confidence_evidence.png",
+    "bytes": 144005,
+    "sha256": "94c1e747a80a1001dcec4be945cb5eebc125f2448526d646468388e21cc9774d"
+  },
+  {
+    "file": "results/phase12/figures/20260905_162016_912/cpa_evidence.pdf",
+    "bytes": 19383,
+    "sha256": "1b3896b32de24a9ee1c457135c713c951291424a127561b07447c2251ac63dd3"
+  },
+  {
+    "file": "results/phase12/figures/20260905_162016_912/cpa_evidence.png",
+    "bytes": 65550,
+    "sha256": "8364f6fc503e4709d8484f8770da36c22d95e80256c18353d873b7f0d5e531e2"
+  },
+  {
+    "file": "results/phase12/figures/20260905_162330_851/baseline_vs_acarg.pdf",
+    "bytes": 21970,
+    "sha256": "4efdb7fabeb8a534977c47b454fcf20631269da9b9d7f826d984f850134fc3e9"
+  },
+  {
+    "file": "results/phase12/figures/20260905_162330_851/baseline_vs_acarg.png",
+    "bytes": 125809,
+    "sha256": "2500841da7b036f2efded7243e89299a6667dd48f598e1685c0d6d7fb09e1c25"
+  },
+  {
+    "file": "results/phase12/figures/20260905_162330_851/before_after_path.pdf",
+    "bytes": 22757,
+    "sha256": "b398967b4ff6e15031380a36cc119a65a1826e3d1efc336a93799ad5b9b9739b"
+  },
+  {
+    "file": "results/phase12/figures/20260905_162330_851/before_after_path.png",
+    "bytes": 61217,
+    "sha256": "b7d80d4f613e30185b9806965b99444a5b68031944dd37f919c82df3efb4069e"
+  },
+  {
+    "file": "results/phase12/figures/20260905_162330_851/confidence_evidence.pdf",
+    "bytes": 17765,
+    "sha256": "db903813ac4e9daa0ce2fd229c697ff21cb96d32d63013798ca6cc17971af009"
+  },
+  {
+    "file": "results/phase12/figures/20260905_162330_851/confidence_evidence.png",
+    "bytes": 144005,
+    "sha256": "d7dfe00232649cc3613a98d9874d9a193859bb91523db6c61eebc34789d26bd7"
+  },
+  {
+    "file": "results/phase12/figures/20260905_162330_851/cpa_evidence.pdf",
+    "bytes": 19383,
+    "sha256": "a8ec1f7c6606b323cf4e05d20bb42f93b09ab3fe478536ab84afd9240c67fc25"
+  },
+  {
+    "file": "results/phase12/figures/20260905_162330_851/cpa_evidence.png",
+    "bytes": 65550,
+    "sha256": "174a35359abfdbb21c7edf38839168daf6a6af33254d3d4ace7a0ef122c00f6f"
+  },
+  {
+    "file": "results/phase12/final_export_validation_20260905.log",
+    "bytes": 2479,
+    "sha256": "cf8b28c1fba05c70b1dc874585a6dd2236c6146a2db727055c5a559ca0f2527e"
+  },
+  {
+    "file": "results/phase12/final_visual_validation_20260905.log",
+    "bytes": 2436,
+    "sha256": "c58c6d857a76ed4e3145af1682e9d17fcdb2634c8018801cb584454fbe347ef8"
+  },
+  {
+    "file": "results/phase12/full_regression_20260905.log",
+    "bytes": 6381,
+    "sha256": "694ccf63ab5ef1d4ea44ae0cb7e9862a009e0f80894cccf4d2da3007be825802"
+  },
+  {
+    "file": "results/phase12/full_regression_resumed_20260905.log",
+    "bytes": 19371,
+    "sha256": "d77088fdcd04722b6b309d0c6a4fa3eb2e96dc6f2f1348bda488619cbd32a51b"
+  },
+  {
+    "file": "results/phase12/phase12DemoEvents_20260905_094241_461.csv",
+    "bytes": 838,
+    "sha256": "39f459870ea4046cf3eed8d2bbf71e6d8f325ff7c45e905340cf006d597aefa2"
+  },
+  {
+    "file": "results/phase12/phase12DemoEvents_20260905_161928_825.csv",
+    "bytes": 838,
+    "sha256": "39f459870ea4046cf3eed8d2bbf71e6d8f325ff7c45e905340cf006d597aefa2"
+  },
+  {
+    "file": "results/phase12/phase12DemoEvents_20260905_162016_912.csv",
+    "bytes": 838,
+    "sha256": "39f459870ea4046cf3eed8d2bbf71e6d8f325ff7c45e905340cf006d597aefa2"
+  },
+  {
+    "file": "results/phase12/phase12DemoEvents_20260905_162103_947.csv",
+    "bytes": 497,
+    "sha256": "c3c80de46fb1177c9de31712f1a0da404080c0ca73b15e895e97a809a9beb58e"
+  },
+  {
+    "file": "results/phase12/phase12DemoEvents_20260905_162330_851.csv",
+    "bytes": 838,
+    "sha256": "39f459870ea4046cf3eed8d2bbf71e6d8f325ff7c45e905340cf006d597aefa2"
+  },
+  {
+    "file": "results/phase12/phase12DemoEvents_20260906_051010_321.csv",
+    "bytes": 838,
+    "sha256": "39f459870ea4046cf3eed8d2bbf71e6d8f325ff7c45e905340cf006d597aefa2"
+  },
+  {
+    "file": "results/phase12/phase12DemoEvents_20260906_152914_115.csv",
+    "bytes": 838,
+    "sha256": "39f459870ea4046cf3eed8d2bbf71e6d8f325ff7c45e905340cf006d597aefa2"
+  },
+  {
+    "file": "results/phase12/phase12DemoSummary_20260905_094241_461.mat",
+    "bytes": 2483,
+    "sha256": "75e960c36c711508bf7f3c20bde2d8db9054796e4b1636a26a1c410d40030d23"
+  },
+  {
+    "file": "results/phase12/phase12DemoSummary_20260905_161928_825.mat",
+    "bytes": 2218,
+    "sha256": "a12abeb7071ac9b482ea24449485018594042539dbf683046c8e1dff04d23ba4"
+  },
+  {
+    "file": "results/phase12/phase12DemoSummary_20260905_162016_912.mat",
+    "bytes": 2478,
+    "sha256": "6e7f1957b05037eba7fdbf41e13d88f127863a912f557decb0239b9106d51d9e"
+  },
+  {
+    "file": "results/phase12/phase12DemoSummary_20260905_162103_947.mat",
+    "bytes": 2191,
+    "sha256": "36933c22b3c325545c56c4179e83c4c7bab72aede6b48430bdc4fc71f5dc5b6c"
+  },
+  {
+    "file": "results/phase12/phase12DemoSummary_20260905_162330_851.mat",
+    "bytes": 2484,
+    "sha256": "c7c150005876ba50f5216990e7faafcd89ba920466425b8572cc41f24fecbcee"
+  },
+  {
+    "file": "results/phase12/phase12DemoSummary_20260906_051010_321.mat",
+    "bytes": 2216,
+    "sha256": "b9ae3d5ad567f2979dcbe0547e514e8fbeee1a39f755c69f64859ed4f5ef4022"
+  },
+  {
+    "file": "results/phase12/phase12DemoSummary_20260906_152914_115.mat",
+    "bytes": 2215,
+    "sha256": "8b4174775e92e7381c2a30ea52dc87f78884ea16384404e92f2fada3daaabfe7"
+  },
+  {
+    "file": "results/phase12/phase12README.md",
+    "bytes": 8784,
+    "sha256": "09fe479c4ef1612466b1a286f808261333cdb8e9c3cbe58922e883a91bda09aa"
+  },
+  {
+    "file": "results/phase12/phase12_6_audit/PHASE12_6_AUDIT.md",
+    "bytes": 14599,
+    "sha256": "6da45177de13d7d01fb18791427ac20a13d545cd4997d99b4883c771754b42de"
+  },
+  {
+    "file": "results/phase12/phase12_6_audit/collectFinalEvidence.m",
+    "bytes": 1826,
+    "sha256": "4defa25924566d3d648f790f97b93272ffad981d7d4dbc27ba9f048822693310"
+  },
+  {
+    "file": "results/phase12/phase12_6_audit/existing_evidence_sha256.json",
+    "bytes": 38561,
+    "sha256": "a4ef1fcb5f7ca2fdb9bde8f489e274a21b8b62e5a4543c480a5151737ef84c38"
+  },
+  {
+    "file": "results/phase12/phase12_6_audit/existing_evidence_verification.json",
+    "bytes": 398,
+    "sha256": "732d0e1a487489c3ecccbaccb81db6bf6c300859cfc122cfe05a63afe9284a04"
+  },
+  {
+    "file": "results/phase12/phase12_6_audit/regression_20260906_150927_503/mainPhase10.txt",
+    "bytes": 2044,
+    "sha256": "469e08b67d447373eaab825be5da1d6698dec289baa4547d958ab5014ab1db45"
+  },
+  {
+    "file": "results/phase12/phase12_6_audit/regression_20260906_150927_503/mainPhase11.txt",
+    "bytes": 1441,
+    "sha256": "a3c09961562732a615f61f155c5852bf7086e251dc2e480ceeda6fd74778ffe5"
+  },
+  {
+    "file": "results/phase12/phase12_6_audit/regression_20260906_150927_503/mainPhase12.txt",
+    "bytes": 156,
+    "sha256": "5bbbbc4867ea58c865d9b08cc85de08771aa48a1c34949a1caddcca0c01b1ac3"
+  },
+  {
+    "file": "results/phase12/phase12_6_audit/regression_20260906_150927_503/mainPhase12_5.txt",
+    "bytes": 1227,
+    "sha256": "a75538341de576666cd9a201afecd7e168a8916c2de147cdb483b018cea72450"
+  },
+  {
+    "file": "results/phase12/phase12_6_audit/regression_20260906_150927_503/mainPhase6.txt",
+    "bytes": 731,
+    "sha256": "680bb0fdfc2a78136a9518443c31ba99b312a4b8450f8f9d6b861e8ae6e29792"
+  },
+  {
+    "file": "results/phase12/phase12_6_audit/regression_20260906_150927_503/mainPhase7.txt",
+    "bytes": 1305,
+    "sha256": "4bb0db27a76c4d66eab6239f8361087f076c408b4b5eca928966fe97a1dde43b"
+  },
+  {
+    "file": "results/phase12/phase12_6_audit/regression_20260906_150927_503/mainPhase8.txt",
+    "bytes": 1717,
+    "sha256": "b6b1afdc708cd2eb8f8fdabca442c68301da2271b7320b5a8fe9dc5b735405dd"
+  },
+  {
+    "file": "results/phase12/phase12_6_audit/regression_20260906_150927_503/mainPhase9.txt",
+    "bytes": 6874,
+    "sha256": "d4f38a3dabcd7f1b02325b4fac6f2886425f20ff9b9c7bf30b0063ecd4fb24c0"
+  },
+  {
+    "file": "results/phase12/phase12_6_audit/regression_20260906_150927_503/regression_summary.csv",
+    "bytes": 2746,
+    "sha256": "9c5024361bcfa75e2546eb70c3c4c02a5198383f9afd35de503c996cdae181ce"
+  },
+  {
+    "file": "results/phase12/phase12_6_audit/regression_20260906_150927_503/testACARG.txt",
+    "bytes": 233,
+    "sha256": "a6ec001567ca73d7fa8ac0581874ba6ca7ff8ce658957c86c8e1040a3d4cb25a"
+  },
+  {
+    "file": "results/phase12/phase12_6_audit/regression_20260906_150927_503/testClosedLoop.txt",
+    "bytes": 38,
+    "sha256": "2ef9c4943430b0fe5f907eadf7b5db182906663c29ed9bb33d39b49004531b52"
+  },
+  {
+    "file": "results/phase12/phase12_6_audit/regression_20260906_150927_503/testIDDIntegration.txt",
+    "bytes": 2553,
+    "sha256": "14947f05faea8f029a7bd5639cbffec9bd876dcec7112b5170210f82eba57983"
+  },
+  {
+    "file": "results/phase12/phase12_6_audit/regression_20260906_150927_503/testOccupancy.txt",
+    "bytes": 35,
+    "sha256": "c687ba65233ae6f7f025558e9a7e3a8bfd1fca3c751c602f133ec9a15b43dfa4"
+  },
+  {
+    "file": "results/phase12/phase12_6_audit/regression_20260906_150927_503/testPerception.txt",
+    "bytes": 36,
+    "sha256": "f7732ace4b215ca45e34931718f6ffbbf70fc8f0cb141644d0ce5c473dd5164c"
+  },
+  {
+    "file": "results/phase12/phase12_6_audit/regression_20260906_150927_503/testPhase11Evaluation.txt",
+    "bytes": 277,
+    "sha256": "3dd15c456f7c471e137d5c0205745e4269b7572ac1a739c57987a60c7750c0af"
+  },
+  {
+    "file": "results/phase12/phase12_6_audit/regression_20260906_150927_503/testPhase12Demo.txt",
+    "bytes": 347,
+    "sha256": "256b5d1e2b4a5b7b4cbfd5d7edf58341b997e49fc4a076dac37b7e4ab738c755"
+  },
+  {
+    "file": "results/phase12/phase12_6_audit/regression_20260906_150927_503/testPhase8Scenarios.txt",
+    "bytes": 159,
+    "sha256": "12b61ca89195286aeeccd105aee915ae97e2feedfac5e0e6ee18f4b68ceaf6d6"
+  },
+  {
+    "file": "results/phase12/phase12_6_audit/regression_20260906_150927_503/testPhase9Robustness.txt",
+    "bytes": 4452,
+    "sha256": "6223b47c3243448284e626dd6939e958d2a6f00e24d1bcd177e32a375ae2d4cf"
+  },
+  {
+    "file": "results/phase12/phase12_6_audit/regression_20260906_150927_503/testPlanning.txt",
+    "bytes": 34,
+    "sha256": "78c41adc9c1497bf9f31bf3960ce6c3f9df4f857afc4f371197ed70681be1e5f"
+  },
+  {
+    "file": "results/phase12/phase12_6_audit/regression_20260906_150927_503/testRoadRunnerIntegration.txt",
+    "bytes": 196,
+    "sha256": "39ea12f23aa1c8813f70e2f715e8f048478def5d1264c6afa069969910d9bde1"
+  },
+  {
+    "file": "results/phase12/phase12_6_audit/regression_20260906_150927_503/testTracking.txt",
+    "bytes": 34,
+    "sha256": "d10af300218b88df2ad56f72f01a55594018118e6d6c5f213e2d4ed90b3f83ae"
+  },
+  {
+    "file": "results/phase12/phase12_6_audit/regression_20260906_201211_627/mainPhase12_6.txt",
+    "bytes": 2277,
+    "sha256": "80b1bd1dc786e169df18247e4c17d678577cb0b6f56dfff09da37416cef3dc7c"
+  },
+  {
+    "file": "results/phase12/phase12_6_audit/regression_20260906_201211_627/regression_summary.csv",
+    "bytes": 334,
+    "sha256": "c130bc9ba46c1ae275d8a428ae498dbf63df065461d455d6042c65d66b2caab2"
+  },
+  {
+    "file": "results/phase12/phase12_6_audit/regression_20260906_201211_627/testScenarioVideoExport.txt",
+    "bytes": 1540,
+    "sha256": "a52fe4faa1a2a8e4fa85dda5447b77b9a67ddc09e7c7ae8bf0210ebb154209d3"
+  },
+  {
+    "file": "results/phase12/phase12_6_audit/regression_summary.csv",
+    "bytes": 3102,
+    "sha256": "cc7e5d514220c5fd5690333b6c3253d91379d76e873da07f3180b4b7b981a41b"
+  },
+  {
+    "file": "results/phase12/phase12_6_audit/video_validation_summary.csv",
+    "bytes": 981,
+    "sha256": "b2dfa7b7ef5b7a0cc9f69e4464de5c680dbc3187701b23a0b7c466682839466f"
+  },
+  {
+    "file": "results/phase12/phase12_6_audit/visual_qa/02_final_card.png",
+    "bytes": 197669,
+    "sha256": "9ac98b8e8a16ebb4590c0c1980a96eeb9cba3ff946ead71d08c36d5ec32465bb"
+  },
+  {
+    "file": "results/phase12/phase12_6_audit/visual_qa/06_confidence_dip.png",
+    "bytes": 266860,
+    "sha256": "016069e7bc56e9439ab67f05eec3ed25a50a12d81695a84a04465f815e090639"
+  },
+  {
+    "file": "results/phase12/phase12_6_audit/visual_qa/08_final_card.png",
+    "bytes": 187216,
+    "sha256": "64d6561daf78a93fbe9d6efa58e62ff7a6f06fbbbaab66dde33be1b7b327f5f7"
+  },
+  {
+    "file": "results/phase12/phase12_6_audit/visual_qa/12_final_card.png",
+    "bytes": 198847,
+    "sha256": "a30c898a54639ab460966e77f5ef691961a1b457fc2ad499e80568e6a3add4e6"
+  },
+  {
+    "file": "results/phase12/phase12_6_audit/visual_qa/village_final_card.png",
+    "bytes": 173092,
+    "sha256": "5be0aa4f2be1917d97464e87bd0486eb91b68af805518728fc2827eefa4ad323"
+  },
+  {
+    "file": "results/phase12/phase12_6_audit/visual_qa/village_title.png",
+    "bytes": 154145,
+    "sha256": "d6150a225e489c2a999abd9a3ece1d8cf249797e08aa57903dd5a0272330437c"
+  },
+  {
+    "file": "results/phase12/screenshots/20260905_094241_461/A_low_risk.png",
+    "bytes": 148013,
+    "sha256": "14d5c92c2c747dd3e11e5989d052a74f6b27f8dde80a686125a4b7741b26f20c"
+  },
+  {
+    "file": "results/phase12/screenshots/20260905_094241_461/B_rising_risk.png",
+    "bytes": 144031,
+    "sha256": "19c433823f852d60b357c4f4a929317604a0b555298e4c942a1d7f64ae9c22bb"
+  },
+  {
+    "file": "results/phase12/screenshots/20260905_094241_461/C_cautious.png",
+    "bytes": 172375,
+    "sha256": "7649c5a21f093dfd2ecf27c5677720196ffc2d50e8e5e2b474065d384faa6e27"
+  },
+  {
+    "file": "results/phase12/screenshots/20260905_094241_461/D_largest_envelope.png",
+    "bytes": 179553,
+    "sha256": "943a54a8108a17c75333c6e76165467b85d7541b621591e5057cb20894b298c7"
+  },
+  {
+    "file": "results/phase12/screenshots/20260905_094241_461/E_replanned.png",
+    "bytes": 155553,
+    "sha256": "b80b79ee511b0b0bce6a9579f17b54e4bc80dde0181b4d0ec51e3560f02b9d17"
+  },
+  {
+    "file": "results/phase12/screenshots/20260905_094241_461/F_recovery.png",
+    "bytes": 177392,
+    "sha256": "19d71987297315a2cad920bdd8a747f6c7ffc66440e3b6c50d02e276712fcc8a"
+  },
+  {
+    "file": "results/phase12/screenshots/20260905_094241_461/G_final_outcome.png",
+    "bytes": 172249,
+    "sha256": "00a71afeb19f8369cf0b8dce3dd98e982a254ae4a61af4a048ac80c82716c9fb"
+  },
+  {
+    "file": "results/phase12/screenshots/20260905_162016_912/A_low_risk.png",
+    "bytes": 148013,
+    "sha256": "0931376a6851fb00d79d74b7df05942485ebd83cecf8a9899763c14050c8f776"
+  },
+  {
+    "file": "results/phase12/screenshots/20260905_162016_912/B_rising_risk.png",
+    "bytes": 144031,
+    "sha256": "96f7a5a7ca11e885aa0bc6655a634d5b6376ddf027717c2548cefe8d42bff27c"
+  },
+  {
+    "file": "results/phase12/screenshots/20260905_162016_912/C_cautious.png",
+    "bytes": 172375,
+    "sha256": "ad81274750d42410cb2bbf9288bccf118fdc12d2c126557f6c55d5f51a88aa7c"
+  },
+  {
+    "file": "results/phase12/screenshots/20260905_162016_912/D_largest_envelope.png",
+    "bytes": 179553,
+    "sha256": "9777e2695038009740303462665cffaa2360f3dbb1caa34f4b6886c84b961c70"
+  },
+  {
+    "file": "results/phase12/screenshots/20260905_162016_912/E_replanned.png",
+    "bytes": 175822,
+    "sha256": "f3ba8e797fa79e16d5b4fc8dca7898b94b132930114ba42ccf73c784ef926cab"
+  },
+  {
+    "file": "results/phase12/screenshots/20260905_162016_912/F_recovery.png",
+    "bytes": 177392,
+    "sha256": "ab94eadee34a35979b179b8e9c97eb08540d14530557aab7f0c8ceb641427f30"
+  },
+  {
+    "file": "results/phase12/screenshots/20260905_162016_912/G_final_outcome.png",
+    "bytes": 172249,
+    "sha256": "7037d04ac16017e845cd1f1c8f4071b8ccb8cc41fef369e17cfd27c79986da78"
+  },
+  {
+    "file": "results/phase12/screenshots/20260905_162330_851/A_low_risk.png",
+    "bytes": 148033,
+    "sha256": "3200cea2b3bc910a599b880acedaf017f29da787a1e4e237c8d0934e35efa739"
+  },
+  {
+    "file": "results/phase12/screenshots/20260905_162330_851/B_rising_risk.png",
+    "bytes": 144061,
+    "sha256": "2ed80ad92551959f022b2dd4d0bccc2a1f23499d7b35a6ddda472f743e84b02d"
+  },
+  {
+    "file": "results/phase12/screenshots/20260905_162330_851/C_cautious.png",
+    "bytes": 172352,
+    "sha256": "15c60502d8d92a13d662d81f40f581c18d8e021b418d6f0bd375e80be4b9555d"
+  },
+  {
+    "file": "results/phase12/screenshots/20260905_162330_851/D_largest_envelope.png",
+    "bytes": 179608,
+    "sha256": "b6c8bf54470ac1f3223503cbdce860d3842a5551c76c0a818a2a13319f827458"
+  },
+  {
+    "file": "results/phase12/screenshots/20260905_162330_851/E_replanned.png",
+    "bytes": 175846,
+    "sha256": "d139426a5114e877d1c46b37ef6654b4d2337c3244d76dc0cf601012882d7cbb"
+  },
+  {
+    "file": "results/phase12/screenshots/20260905_162330_851/F_recovery.png",
+    "bytes": 177433,
+    "sha256": "c8c4450ae830d305cd24da9ecac8e22489e7983e38e834be08ecea26b94f5cc9"
+  },
+  {
+    "file": "results/phase12/screenshots/20260905_162330_851/G_final_outcome.png",
+    "bytes": 173014,
+    "sha256": "019fc1d40e49346ee02254beb753fec1920d32d26c8dbae54bae589034d18946"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_101738_201/01_village_road/final.png",
+    "bytes": 220471,
+    "sha256": "b3141ea08d5956813c9af29e81c05a76b7b13cd6fe653791bc806f0f42d188ef"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_101738_201/01_village_road/highest_risk.png",
+    "bytes": 227653,
+    "sha256": "38192e9b0b080603320d5cc6447fb620ed85eca60cc181576033733cd651c35f"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_101738_201/01_village_road/initial.png",
+    "bytes": 181483,
+    "sha256": "c69fd2236de704d957c72c396ba3c71d229d45b3a8f1d4e3a6a54d1b1018f348"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_101738_201/02_urban_intersection/final.png",
+    "bytes": 232317,
+    "sha256": "5529162d907a0a7bd33bae5d9b486a79f3f91fb6ec8f007712be06f444e5248f"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_101738_201/02_urban_intersection/highest_risk.png",
+    "bytes": 228144,
+    "sha256": "365deef02101e8b13b0f7cf12e71d7701209032579dc869c9da95bbff9647c92"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_101738_201/02_urban_intersection/initial.png",
+    "bytes": 182636,
+    "sha256": "5a0fe762e29e63062d4835ca18f7a239d451e902cb47f4af04045b4d1400a316"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_101738_201/03_highway_merge/final.png",
+    "bytes": 217626,
+    "sha256": "f4e6fc56329b30d58896d620daf612dfab9613e9e9c3954c61b6242c09179b40"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_101738_201/03_highway_merge/highest_risk.png",
+    "bytes": 217043,
+    "sha256": "3426dee687cfb75f585c3b0702941741f94865edc667523aa2f02f0e492afa8a"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_101738_201/03_highway_merge/initial.png",
+    "bytes": 187727,
+    "sha256": "b528b5c08f3f4e86e9193990344ce52f6f297bd4042878e3c5d844cb97ef7127"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_101738_201/04_dense_market/final.png",
+    "bytes": 230242,
+    "sha256": "d5b7a3825fedd52d079ee6943f92aa657bb976cce39322332f90ec3257f9f614"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_101738_201/04_dense_market/highest_risk.png",
+    "bytes": 219797,
+    "sha256": "342d74731e8908551145c80d28cecdd469d13aeba27c3610614b7910caf77c1c"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_101738_201/04_dense_market/initial.png",
+    "bytes": 186568,
+    "sha256": "69913ee454c0c060dd0412355dd73d6c10762103987f776ca937a9595a429066"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_101738_201/05_cattle_crossing/final.png",
+    "bytes": 222593,
+    "sha256": "5f082b9e43826cf3ff7d5e6b1b6d6d9e61a393c0681b0447107b1fff432d9d6d"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_101738_201/05_cattle_crossing/highest_risk.png",
+    "bytes": 229414,
+    "sha256": "604a0be1f7d3763b2b113b54012a175ab3449f8c74cca30153d6278b5515adb8"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_101738_201/05_cattle_crossing/initial.png",
+    "bytes": 182560,
+    "sha256": "0b9ad7ebcad5121d5640cb2b76727a1861b014d176da1c31c0c8e8eecb98f62c"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_101738_201/06_confidence_drop/final.png",
+    "bytes": 219727,
+    "sha256": "459f54ff955bf80a2bc7950c2c0203c851222282234221cb15c1ab12ad037f0b"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_101738_201/06_confidence_drop/highest_risk.png",
+    "bytes": 212546,
+    "sha256": "683d84c265cde338bd470c5cf0a744882ac45fe06a58c8480432f3db20660dc2"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_101738_201/06_confidence_drop/initial.png",
+    "bytes": 179718,
+    "sha256": "b475134a4d13d234eea3565dce6d15cd3ab74dd67b1012ce606e43bf68c85239"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_101738_201/07_detection_loss/final.png",
+    "bytes": 223120,
+    "sha256": "d48f91eaded1a9ae0e3b3ce9159251d0b95d1bb4a0557731306eb8acc62f5b58"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_101738_201/07_detection_loss/highest_risk.png",
+    "bytes": 218570,
+    "sha256": "9ebe8b094e8b409a871cdc1846980b61afd4507ebc3c33e7323a42b41671dd44"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_101738_201/07_detection_loss/initial.png",
+    "bytes": 179539,
+    "sha256": "366c4acc29fe5e4fbffeb5608540e7fb7104c6faa15ee13af046333e3d2d2786"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_101738_201/08_direction_reversal/final.png",
+    "bytes": 238240,
+    "sha256": "a715d3c9b88c106f12fa758b73aa368dbac5e4e87d04d9b50f6ac840faac6db6"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_101738_201/08_direction_reversal/highest_risk.png",
+    "bytes": 223432,
+    "sha256": "7e6bed5c2a15cfd7b4aafb8d750abfeb80a3bd131f9b9a3fee91b5e6613fee47"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_101738_201/08_direction_reversal/initial.png",
+    "bytes": 182505,
+    "sha256": "d003c6f9c13a533badb21dcd58157382362516548705229ce6719720bd7d6c88"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_101738_201/09_multiple_risks/final.png",
+    "bytes": 229774,
+    "sha256": "b73161a695a88cf64b747bb69ef1b835f102be91beefd76b725c1d4253d869eb"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_101738_201/09_multiple_risks/highest_risk.png",
+    "bytes": 223992,
+    "sha256": "ff6ccb7041bde3e06847daa05111d3d007f81319ed0e3c34ac909d007aa8df8e"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_101738_201/09_multiple_risks/initial.png",
+    "bytes": 184252,
+    "sha256": "b2aeac2b4e34ddbe2e74b0401fbf9b14b59d2a8bccca9814d909dab2642e1ed0"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_101738_201/10_temporary_obstruction/final.png",
+    "bytes": 225162,
+    "sha256": "7adf2375f46f0699ea222035500e21060e1b5c8a0ea44ccc49f72c33ce9954b8"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_101738_201/10_temporary_obstruction/highest_risk.png",
+    "bytes": 225518,
+    "sha256": "0c7aabcf5c9bee217c187ac84720855c54d629c409de64432e8d5ce966069dbe"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_101738_201/10_temporary_obstruction/initial.png",
+    "bytes": 183593,
+    "sha256": "f4ce8e4d22662992e84a86a1b91584e751653d36c6aade4a4b20ebd270481584"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_101738_201/11_replan_failure_recovery/final.png",
+    "bytes": 226347,
+    "sha256": "c54664399846c60525bd01fa75b63c570e35aaa9abd17e44554721709dcddc42"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_101738_201/11_replan_failure_recovery/highest_risk.png",
+    "bytes": 265539,
+    "sha256": "9681605b1df3498ec7e9153b2d60a4547ef8162ba28a5aab58ae813c97a46d07"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_101738_201/11_replan_failure_recovery/initial.png",
+    "bytes": 195558,
+    "sha256": "4a30fe8a54ee94a1a6c9e8510f5873b23c782bdfd31a28f27890a83890bb2974"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_101738_201/12_stop_recovery/final.png",
+    "bytes": 249768,
+    "sha256": "37fe3eaff0086b3c9e1c1cd5ab3c2592df7d278a3fa2671d2e345ae2d2419893"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_101738_201/12_stop_recovery/highest_risk.png",
+    "bytes": 235392,
+    "sha256": "d5dca7cbf39fc86e09f90ffc56e2ffea927961fc88f8eef2e549a06eb927d2b7"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_101738_201/12_stop_recovery/initial.png",
+    "bytes": 187675,
+    "sha256": "9a16e5768759a228b45080df6ef1817273765079158f797daa89db63b1c3b032"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_101738_201/13_rapid_risk_fluctuation/final.png",
+    "bytes": 221246,
+    "sha256": "e947715b4a555690de2b3428d30ea59712e1b0a24106f87b439c529c6709d14d"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_101738_201/13_rapid_risk_fluctuation/highest_risk.png",
+    "bytes": 221354,
+    "sha256": "51c2b7b8d78d11d63dd91b534c78a2febb04506b4595ee96012143473d2a6cd5"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_101738_201/13_rapid_risk_fluctuation/initial.png",
+    "bytes": 182190,
+    "sha256": "852d90ae4de26b6ad5130fcb81415c35de48af238d7412d53bd5c24de18f3d30"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_150800_374/01_village_road/final.png",
+    "bytes": 220471,
+    "sha256": "28de890ded0601f58b54b11e1fdf387a776d5a22ce8f068d8a2e6a20a097102c"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_150800_374/01_village_road/highest_risk.png",
+    "bytes": 227653,
+    "sha256": "a4290c79d9243189012bd00206d4e5a257dff2bddf075957679d5021780b6157"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_150800_374/01_village_road/initial.png",
+    "bytes": 180435,
+    "sha256": "a301d5026946fbb6655681e086cd9d88552030940007943079c7b54da4bf0725"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_150800_374/02_urban_intersection/final.png",
+    "bytes": 232317,
+    "sha256": "bdc872a1b47f80c6f7775b190e4175025365fc816ae2f064b2f14bc0f78e960c"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_150800_374/02_urban_intersection/highest_risk.png",
+    "bytes": 229401,
+    "sha256": "828ec44a639f3b671145c64fbb2486cb3f7ce65fc55539a555e84bc59dc96884"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_150800_374/02_urban_intersection/initial.png",
+    "bytes": 181577,
+    "sha256": "15d2735eb615ff9e20476dd9f6dd18dcf76e436d9a0a1d872ce617fc8b6ec9c9"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_150800_374/03_highway_merge/final.png",
+    "bytes": 217626,
+    "sha256": "d70706f88a26806796ad118d95b410eeba975cc4cf86336d8e2340d026db9404"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_150800_374/03_highway_merge/highest_risk.png",
+    "bytes": 217043,
+    "sha256": "5901a2c63c639da66570c291f7faf44f31e57016f94a8f6b17c459f6ba646d92"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_150800_374/03_highway_merge/initial.png",
+    "bytes": 186732,
+    "sha256": "d88da4bbc9986a77187ecac79a6b2d79a4cbb2db8aafd4d779440d62e87de3d9"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_150800_374/04_dense_market/final.png",
+    "bytes": 230242,
+    "sha256": "971bf075a61d05afc61d40e7d4cbd9af12fed276b0f005c981436c9b9b35e540"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_150800_374/04_dense_market/highest_risk.png",
+    "bytes": 219797,
+    "sha256": "93717a32f0934132ee12f94b730bea434b7f03fa372df93aaa0353d367e9c4f7"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_150800_374/04_dense_market/initial.png",
+    "bytes": 185572,
+    "sha256": "6b2a2fde6c0e3c7faebb6e73a2ee39339814e5e882d95c23d0681347bb1686fc"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_150800_374/05_cattle_crossing/final.png",
+    "bytes": 222593,
+    "sha256": "e934e8f18df24a58ca59e14cc3fdb845a228b92988182d50c7723305ec785434"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_150800_374/05_cattle_crossing/highest_risk.png",
+    "bytes": 229414,
+    "sha256": "fac684833710fb9ff1b26e776b1e17e75c6fc22b5bfbb17bf48f0804ada8ce01"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_150800_374/05_cattle_crossing/initial.png",
+    "bytes": 181558,
+    "sha256": "a621e109c2e2c9bd9a8b1c484fadc5c75b14e87ed0c716dec3e967ed4a49d7fc"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_150800_374/06_confidence_drop/final.png",
+    "bytes": 219727,
+    "sha256": "0ffa59af12e0ac2f0ec525433efeafb0054e26232b78fbdb00382e95345c13b7"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_150800_374/06_confidence_drop/highest_risk.png",
+    "bytes": 212546,
+    "sha256": "3a96fb2ac333e194fb983439d6683e3357fe80913ec5a7766163912bc6ecd09f"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_150800_374/06_confidence_drop/initial.png",
+    "bytes": 178689,
+    "sha256": "fe56a611144df879338b67c17b5f505e6cd3ba9d407fe0b64330e72a7a31c3af"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_150800_374/07_detection_loss/final.png",
+    "bytes": 223120,
+    "sha256": "3fad6dbd89127f5ec95e71ef6cc70b473cbccd4af783bff2910604032d8dfca0"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_150800_374/07_detection_loss/highest_risk.png",
+    "bytes": 218570,
+    "sha256": "633c09199cb1490b0ca34f973d472dde9fd937cd547c86577009b17596fbb834"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_150800_374/07_detection_loss/initial.png",
+    "bytes": 178501,
+    "sha256": "21a692b259d43679e972f208c6e90f60cb7585bb1f4aaf187c073bb5863e0b49"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_150800_374/08_direction_reversal/final.png",
+    "bytes": 238240,
+    "sha256": "8f4725c71bba58b7c509f025b64334f97069ef223b7a6fdaa36a2078839df3a3"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_150800_374/08_direction_reversal/highest_risk.png",
+    "bytes": 224789,
+    "sha256": "85fa5cd38ded1b05b94db874e9b9aef61c5319d08ab9bd867b36a1425fbee46b"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_150800_374/08_direction_reversal/initial.png",
+    "bytes": 181471,
+    "sha256": "b5e4db57fbcd6e0062b54e1519249236c9f19d1b45adb2a985433f6505c8312e"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_150800_374/09_multiple_risks/final.png",
+    "bytes": 229774,
+    "sha256": "e7115d1eaf89a57f5ceac9779fcc453ab38ea76a8a28a4b14775dabdc98fb58c"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_150800_374/09_multiple_risks/highest_risk.png",
+    "bytes": 223992,
+    "sha256": "1b4dc58647faff01990372fbbf217dcc06509764ced376f2b337c72c47408bea"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_150800_374/09_multiple_risks/initial.png",
+    "bytes": 183229,
+    "sha256": "122ed6d772c936e1e1dc730df87b6987ca057d3ca9fe7a95315afd39aabb7b1a"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_150800_374/10_temporary_obstruction/final.png",
+    "bytes": 225162,
+    "sha256": "dc67c7fc00b9f365af455605d1ff315c0007453d62749f3be5d4c72dd7c33c15"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_150800_374/10_temporary_obstruction/highest_risk.png",
+    "bytes": 225518,
+    "sha256": "264b99b1bf63df2713e319032273c6797bf1029558cc2f2b6b6dbbe01261ce16"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_150800_374/10_temporary_obstruction/initial.png",
+    "bytes": 182573,
+    "sha256": "a3e0808000c7ff3d65836e472da9129fd51c3b1784805392191c02cdc4d8c0ed"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_150800_374/11_replan_failure_recovery/final.png",
+    "bytes": 226347,
+    "sha256": "4f419f7f754479a8b32fef8655df42b376dfdfe349cdc1f60297d53dfac00192"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_150800_374/11_replan_failure_recovery/highest_risk.png",
+    "bytes": 266930,
+    "sha256": "0916d3ff44f7e0d825459aab8bbd1316328d2727257235566775a3e137d8ad66"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_150800_374/11_replan_failure_recovery/initial.png",
+    "bytes": 194535,
+    "sha256": "650c446f4de73d03d8bcc3c0112716d2eaf5b423165db92816eb910a567477e3"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_150800_374/12_stop_recovery/final.png",
+    "bytes": 249768,
+    "sha256": "00db1c81552a5fa8aeb93aa8c42c14ba8947393c3c88722d9b83c70860226cfe"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_150800_374/12_stop_recovery/highest_risk.png",
+    "bytes": 236703,
+    "sha256": "2733dc2cf59651d3d6eb102880c1c67a2a8eeffdfd07e6c2f8d48c9962244ad1"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_150800_374/12_stop_recovery/initial.png",
+    "bytes": 186671,
+    "sha256": "94e651100f7585d6d6d0d15717f2fd23329d29579c305f983fd2fa5c83223c2c"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_150800_374/13_rapid_risk_fluctuation/final.png",
+    "bytes": 221246,
+    "sha256": "389a9f89f5b96ba974672c9a04bcf2dd8a23ca486b6d748d923579c9e04e618c"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_150800_374/13_rapid_risk_fluctuation/highest_risk.png",
+    "bytes": 221354,
+    "sha256": "617cb65245c8d59753894ec7a23536e20877599ff04c04a006105b8784c9c64f"
+  },
+  {
+    "file": "results/phase12/screenshots/all_scenarios/run_20260906_150800_374/13_rapid_risk_fluctuation/initial.png",
+    "bytes": 181176,
+    "sha256": "e63181922c8935825e22ef02fff52af04426f17db87c7c74ce022b80f3e9ff5c"
+  },
+  {
+    "file": "results/phase12/videos/20260905_094241_461/SuddenCattleCrossing.mp4",
+    "bytes": 4649090,
+    "sha256": "f4408fa746f1ad67a2da27a6148008a9e25c2a32cbb49dcec40026899267c912"
+  },
+  {
+    "file": "results/phase12/videos/20260905_162016_912/SuddenCattleCrossing.mp4",
+    "bytes": 4649090,
+    "sha256": "2221f4da91e8f5bfdea30972f52557d61a849f9c7f3a1786c455df718d55e165"
+  },
+  {
+    "file": "results/phase12/videos/20260905_162330_851/SuddenCattleCrossing.mp4",
+    "bytes": 4648585,
+    "sha256": "d734aaeeb5d45249c975b92f920889c11c138570a408159965099a433e5e2c0a"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/SUPERSEDED_PRESENTATION.md",
+    "bytes": 736,
+    "sha256": "fe7bf62dff3fc9eedc50bf410b9e6c56482b28ffecfbd97cb5e6fed080b69a1d"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/VIDEO_INDEX.md",
+    "bytes": 12624,
+    "sha256": "263386dbccb92effacb22a718d0b2c48be4e482afd255ce8ce962b55cfeed515"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase8/01_village_road.mp4",
+    "bytes": 1831409,
+    "sha256": "d003f159a2f89edbcc6d6d02676b14f8b04f4a7de0d6194e4936025f6d21eb2e"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase8/01_village_road.mp4.events.csv",
+    "bytes": 1153,
+    "sha256": "d3de7039f4644bbb163069908618aee4e12e6f450234eaaf7589eb99854ae260"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase8/01_village_road.mp4.mat",
+    "bytes": 2770,
+    "sha256": "7abd11cd1045ca4e0780c94750f357444b241beeab0de18ee4233e5849d30974"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase8/01_village_road.mp4.timeline.csv",
+    "bytes": 5327,
+    "sha256": "b0a286f5dcd2a157b323a5dfae6ed0999d0125c5b6bf35d8b429f83894c2e353"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase8/02_urban_intersection.mp4",
+    "bytes": 1219232,
+    "sha256": "5b73e3da9512680f068af816d3245196443243935acb6dca8279e8c97403fe86"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase8/02_urban_intersection.mp4.events.csv",
+    "bytes": 1426,
+    "sha256": "b1d12b04d7eef70e43ba77038966314ea273dad1194e370185de8cd7c3b125bc"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase8/02_urban_intersection.mp4.mat",
+    "bytes": 2779,
+    "sha256": "9d7112d939cd36276323972caf0a833ad04e9d2a970a07e11174ae61e798f6f9"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase8/02_urban_intersection.mp4.timeline.csv",
+    "bytes": 3255,
+    "sha256": "2021c5cf59224b165138b4fe158434f54a96fcb4a32261d1e3f7ce8d7a63fa0a"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase8/03_highway_merge.mp4",
+    "bytes": 1631650,
+    "sha256": "86f838b7924e8cf874bf037ec7a8d840a56f0f326aae174d3b2c07f817c1d2c9"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase8/03_highway_merge.mp4.events.csv",
+    "bytes": 798,
+    "sha256": "4d71ea806b79795f3708a45671398dcf1c8e4a2970d9b962841b09ebea41f0f6"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase8/03_highway_merge.mp4.mat",
+    "bytes": 2744,
+    "sha256": "3a6ea95eeeec2eed9a93dcdfb8300ecc3e5541ee46abbfe12bb180f9a595950c"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase8/03_highway_merge.mp4.timeline.csv",
+    "bytes": 4765,
+    "sha256": "8c1014b637939b80631c674092463cba924e20927eeedeefb0f86c08b52c8514"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase8/04_dense_market.mp4",
+    "bytes": 2014511,
+    "sha256": "89b19cd9985f7e4dc9e8cfd6d6f57a1d5f5ee8b09af32cc31279ae2f0f532859"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase8/04_dense_market.mp4.events.csv",
+    "bytes": 1097,
+    "sha256": "52c893fa3c2af2e7527bf509267d76598fef48aaec732de56ddae4a916b54baf"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase8/04_dense_market.mp4.mat",
+    "bytes": 2740,
+    "sha256": "60d061819ea3b326b9a815196cd1a3b8b8ea692cecedf666589e499095ff900a"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase8/04_dense_market.mp4.timeline.csv",
+    "bytes": 6088,
+    "sha256": "bad72a8230055f99c1009ceaa36cd496c1f034d6445fae59821b8a9aafca01bf"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase8/05_cattle_crossing.mp4",
+    "bytes": 1643779,
+    "sha256": "0796334abd9a0a39f62d7ddeae97826230ff2b9a4e3e5ab6554361b19d7a3997"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase8/05_cattle_crossing.mp4.events.csv",
+    "bytes": 928,
+    "sha256": "e962e096495af085e57002e55b7715a89b21d79f73f683dd8de4319594fe1433"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase8/05_cattle_crossing.mp4.mat",
+    "bytes": 2734,
+    "sha256": "899b6cc03fee4478d565c976f9629c3cfa3c7ecbcfe9723161e7293c1790c2dd"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase8/05_cattle_crossing.mp4.timeline.csv",
+    "bytes": 4907,
+    "sha256": "1f1b4009acfa3b0097490cc8f63fac4b5c9687ed0d5d2a5155c29121e7c61438"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase9/06_confidence_drop.mp4",
+    "bytes": 1330167,
+    "sha256": "51bed9bf37ca37b52932f2fd7f43caa17c1020c6f973f698ef0706826243eee1"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase9/06_confidence_drop.mp4.events.csv",
+    "bytes": 552,
+    "sha256": "4a128a99971645e0acb11a88bb8fa1f411ca918bd74bb487d6ded76148e3e429"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase9/06_confidence_drop.mp4.mat",
+    "bytes": 2724,
+    "sha256": "52a76303aedf559767fe3b90d2900fadc0a206c1080d490e69d2f47029e0383e"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase9/06_confidence_drop.mp4.timeline.csv",
+    "bytes": 4391,
+    "sha256": "34d15fd4051c73da90ae58d417abffcfe925b978d14840b5a8cb0870d27fb968"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase9/07_detection_loss.mp4",
+    "bytes": 1397332,
+    "sha256": "ba7ece59a48d9841ff3ab554bf65ff7fc5a64ab847bb4c77df5eb27793aef299"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase9/07_detection_loss.mp4.events.csv",
+    "bytes": 799,
+    "sha256": "b607f8ad2c3bfb2e43f0b4cc9c527c4eed2041a140fc5566707675d2224b0218"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase9/07_detection_loss.mp4.mat",
+    "bytes": 2753,
+    "sha256": "5c44fce8331bf55044bd8ca3e4adc6366745ab35d4e8a0c6dbf3035de62a5ae1"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase9/07_detection_loss.mp4.timeline.csv",
+    "bytes": 4391,
+    "sha256": "34d15fd4051c73da90ae58d417abffcfe925b978d14840b5a8cb0870d27fb968"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase9/08_direction_reversal.mp4",
+    "bytes": 2197748,
+    "sha256": "d38d7c2c3987c1578113820828e795eb2749524ea862ce34f7697782463df840"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase9/08_direction_reversal.mp4.events.csv",
+    "bytes": 3533,
+    "sha256": "e7d1212d8826ee88eef14d93a70814cb30e01d0c4dc63436123531e668dd2ebe"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase9/08_direction_reversal.mp4.mat",
+    "bytes": 2792,
+    "sha256": "9adfa919a9f430a2bee27e301f6da7bd081d4eb29e822e17d8b3facfc9dfa5aa"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase9/08_direction_reversal.mp4.timeline.csv",
+    "bytes": 6900,
+    "sha256": "385f0fd62ecde51f5b5b77633d00302c3649eb2114d1db88498d35cf0638be7f"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase9/09_multiple_risks.mp4",
+    "bytes": 2367948,
+    "sha256": "cd6a99f11a7c7e90d868c1fef2f8262b09f79c6e465a8b2bb6dc008df89565e5"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase9/09_multiple_risks.mp4.events.csv",
+    "bytes": 2928,
+    "sha256": "aabedcaea95c17c79848f65634312ac07f8cb465dc1600b1cf6461d858715911"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase9/09_multiple_risks.mp4.mat",
+    "bytes": 2747,
+    "sha256": "bfd5156c4599515143a1bcdd9b67239b19144e3bd5581832a4f4955624a8cbe6"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase9/09_multiple_risks.mp4.timeline.csv",
+    "bytes": 7636,
+    "sha256": "b657732cdcf039da0f8305065e346cfd06b527d8e8701370616faccf7e9c5990"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase9/10_temporary_obstruction.mp4",
+    "bytes": 1785025,
+    "sha256": "453c2ca770cf1ce3b0bcf8ad2135720c0f71425a10095eb777605050f93fb65f"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase9/10_temporary_obstruction.mp4.events.csv",
+    "bytes": 1460,
+    "sha256": "05dfd665eae1ac4811fcf47e9f27c1da5311abc53178e0a94f7c4d0a692395ef"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase9/10_temporary_obstruction.mp4.mat",
+    "bytes": 2730,
+    "sha256": "2d68dedb66a5075d51c2bf7c114aa01305f30f0ff12c2ec1222d190f76a47b5d"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase9/10_temporary_obstruction.mp4.timeline.csv",
+    "bytes": 5394,
+    "sha256": "e1a245eaf2c7f14275fcfe1c68daf9ac98ba4027611727864ce1c6304af44b58"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase9/11_replan_failure_recovery.mp4",
+    "bytes": 3177574,
+    "sha256": "36efe37fc1279c1d7b31eb79918f389763698221bae5bde48cb33c6775032e0d"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase9/11_replan_failure_recovery.mp4.events.csv",
+    "bytes": 1298,
+    "sha256": "9bbfffb1e5835ed13fdfd41316c086f0d86f88bd14d26b00fd4460a06c96a35c"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase9/11_replan_failure_recovery.mp4.mat",
+    "bytes": 2770,
+    "sha256": "1fa72e881c6a2e73092296688a1b143d1e79692fe030ce6723c4f5b77ab57df8"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase9/11_replan_failure_recovery.mp4.timeline.csv",
+    "bytes": 8372,
+    "sha256": "dd0b64f1a6ff3ad215e2d6a1a831980154699ac1ac8d1909afac9544eda120ee"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase9/12_stop_recovery.mp4",
+    "bytes": 2603069,
+    "sha256": "c3bfcc921f37f6ddd5cab71ce2ec4123e5a165ba3c74b17f3c18072e2837261f"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase9/12_stop_recovery.mp4.events.csv",
+    "bytes": 3999,
+    "sha256": "f19d5239fc4ab4cd3cce43eb3a9a47f880a5172c5605dee7eddd0e028bae3cc7"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase9/12_stop_recovery.mp4.mat",
+    "bytes": 2808,
+    "sha256": "3d5e7337842b86be150fb4835cc60ca464ffe109f4c903e76bfabaa07aa05008"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase9/12_stop_recovery.mp4.timeline.csv",
+    "bytes": 7636,
+    "sha256": "b657732cdcf039da0f8305065e346cfd06b527d8e8701370616faccf7e9c5990"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase9/13_rapid_risk_fluctuation.mp4",
+    "bytes": 1614943,
+    "sha256": "b0f8c2638c7a9190a1f849a8bb5a3852518c63c60d551c72bcf72358bd805ea4"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase9/13_rapid_risk_fluctuation.mp4.events.csv",
+    "bytes": 930,
+    "sha256": "f1bb3e4f7439c7dfdacf8cb08144f11c2a112d0e6911b7730479b73943b784a8"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase9/13_rapid_risk_fluctuation.mp4.mat",
+    "bytes": 2733,
+    "sha256": "30425913b7580c585c72c0cb8c4442454fa655748380dcd7419e1bf49b71ee63"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/phase9/13_rapid_risk_fluctuation.mp4.timeline.csv",
+    "bytes": 4673,
+    "sha256": "e721df08d375b8d39f9dff9e9682af6a75bfc084e51b63d5571f0ad6c5623651"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/replay_inventory.csv",
+    "bytes": 6114,
+    "sha256": "9ec0c6a63e928ef69bc47cb15c1d6bbb03d38cf10dfd5f86de286d4c34e9a1ab"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/replays/01_village_road.mat",
+    "bytes": 521378,
+    "sha256": "2da994a765e9985a598b2bf3ed7289db33c3d3803dac12fee3f823e8ef5a030d"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/replays/02_urban_intersection.mat",
+    "bytes": 370982,
+    "sha256": "ba45068c433142ec52667f13c93a2ed8eac976ad6163fc57bd9303121ba03888"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/replays/03_highway_merge.mat",
+    "bytes": 548790,
+    "sha256": "2718ac8f9ede561fc1fbb20cf4b3b9211712fefc28fdf387eb125d574ce909d4"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/replays/04_dense_market.mat",
+    "bytes": 803847,
+    "sha256": "f38838cc856d4d325d8be436a73d14f160029a53f3a3dd5887fb1459811e9396"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/replays/05_cattle_crossing.mat",
+    "bytes": 462030,
+    "sha256": "b4618d721452abca16c41136741821f218ffe591bb2a4e4bb2be9a61b1aee6bc"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/replays/06_confidence_drop.mat",
+    "bytes": 432659,
+    "sha256": "a008c0bfdca179d4a8f2a06ce65eb0278866b33f7530213aef78b5e0a3e94483"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/replays/07_detection_loss.mat",
+    "bytes": 433024,
+    "sha256": "be899cced0e1de2c9b440ef0452190de66a39bcaf331f85eda52452a8515e07d"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/replays/08_direction_reversal.mat",
+    "bytes": 770341,
+    "sha256": "391428b9cc886645785393a70111d71677ed0426af092ba518709532a4ed543d"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/replays/09_multiple_risks.mat",
+    "bytes": 906026,
+    "sha256": "7de8f2c3d503346864e2829b680645ea62c8f65d9ad878d120f44c9614de4da5"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/replays/10_temporary_obstruction.mat",
+    "bytes": 504360,
+    "sha256": "178fb2f1866c758a71150a0632b28e08544f1bee97319a755cb6f6a847a19fc1"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/replays/11_replan_failure_recovery.mat",
+    "bytes": 2225346,
+    "sha256": "04ffae1c27916ff6ed3f76350f0f9b428c4738852b84392672edad187390fc76"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/replays/12_stop_recovery.mat",
+    "bytes": 999924,
+    "sha256": "52bee84e4eb8b5449edb7ca1112d058065bbfa01790cd432a26165d09d65d284"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/replays/13_rapid_risk_fluctuation.mat",
+    "bytes": 469860,
+    "sha256": "6cc9a5bdb80a8d987a5bfe582cf8089714a091073d257607a9ac43efba930247"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/video_export_summary.mat",
+    "bytes": 6567,
+    "sha256": "571de55b317e96a95a4ac06852e43ed16f46877351d532165a9f48bc2ee23fa9"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_101738_201/video_manifest.csv",
+    "bytes": 14969,
+    "sha256": "387079d827d1196736c21a1a2b1a1371271cfe04332ff324b27c7379de96fa86"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/VIDEO_INDEX.md",
+    "bytes": 12624,
+    "sha256": "263386dbccb92effacb22a718d0b2c48be4e482afd255ce8ce962b55cfeed515"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase12_6Status_20260906_201330_413.mat",
+    "bytes": 13656,
+    "sha256": "732425f7bf077e66f52e3c36001d2b76bb99d86ed69d4534b2154e18e710c8a7"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase8/01_village_road.mp4",
+    "bytes": 1829646,
+    "sha256": "68fe39c02334b99b57869a834b1e29ea3da38d6076f51ec27332b6de670d98e8"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase8/01_village_road.mp4.events.csv",
+    "bytes": 1153,
+    "sha256": "d3de7039f4644bbb163069908618aee4e12e6f450234eaaf7589eb99854ae260"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase8/01_village_road.mp4.mat",
+    "bytes": 2836,
+    "sha256": "2c8b4769faac03c49acefcaccb6c0dbc331bac450f71988bc77a41b1d71b69ef"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase8/01_village_road.mp4.timeline.csv",
+    "bytes": 5327,
+    "sha256": "b0a286f5dcd2a157b323a5dfae6ed0999d0125c5b6bf35d8b429f83894c2e353"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase8/02_urban_intersection.mp4",
+    "bytes": 1219559,
+    "sha256": "c439bea7a12d16a32a19a69381add6c5c48c33129f1b7d5e6bfa60d6556464ba"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase8/02_urban_intersection.mp4.events.csv",
+    "bytes": 1426,
+    "sha256": "b1d12b04d7eef70e43ba77038966314ea273dad1194e370185de8cd7c3b125bc"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase8/02_urban_intersection.mp4.mat",
+    "bytes": 2855,
+    "sha256": "dec43f389fb26f6fa21ee0a84e2159c2dd0e9db8b82e72127ba8c15c97f8179c"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase8/02_urban_intersection.mp4.timeline.csv",
+    "bytes": 3255,
+    "sha256": "2021c5cf59224b165138b4fe158434f54a96fcb4a32261d1e3f7ce8d7a63fa0a"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase8/03_highway_merge.mp4",
+    "bytes": 1631353,
+    "sha256": "9e80ca5ae1274c82f6768044a29d3504f6ffee15cebe863ec0d0720dc0b5b396"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase8/03_highway_merge.mp4.events.csv",
+    "bytes": 798,
+    "sha256": "4d71ea806b79795f3708a45671398dcf1c8e4a2970d9b962841b09ebea41f0f6"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase8/03_highway_merge.mp4.mat",
+    "bytes": 2819,
+    "sha256": "4d60224aca60a927b595e7900e0db0f9a19b01913a6981577fd883eb484085ee"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase8/03_highway_merge.mp4.timeline.csv",
+    "bytes": 4765,
+    "sha256": "8c1014b637939b80631c674092463cba924e20927eeedeefb0f86c08b52c8514"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase8/04_dense_market.mp4",
+    "bytes": 2014206,
+    "sha256": "f067d48c2e9c92a2a6afefc47eb8ee315825a862c5b7f8f8d11c65b31a98627c"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase8/04_dense_market.mp4.events.csv",
+    "bytes": 1097,
+    "sha256": "52c893fa3c2af2e7527bf509267d76598fef48aaec732de56ddae4a916b54baf"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase8/04_dense_market.mp4.mat",
+    "bytes": 2805,
+    "sha256": "6f1cb507b74b10c33088426dedff9fdcccc424982e246d1e58a8e9ec0ab7cd8b"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase8/04_dense_market.mp4.timeline.csv",
+    "bytes": 6088,
+    "sha256": "bad72a8230055f99c1009ceaa36cd496c1f034d6445fae59821b8a9aafca01bf"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase8/05_cattle_crossing.mp4",
+    "bytes": 1643469,
+    "sha256": "97e762f4068ba4a2639bdd8e2342032d47269107565ac5f662d643fd349c66c5"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase8/05_cattle_crossing.mp4.events.csv",
+    "bytes": 928,
+    "sha256": "e962e096495af085e57002e55b7715a89b21d79f73f683dd8de4319594fe1433"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase8/05_cattle_crossing.mp4.mat",
+    "bytes": 2818,
+    "sha256": "8631da9345c218a192973e8664cfbca49b28c521dbb827c7e2f87c60c2fa6410"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase8/05_cattle_crossing.mp4.timeline.csv",
+    "bytes": 4907,
+    "sha256": "1f1b4009acfa3b0097490cc8f63fac4b5c9687ed0d5d2a5155c29121e7c61438"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase9/06_confidence_drop.mp4",
+    "bytes": 1329994,
+    "sha256": "5d39b90f002c4cf725e2acde563444bce33106478993728aba54be9605648062"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase9/06_confidence_drop.mp4.events.csv",
+    "bytes": 552,
+    "sha256": "4a128a99971645e0acb11a88bb8fa1f411ca918bd74bb487d6ded76148e3e429"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase9/06_confidence_drop.mp4.mat",
+    "bytes": 2796,
+    "sha256": "013b7625abdb115d93a9db94d51439cbfdda85b0c9e8dc553f5930dcc561708c"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase9/06_confidence_drop.mp4.timeline.csv",
+    "bytes": 4391,
+    "sha256": "34d15fd4051c73da90ae58d417abffcfe925b978d14840b5a8cb0870d27fb968"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase9/07_detection_loss.mp4",
+    "bytes": 1397043,
+    "sha256": "d2aa28294eaeafc37ea6f64934f7a806ae17daed4f355ad43ffe315c0a164f20"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase9/07_detection_loss.mp4.events.csv",
+    "bytes": 799,
+    "sha256": "b607f8ad2c3bfb2e43f0b4cc9c527c4eed2041a140fc5566707675d2224b0218"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase9/07_detection_loss.mp4.mat",
+    "bytes": 2822,
+    "sha256": "c34e4b75ec81e7266a4d6c344cd1ef57399e5366c571eab1e90e8adb8cafea72"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase9/07_detection_loss.mp4.timeline.csv",
+    "bytes": 4391,
+    "sha256": "34d15fd4051c73da90ae58d417abffcfe925b978d14840b5a8cb0870d27fb968"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase9/08_direction_reversal.mp4",
+    "bytes": 2202268,
+    "sha256": "fcbec34257c62e099ebb1349aaa1df3f4f94afdebc0498fd716d779eecd17966"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase9/08_direction_reversal.mp4.events.csv",
+    "bytes": 3533,
+    "sha256": "e7d1212d8826ee88eef14d93a70814cb30e01d0c4dc63436123531e668dd2ebe"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase9/08_direction_reversal.mp4.mat",
+    "bytes": 2865,
+    "sha256": "25a7ae4e775f038b032152f60dec58652c93338310eafd4901c01d1021573519"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase9/08_direction_reversal.mp4.timeline.csv",
+    "bytes": 6900,
+    "sha256": "385f0fd62ecde51f5b5b77633d00302c3649eb2114d1db88498d35cf0638be7f"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase9/09_multiple_risks.mp4",
+    "bytes": 2372312,
+    "sha256": "80effddd060882d3f92f529f61928b18dbb2b39a792ec0dd10c807da8b4319f7"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase9/09_multiple_risks.mp4.events.csv",
+    "bytes": 2928,
+    "sha256": "aabedcaea95c17c79848f65634312ac07f8cb465dc1600b1cf6461d858715911"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase9/09_multiple_risks.mp4.mat",
+    "bytes": 2824,
+    "sha256": "225b8d25bb05ea931ebc4ac5b0be520605d6396e22f8c35b95aec4d99960e51c"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase9/09_multiple_risks.mp4.timeline.csv",
+    "bytes": 7636,
+    "sha256": "b657732cdcf039da0f8305065e346cfd06b527d8e8701370616faccf7e9c5990"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase9/10_temporary_obstruction.mp4",
+    "bytes": 1784748,
+    "sha256": "7601f68f5c6a723594219c31c8c2c3363c0eaab62296ccb9d61370165ca5028b"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase9/10_temporary_obstruction.mp4.events.csv",
+    "bytes": 1460,
+    "sha256": "05dfd665eae1ac4811fcf47e9f27c1da5311abc53178e0a94f7c4d0a692395ef"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase9/10_temporary_obstruction.mp4.mat",
+    "bytes": 2794,
+    "sha256": "0a9a38deab722761882ccf46d0a32992ee75d4551cbf5691cefa3ee4b3366cab"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase9/10_temporary_obstruction.mp4.timeline.csv",
+    "bytes": 5394,
+    "sha256": "e1a245eaf2c7f14275fcfe1c68daf9ac98ba4027611727864ce1c6304af44b58"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase9/11_replan_failure_recovery.mp4",
+    "bytes": 3179316,
+    "sha256": "2a187552055e8dccf01365bdba3370125bc5463f7c01ef3bdc2758794fb67053"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase9/11_replan_failure_recovery.mp4.events.csv",
+    "bytes": 1298,
+    "sha256": "9bbfffb1e5835ed13fdfd41316c086f0d86f88bd14d26b00fd4460a06c96a35c"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase9/11_replan_failure_recovery.mp4.mat",
+    "bytes": 2843,
+    "sha256": "e33c6d511b1aa578aff04ef9b74d105deed35c35a84bcc57a59e6454e9880381"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase9/11_replan_failure_recovery.mp4.timeline.csv",
+    "bytes": 8372,
+    "sha256": "dd0b64f1a6ff3ad215e2d6a1a831980154699ac1ac8d1909afac9544eda120ee"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase9/12_stop_recovery.mp4",
+    "bytes": 2614072,
+    "sha256": "c6bd3e676215ee9e0b741ffea149aece190b633233154b9ef3a9e52367ceb0f9"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase9/12_stop_recovery.mp4.events.csv",
+    "bytes": 3999,
+    "sha256": "f19d5239fc4ab4cd3cce43eb3a9a47f880a5172c5605dee7eddd0e028bae3cc7"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase9/12_stop_recovery.mp4.mat",
+    "bytes": 2884,
+    "sha256": "ba6536b1f212811bc9da8c28cdc57e2b9062d8492f2d76d21e508f5c84a8f5df"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase9/12_stop_recovery.mp4.timeline.csv",
+    "bytes": 7636,
+    "sha256": "b657732cdcf039da0f8305065e346cfd06b527d8e8701370616faccf7e9c5990"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase9/13_rapid_risk_fluctuation.mp4",
+    "bytes": 1614624,
+    "sha256": "b124e74967c764cc9324e01c0dad48ede7c07ca467c0b539aa4ff0f7e927d910"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase9/13_rapid_risk_fluctuation.mp4.events.csv",
+    "bytes": 930,
+    "sha256": "f1bb3e4f7439c7dfdacf8cb08144f11c2a112d0e6911b7730479b73943b784a8"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase9/13_rapid_risk_fluctuation.mp4.mat",
+    "bytes": 2799,
+    "sha256": "a3d2c0194cfebcb2d42b271f44e632190335dfd6c0eacfde733d084510c14875"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/phase9/13_rapid_risk_fluctuation.mp4.timeline.csv",
+    "bytes": 4673,
+    "sha256": "e721df08d375b8d39f9dff9e9682af6a75bfc084e51b63d5571f0ad6c5623651"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/replay_inventory.csv",
+    "bytes": 6114,
+    "sha256": "9ec0c6a63e928ef69bc47cb15c1d6bbb03d38cf10dfd5f86de286d4c34e9a1ab"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/scenario_video_test_results.csv",
+    "bytes": 370,
+    "sha256": "364598d449eb0d9833a7f2d2abc82099874a8d1fbd7bdc62af882673e4dddf5b"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/video_export_summary.mat",
+    "bytes": 6598,
+    "sha256": "b36ab24a8d6146e172194db218ad0212eb2b68d84660c84fce324cda3ecfdf8a"
+  },
+  {
+    "file": "results/phase12/videos/all_scenarios/run_20260906_150800_374/video_manifest.csv",
+    "bytes": 14530,
+    "sha256": "039ffd5d89298f28568e3f485ced74b8f7f0e92275084f376b3ee0a9204737d0"
+  }
+]

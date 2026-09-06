@@ -1,0 +1,132 @@
+IDD DATASET: NOT CONFIGURED
+IDD PARSING: NOT RUN
+ANNOTATION VALIDATION: NOT RUN
+YOLOX ENVIRONMENT: INCOMPLETE
+TRAINING DATASTORE: NOT RUN
+SMOKE TRAINING: PENDING YOLOX SUPPORT
+MODEL RELOAD: NOT RUN
+GENUINE INFERENCE: NOT RUN
+IDD -> CANONICAL IMAGE DETECTIONS: NOT RUN
+FULL IDD TRAINING: NOT PART OF MILESTONE 1
+Free disk: 3.70 GiB; smoke guard 5.00 GiB.
+Set cfg.idd.root in the caller; default: perception/idd/getIDDConfig.m (root field).
+Core config.m is intentionally unchanged. IDD_ROOT is an optional external override.
+Missing YOLOX functions or required toolboxes. Required add-on: Automated Visual Inspection Library for Computer Vision Toolbox. No MATLAB-supported GPU available; CPU smoke requires separate feasibility and disk checks.
+
+                YOLOXAvailable: 0
+     TrainingFunctionAvailable: 0
+         DeepLearningAvailable: 1
+       ComputerVisionAvailable: 1
+    ParallelComputingAvailable: 1
+                  GPUAvailable: 0
+                       GPUName: "NONE"
+          ExecutionEnvironment: "auto"
+                       details: [1×1 struct]
+           TrainYOLOXAvailable: 0
+      TrainingOptionsAvailable: 1
+           YOLOXAddonAvailable: 0
+                        Reason: "Missing YOLOX functions or required toolboxes. Required add-on: Automated Visual Inspection Library for Computer Vision Toolbox. No MATLAB-supported GPU available; CPU smoke requires separate feasibility and disk checks."
+
+              <strong>Function</strong>                                                       <strong>Location</strong>                                              <strong>Available</strong>
+    <strong>____________________________</strong>    <strong>___________________________________________________________________________________________</strong>    <strong>_________</strong>
+
+    "yoloxObjectDetector"           ""                                                                                               false  
+    "trainYOLOXObjectDetector"      ""                                                                                               false  
+    "trainingOptions"               "/Applications/MATLAB_R2026a.app/toolbox/nnet/cnn/trainingOptions.m"                             true   
+    "imageDatastore"                "/Applications/MATLAB_R2026a.app/toolbox/matlab/io/datastore/image/imageDatastore.m"             true   
+    "boxLabelDatastore"             "/Applications/MATLAB_R2026a.app/toolbox/shared/visionpointcloud/boxLabelDatastore.m"            true   
+    "objectDetectorTrainingData"    "/Applications/MATLAB_R2026a.app/toolbox/vision/vision/objectDetectorTrainingData.m"             true   
+    "evaluateObjectDetection"       "/Applications/MATLAB_R2026a.app/toolbox/shared/visionpointcloud/evaluateObjectDetection.m"      true   
+
+  1×82 <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> array with fields:
+
+    Name
+    Version
+    Release
+    Date
+
+                      <strong>Name</strong>                       <strong>Version</strong>    <strong>Enabled</strong>    <strong>Identifier</strong>
+    <strong>_________________________________________</strong>    <strong>_______</strong>    <strong>_______</strong>    <strong>__________</strong>
+
+    "Wireless Testbench"                         "26.1"      true         "WB"   
+    "Computer Vision Toolbox"                    "26.1"      true         "VP"   
+    "System Composer"                            "26.1"      true         "ZC"   
+    "UAV Toolbox"                                "26.1"      true         "UV"   
+    "Sensor Fusion and Tracking Toolbox"         "26.1"      true         "TF"   
+    "MATLAB Test"                                "26.1"      true         "TE"   
+    "Text Analytics Toolbox"                     "26.1"      true         "TA"   
+    "Statistics and Machine Learning Toolbox"    "26.1"      true         "ST"   
+    "Simscape"                                   "26.1"      true         "SS"   
+    "Simulink Report Generator"                  "26.1"      true         "SR"   
+    "Symbolic Math Toolbox"                      "26.1"      true         "SM"   
+    "Satellite Communications Toolbox"           "26.1"      true         "SI"   
+    "Signal Processing Toolbox"                  "26.1"      true         "SG"   
+    "Stateflow"                                  "26.1"      true         "SF"   
+    "SimEvents"                                  "26.1"      true         "SE"   
+    "SimBiology"                                 "26.1"      true         "SB"   
+    "Simulink Design Optimization"               "26.1"      true         "SO"   
+    "Requirements Toolbox"                       "26.1"      true         "RQ"   
+    "Simscape Fluids"                            "26.1"      true         "SH"   
+    "Simulink Coder"                             "26.1"      true         "RT"   
+    "RF PCB Toolbox"                             "26.1"      true         "RP"   
+    "Reinforcement Learning Toolbox"             "26.1"      true         "RL"   
+    "Risk Management Toolbox"                    "26.1"      true         "RK"   
+    "Instrument Control Toolbox"                 "26.1"      true         "IC"   
+    "Radar Toolbox"                              "26.1"      true         "RA"   
+    "RF Blockset"                                "26.1"      true         "RB"   
+    "Simulink Control Design"                    "26.1"      true         "SD"   
+    "Simulink Design Verifier"                   "26.1"      true         "DV"   
+    "Optimization Toolbox"                       "26.1"      true         "OP"   
+    "Industrial Communication Toolbox"           "26.1"      true         "OT"   
+    "Navigation Toolbox"                         "26.1"      true         "NV"   
+    "RF Toolbox"                                 "26.1"      true         "RF"   
+    "Motor Control Blockset"                     "26.1"      true         "MT"   
+    "Raspberry Pi Blockset"                      "26.1"      true         "RI"   
+    "Simscape Electrical"                        "26.1"      true         "PS"   
+    "MATLAB Report Generator"                    "26.1"      true         "MR"   
+    "Model Predictive Control Toolbox"           "26.1"      true         "MP"   
+    "Mapping Toolbox"                            "26.1"      true         "MG"   
+    "Deep Learning Toolbox"                      "26.1"      true         "NN"   
+    "Simscape Multibody"                         "26.1"      true         "MS"   
+    "Communications Toolbox"                     "26.1"      true         "CM"   
+    "MATLAB Coder"                               "26.1"      true         "ME"   
+    "Wavelet Toolbox"                            "26.1"      true         "WA"   
+    "Lidar Toolbox"                              "26.1"      true         "LP"   
+    "Simulink Desktop Real-Time"                 "26.1"      true         "WT"   
+    "Simscape Driveline"                         "26.1"      true         "LD"   
+    "Database Toolbox"                           "26.1"      true         "DB"   
+    "Financial Instruments Toolbox"              "26.1"      true         "IT"   
+    "System Identification Toolbox"              "26.1"      true         "ID"   
+    "Simulink Test"                              "26.1"      true         "SZ"   
+    "Global Optimization Toolbox"                "26.1"      true         "GD"   
+    "Parallel Computing Toolbox"                 "26.1"      true         "DM"   
+    "Econometrics Toolbox"                       "26.1"      true         "ET"   
+    "Robust Control Toolbox"                     "26.1"      true         "RC"   
+    "Simulink Fault Analyzer"                    "26.1"      true         "FA"   
+    "Fuzzy Logic Toolbox"                        "26.1"      true         "FL"   
+    "Control System Toolbox"                     "26.1"      true         "CT"   
+    "Aerospace Toolbox"                          "26.1"      true         "AT"   
+    "Medical Imaging Toolbox"                    "26.1"      true         "DX"   
+    "Image Acquisition Toolbox"                  "26.1"      true         "IA"   
+    "Simulink Coverage"                          "26.1"      true         "CV"   
+    "Financial Toolbox"                          "26.1"      true         "FI"   
+    "DSP System Toolbox"                         "26.1"      true         "DS"   
+    "Fixed-Point Designer"                       "26.1"      true         "PO"   
+    "Simulink"                                   "26.1"      true         "SL"   
+    "Partial Differential Equation Toolbox"      "26.1"      true         "PD"   
+    "Simulink Check"                             "26.1"      true         "VV"   
+    "Bioinformatics Toolbox"                     "26.1"      true         "BI"   
+    "Audio Toolbox"                              "26.1"      true         "AU"   
+    "Datafeed Toolbox"                           "26.1"      true         "DF"   
+    "Antenna Toolbox"                            "26.1"      true         "AA"   
+    "Bluetooth Toolbox"                          "26.1"      true         "BL"   
+    "Predictive Maintenance Toolbox"             "26.1"      true         "PM"   
+    "Simscape Battery"                           "26.1"      true         "BT"   
+    "Mixed-Signal Blockset"                      "26.1"      true         "AM"   
+    "Aerospace Blockset"                         "26.1"      true         "AE"   
+    "Image Processing Toolbox"                   "26.1"      true         "IP"   
+    "ROS Toolbox"                                "26.1"      true         "RR"   
+    "Phased Array System Toolbox"                "26.1"      true         "AR"   
+    "Robotics System Toolbox"                    "26.1"      true         "RO"   
+    "Curve Fitting Toolbox"                      "26.1"      true         "CF"   
+

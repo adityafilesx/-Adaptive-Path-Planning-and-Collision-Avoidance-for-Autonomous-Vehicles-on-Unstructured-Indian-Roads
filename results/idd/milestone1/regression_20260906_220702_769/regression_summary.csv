@@ -1,0 +1,14 @@
+Task,Status,Seconds,FreeGBBefore,Detail,Log
+testPerception,PASS,0.193576416666667,3.68267059326172,,results/idd/milestone1/regression_20260906_220702_769/testPerception.txt
+testTracking,PASS,0.123637583333333,3.68260955810547,,results/idd/milestone1/regression_20260906_220702_769/testTracking.txt
+testOccupancy,PASS,0.699008458333333,3.6826057434082,,results/idd/milestone1/regression_20260906_220702_769/testOccupancy.txt
+testPlanning,PASS,1.152358,3.68248748779297,,results/idd/milestone1/regression_20260906_220702_769/testPlanning.txt
+testACARG,PASS,0.143948375,3.68239974975586,,results/idd/milestone1/regression_20260906_220702_769/testACARG.txt
+testClosedLoop,PASS,3.5005385,3.68239212036133,,results/idd/milestone1/regression_20260906_220702_769/testClosedLoop.txt
+testPhase8Scenarios,PASS,23.0221695416667,3.68223571777344,,results/idd/milestone1/regression_20260906_220702_769/testPhase8Scenarios.txt
+testPhase9Robustness,PASS,99.960698375,3.68486785888672,,results/idd/milestone1/regression_20260906_220702_769/testPhase9Robustness.txt
+testRoadRunnerIntegration,PASS,1.68192916666667,3.67615509033203,,results/idd/milestone1/regression_20260906_220702_769/testRoadRunnerIntegration.txt
+testPhase11Evaluation,PASS,102.998910666667,3.67714691162109,,results/idd/milestone1/regression_20260906_220702_769/testPhase11Evaluation.txt
+testPhase12Demo,PASS,100.098577416667,3.3505859375,,results/idd/milestone1/regression_20260906_220702_769/testPhase12Demo.txt
+testIDDIntegration,PASS,4.722656125,2.41460037231445,,results/idd/milestone1/regression_20260906_220702_769/testIDDIntegration.txt
+testScenarioVideoExport,PASS,40.388148125,2.41363525390625,,results/idd/milestone1/regression_20260906_220702_769/testScenarioVideoExport.txt

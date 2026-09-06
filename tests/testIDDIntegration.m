@@ -15,7 +15,7 @@ ego=struct('Position',[0 0 0],'Velocity',[0 0 0]);
 sim=simulatePerception(truth,ego,core);
 d=createImageDetection([2 3 10 12],.9,"autorickshaw",[100 200 3],"SCHEMA_TEST",["car" "autorickshaw"],NaN,"SCHEMA_TEST");
 rows=struct('Test',{},'Status',{},'Detail',{});
-for n=1:55
+for n=1:65
     try
         check(n);status="PASS";detail="";
     catch info
@@ -130,6 +130,16 @@ assert(result.failed==0,'IDDTest:Failures','One or more IDD integration tests fa
             case 53,mustError(@() createPerceptionSource("INVALID"),'IDD:Source');adapter=createPerceptionSource("ROADRUNNER");mustError(@() adapter(struct(),core),'IDD:RoadRunnerBoundary');
             case 54,mustError(@() iddDetectionToCanonical(struct()),'IDD:Schema');q=d;q.Class="cattle";mustError(@() iddDetectionToCanonical(q),'IDD:Mapping');
             case 55,mustError(@() trainIDDYOLOX(struct(),base),'IDD:TrainingOptIn');mustError(@() getIDDConfig(struct('batchSize',Inf)),'IDD:Config');
+            case 56,c=getIDDMilestone1Config();assert(c.profile=="SMOKE"&&c.pretrainedName=="tiny-coco"&&~c.enabled&&~c.runTraining&&~c.allowWeightDownload);
+            case 57,c=getIDDMilestone1Config();assert(c.trainLimit==32&&c.valLimit>=20&&c.maxEpochs<=2&&c.randomSeed==125);
+            case 58,mustError(@() getIDDMilestone1Config(struct('profile',"FULL")),'IDD:MilestoneProfile');
+            case 59,mustError(@() getIDDMilestone1Config(struct('pretrainedName',"small-coco")),'IDD:MilestoneModel');
+            case 60,c=getIDDMilestone1Config();assert(c.augmentation.flipProbability==0);q=c;q.augmentation.flipProbability=1;mustError(@() getIDDMilestone1Config(q),'IDD:MilestoneAugmentation');
+            case 61,c=getIDDMilestone1Config();assert(c.minimumTrainingFreeGB>=5&&c.minimumConversionFreeGB>=2&&endsWith(c.outputDir,fullfile('idd','milestone1')));
+            case 62,c=validateIDDExecutionEnvironment();assert(all(isfield(c,{'YOLOXAvailable','TrainYOLOXAvailable','DeepLearningAvailable','ComputerVisionAvailable','ParallelComputingAvailable','GPUAvailable','GPUName','ExecutionEnvironment','Reason'})));
+            case 63,c=validateIDDExecutionEnvironment();assert(c.TrainYOLOXAvailable==~isempty(which('trainYOLOXObjectDetector'))&&c.TrainingOptionsAvailable==~isempty(which('trainingOptions'))&&strlength(c.Reason)>0);
+            case 64,c=getIDDMilestone1Config(struct('idd',struct('root',"/EXTERNAL_EXAMPLE_NOT_A_DATASET")));assert(c.root=="/EXTERNAL_EXAMPLE_NOT_A_DATASET"&&~c.runTraining);
+            case 65,mustError(@() getIDDMilestone1Config(struct('resumeFile',"NOT_A_CHECKPOINT")),'IDD:MilestoneResume');
         end
     end
 end
