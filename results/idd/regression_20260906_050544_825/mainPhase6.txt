@@ -1,0 +1,26 @@
+============================================================
+ SIH26037 - Phase 6: Adaptive Confidence-Aware Risk Governor
+============================================================
+--- RUN 1: Baseline (ACARG Disabled) ---
+Baseline Path Valid: 1
+ 
+--- RUN 2: Enhanced (ACARG Enabled) ---
+ACARG Decision:
+  State:          CAUTIOUS
+  Total Risk:     0.41
+  Safety Scale:   1.20
+  Speed Scale:    0.65
+  Replan Urgency: 0.37 (Requested: 0)
+ 
+Actor Risk Details:
+  Actor 101 (car):
+    Risk: 0.05 (Conf: 0.98, Uncert: 0.01, CPA: 0.00, Dist: 0.20)
+    Safety Scale: 1.07
+  Actor 102 (pedestrian):
+    Risk: 0.38 (Conf: 0.70, Uncert: 0.08, CPA: 0.32, Dist: 0.31)
+    Safety Scale: 1.57
+
+Enhanced Path Valid: 1
+ 
+--- VISUALIZATION ---
+

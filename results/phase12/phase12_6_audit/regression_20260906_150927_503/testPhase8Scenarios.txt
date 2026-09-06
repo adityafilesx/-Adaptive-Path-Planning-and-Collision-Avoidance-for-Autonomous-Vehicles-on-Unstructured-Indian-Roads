@@ -1,0 +1,3 @@
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+testPhase8Scenarios: 30 passed, 0 failed.
+

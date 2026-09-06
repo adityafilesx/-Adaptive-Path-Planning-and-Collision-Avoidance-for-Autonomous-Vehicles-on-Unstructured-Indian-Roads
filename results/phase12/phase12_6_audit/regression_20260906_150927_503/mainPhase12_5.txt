@@ -1,0 +1,27 @@
+IDD INTEGRATION ARCHITECTURE: COMPLETE
+IDD DATASET PARSING: PENDING DATASET
+YOLOX SMOKE TRAINING: PENDING DATASET
+FULL IDD TRAINING: NOT RUN
+IDD VALIDATION: NOT RUN
+IDD -> CANONICAL DETECTIONS: PASS (schema/semantic adapter; image-only is NOT metric-ready)
+YOLOX CAPABILITY: CAPABILITY FAILURE: YOLOX functions/add-on or required toolboxes unavailable
+IDD dataset not configured. Set cfg.idd.root to an external, licensed IDD-Detection extraction.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+          architecture: [1×1 struct]
+           environment: [1×1 struct]
+               dataset: [1×1 struct]
+               parsing: "PENDING DATASET"
+         smokeTraining: "PENDING DATASET"
+          fullTraining: "NOT RUN"
+            validation: "NOT RUN"
+             canonical: "PASS"
+               message: "IDD dataset not configured. Set cfg.idd.root to an external, licensed IDD-Detection extraction."
+         configuration: [1×1 struct]
+    architectureFigure: "/Users/aditya1981/Downloads/SIH_Ps37/results/idd/idd_perception_architecture.png"
+            statusFile: "/Users/aditya1981/Downloads/SIH_Ps37/results/idd/phase12_5Status_20260906_152924_852.mat"
+
+

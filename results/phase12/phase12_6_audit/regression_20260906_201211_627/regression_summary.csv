@@ -1,0 +1,3 @@
+Task,Status,Seconds,FreeGBBefore,Detail,Log
+testScenarioVideoExport,PASS,42.4428264166667,5.59525680541992,,results/phase12/phase12_6_audit/regression_20260906_201211_627/testScenarioVideoExport.txt
+mainPhase12_6,PASS,34.5757628333333,4.55765914916992,,results/phase12/phase12_6_audit/regression_20260906_201211_627/mainPhase12_6.txt

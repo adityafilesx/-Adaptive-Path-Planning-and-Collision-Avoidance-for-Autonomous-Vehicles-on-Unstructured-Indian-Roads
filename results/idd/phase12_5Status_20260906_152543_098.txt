@@ -1,0 +1,8 @@
+IDD INTEGRATION ARCHITECTURE: COMPLETE
+IDD DATASET PARSING: PENDING DATASET
+YOLOX SMOKE TRAINING: PENDING DATASET
+FULL IDD TRAINING: NOT RUN
+IDD VALIDATION: NOT RUN
+IDD -> CANONICAL DETECTIONS: PASS (schema/semantic adapter; image-only is NOT metric-ready)
+YOLOX CAPABILITY: CAPABILITY FAILURE: YOLOX functions/add-on or required toolboxes unavailable
+Configured IDD directory does not exist: /private/var/folders/7m/lrn6sx9s79ggpc4377ltvy680000gn/T/tpa373420a_fbbe_4e3e_8523_f3e726d737b5

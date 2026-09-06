@@ -1,0 +1,4 @@
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+testPhase11Evaluation: 35 passed, 0 failed.
+

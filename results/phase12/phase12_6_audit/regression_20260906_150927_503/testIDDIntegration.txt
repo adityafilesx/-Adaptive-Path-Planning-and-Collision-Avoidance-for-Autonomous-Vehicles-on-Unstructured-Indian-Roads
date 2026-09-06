@@ -1,0 +1,75 @@
+IDD TEST 01: PASS 
+IDD TEST 02: PASS 
+IDD TEST 03: PASS 
+IDD TEST 04: PASS 
+IDD TEST 05: PASS 
+IDD TEST 06: PASS 
+IDD TEST 07: PASS 
+IDD TEST 08: PASS 
+IDD TEST 09: PASS 
+IDD TEST 10: PASS 
+IDD TEST 11: PASS 
+IDD TEST 12: PASS 
+IDD TEST 13: PASS 
+IDD TEST 14: PASS 
+IDD TEST 15: PASS 
+IDD TEST 16: PASS 
+IDD TEST 17: SKIP Genuine external IDD dataset not configured.
+IDD TEST 18: SKIP Genuine external IDD dataset not configured.
+IDD TEST 19: SKIP Genuine external IDD dataset not configured.
+IDD TEST 20: SKIP Genuine external IDD dataset not configured.
+IDD TEST 21: SKIP Genuine external IDD dataset not configured.
+IDD TEST 22: SKIP Genuine external IDD dataset not configured.
+IDD TEST 23: SKIP Genuine external IDD dataset not configured.
+IDD TEST 24: SKIP Genuine external IDD dataset not configured.
+IDD TEST 25: SKIP Genuine external IDD dataset not configured.
+IDD TEST 26: SKIP Genuine external IDD dataset not configured.
+IDD TEST 27: SKIP Genuine external IDD dataset not configured.
+IDD TEST 28: SKIP Genuine external IDD dataset not configured.
+IDD TEST 29: SKIP Genuine external IDD dataset not configured.
+IDD TEST 30: SKIP Genuine external IDD dataset not configured.
+IDD TEST 31: SKIP Genuine external IDD dataset not configured.
+IDD TEST 32: SKIP Genuine external IDD dataset not configured.
+IDD TEST 33: SKIP Genuine external IDD dataset not configured.
+IDD TEST 34: SKIP Genuine external IDD dataset not configured.
+IDD INTEGRATION ARCHITECTURE: COMPLETE
+IDD DATASET PARSING: PENDING DATASET
+YOLOX SMOKE TRAINING: PENDING DATASET
+FULL IDD TRAINING: NOT RUN
+IDD VALIDATION: NOT RUN
+IDD -> CANONICAL DETECTIONS: PASS (schema/semantic adapter; image-only is NOT metric-ready)
+YOLOX CAPABILITY: CAPABILITY FAILURE: YOLOX functions/add-on or required toolboxes unavailable
+Configured IDD directory does not exist: /private/var/folders/7m/lrn6sx9s79ggpc4377ltvy680000gn/T/tpa373420a_fbbe_4e3e_8523_f3e726d737b5
+IDD TEST 35: PASS 
+IDD TEST 36: PASS 
+IDD TEST 37: PASS 
+IDD TEST 38: PASS 
+IDD TEST 39: PASS 
+IDD TEST 40: PASS 
+IDD TEST 41: PASS 
+IDD TEST 42: PASS 
+IDD TEST 43: PASS 
+IDD TEST 44: PASS 
+IDD TEST 45: PASS 
+IDD TEST 46: PASS 
+IDD TEST 47: PASS 
+IDD TEST 48: PASS 
+IDD TEST 49: PASS 
+IDD TEST 50: PASS 
+IDD TEST 51: PASS 
+IDD TEST 52: PASS 
+IDD TEST 53: PASS 
+IDD TEST 54: PASS 
+IDD TEST 55: PASS 
+testIDDIntegration: 37 passed, 0 failed, 18 skipped.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+     passed: 37
+     failed: 0
+    skipped: 18
+      tests: [55×3 table]
+
+

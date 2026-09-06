@@ -1,0 +1,7 @@
+
+Output argument "failure" (and possibly others) not assigned a value in the
+execution with "runIDDRegressionAudit>execute" function.
+
+Error in runIDDRegressionAudit (line 28)
+            [output,failure]=execute(name);status="PASS";
+                             ^^^^^^^^^^^^^

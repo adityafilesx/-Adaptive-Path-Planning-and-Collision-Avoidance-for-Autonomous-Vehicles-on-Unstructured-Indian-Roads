@@ -1,0 +1,32 @@
+============================================================
+ PHASE 11 - FINAL EVALUATION
+============================================================
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Authoritative benchmark: POST_PHASE9_FIX
+Main scenarios: 5 | goal reached: 4 | safe terminations: 1 | collision-free: 5
+Robustness: 8 scenarios | recovery 100.0% | collision-free 100.0%
+Replanning latency mean / p95 / maximum: 22.421 / 43.643 / 352.794 ms
+Worst-latency scenario: Unsignalized Urban Intersection
+Unsafe moving frames: 0
+Mean incremental ACARG overhead: 0.270 ms (0.135% of 200 ms period)
+Evidence scope: closed-loop MATLAB simulation on development hardware.
+RoadRunner runtime evidence: PENDING Windows/Linux validation.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+               dataset: [1×1 struct]
+              baseline: [1×1 struct]
+              ablation: [1×1 struct]
+            robustness: [1×1 struct]
+      stateTransitions: [53×12 table]
+          riskTimeline: [221×9 table]
+         acargOverhead: [1×1 struct]
+    statisticalSummary: [1×1 struct]
+            provenance: [1×1 struct]
+                tables: [1×1 struct]
+            savedFiles: [1×1 struct]
+
+

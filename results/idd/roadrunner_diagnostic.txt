@@ -1,0 +1,8 @@
+STATIC TEST 27 FAILED: Phase 10 architecture validation failed.
+STATIC TEST 28 FAILED: Core autonomy depends on RoadRunner classes.
+testRoadRunnerIntegration platform-independent: 26 PASS, 2 FAIL.
+testRoadRunnerIntegration runtime: 0 PASS, 0 FAIL, 12 SKIPPED.
+Runtime skip reason: RoadRunner runtime is not supported on macOS.
+{Error using testRoadRunnerIntegration (line 64)
+One or more Phase 10 tests failed.
+} 

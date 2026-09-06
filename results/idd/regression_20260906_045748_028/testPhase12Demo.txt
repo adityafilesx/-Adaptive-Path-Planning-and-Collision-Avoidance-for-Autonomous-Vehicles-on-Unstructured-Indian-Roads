@@ -1,0 +1,5 @@
+Phase 12 EXPORT | Sudden Cattle Crossing | goal 1 | collision 0 | 17.8 s | 8 replans
+Replay values verified: 1. RoadRunner runtime: pending Windows/Linux.
+Phase 12 LIVE | Sudden Cattle Crossing | goal 1 | collision 0 | 17.8 s | 8 replans
+Replay values verified: 1. RoadRunner runtime: pending Windows/Linux.
+testPhase12Demo: 35 passed, 0 failed.

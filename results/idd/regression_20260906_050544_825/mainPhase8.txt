@@ -1,0 +1,63 @@
+============================================================
+ PHASE 8 - MULTI-SCENARIO VALIDATION
+============================================================
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+
+Unmarked Village Road
+Goal reached: YES
+Collision: NO
+Safe termination: NO
+Replans / failed: 15 / 0
+Max risk: 0.656
+Min actor distance: 11.29 m
+Simulation time: 19.60 s
+
+Unsignalized Urban Intersection
+Goal reached: NO
+Collision: NO
+Safe termination: YES
+Replans / failed: 11 / 6
+Max risk: 0.429
+Min actor distance: 8.52 m
+Simulation time: 11.00 s
+
+Highway Slow-Vehicle Merge
+Goal reached: YES
+Collision: NO
+Safe termination: NO
+Replans / failed: 7 / 0
+Max risk: 0.658
+Min actor distance: 7.01 m
+Simulation time: 17.20 s
+
+Dense Mixed-Traffic Market
+Goal reached: YES
+Collision: NO
+Safe termination: NO
+Replans / failed: 9 / 0
+Max risk: 0.655
+Min actor distance: 13.05 m
+Simulation time: 22.60 s
+
+Sudden Cattle Crossing
+Goal reached: YES
+Collision: NO
+Safe termination: NO
+Replans / failed: 8 / 0
+Max risk: 0.704
+Min actor distance: 12.13 m
+Simulation time: 17.80 s
+
+============================================================
+AGGREGATE
+============================================================
+Scenarios completed: 4 / 5 (80.0%)
+Goals reached: 4 / 5 (80.0%)
+Collision-free: 5 / 5 (100.0%)
+Mean replans: 10.00
+Mean replanning latency: 41.94 ms
+Worst replanning latency: 430.35 ms
+Benchmark wall-clock time: 39.74 s
+Saved benchmark: /Users/aditya1981/Downloads/SIH_Ps37/results/phase8/phase8Benchmark_20260906_050639_205.mat
+Saved summary: /Users/aditya1981/Downloads/SIH_Ps37/results/phase8/phase8ScenarioSummary_20260906_050639_205.csv
+

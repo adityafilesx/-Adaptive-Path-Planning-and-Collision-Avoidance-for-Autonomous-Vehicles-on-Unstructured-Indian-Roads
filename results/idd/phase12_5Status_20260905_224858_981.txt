@@ -1,0 +1,8 @@
+IDD INTEGRATION ARCHITECTURE: COMPLETE
+IDD DATASET PARSING: PENDING DATASET
+YOLOX SMOKE TRAINING: PENDING DATASET
+FULL IDD TRAINING: NOT RUN
+IDD VALIDATION: NOT RUN
+IDD -> CANONICAL DETECTIONS: PASS (schema/semantic adapter; image-only is NOT metric-ready)
+YOLOX CAPABILITY: CAPABILITY FAILURE: YOLOX functions/add-on or required toolboxes unavailable
+IDD dataset not configured. Set cfg.idd.root to an external, licensed IDD-Detection extraction.

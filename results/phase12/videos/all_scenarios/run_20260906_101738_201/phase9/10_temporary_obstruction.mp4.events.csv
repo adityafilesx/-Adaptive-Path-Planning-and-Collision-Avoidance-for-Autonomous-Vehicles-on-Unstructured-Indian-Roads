@@ -1,0 +1,28 @@
+Time,Type,Description,VideoTime
+0,REPLAN,PATH UPDATED: No active path.,1.5
+3,REPLAN,PATH UPDATED: Maximum replanning interval elapsed.,4.5
+6,REPLAN,PATH UPDATED: Maximum replanning interval elapsed.,7.5
+8.2,REPLAN,PATH UPDATED: Upcoming active path is unsafe.,9.7
+9,REPLAN,PATH UPDATED: Upcoming active path is unsafe.,10.5
+9.2,REPLAN,PATH UPDATED: Upcoming active path is unsafe.,10.7
+9.4,REPLAN,PATH UPDATED: Upcoming active path is unsafe.,10.9
+9.6,REPLAN,PATH UPDATED: Upcoming active path is unsafe.,11.1
+9.8,REPLAN,PATH UPDATED: Upcoming active path is unsafe.,11.3
+11,STATE,NORMAL > CAUTIOUS,12.5
+11,REPLAN,PATH UPDATED: Upcoming active path is unsafe. / Governor state changed.,12.5
+11.4,REPLAN,PATH UPDATED: Upcoming active path is unsafe.,12.9
+12.8,STATE,CAUTIOUS > NORMAL,14.3
+12.8,RECOVERY,Governor relaxes after risk falls,14.3
+12.8,REPLAN,PATH UPDATED: Governor state changed. / Risk changed significantly.,14.3
+13,STATE,NORMAL > CAUTIOUS,14.5
+14,STATE,CAUTIOUS > NORMAL,15.5
+14,RECOVERY,Governor relaxes after risk falls,15.5
+14,REPLAN,PATH UPDATED: Governor state changed. / Risk changed significantly.,15.5
+14.2,STATE,NORMAL > CAUTIOUS,15.7
+14.4,STATE,CAUTIOUS > NORMAL,15.9
+14.4,RECOVERY,Governor relaxes after risk falls,15.9
+14.6,STATE,NORMAL > CAUTIOUS,16.1
+14.8,STATE,CAUTIOUS > NORMAL,16.3
+14.8,RECOVERY,Governor relaxes after risk falls,16.3
+17.2,REPLAN,PATH UPDATED: Maximum replanning interval elapsed.,18.7
+20,GOAL,Goal reached,21.5

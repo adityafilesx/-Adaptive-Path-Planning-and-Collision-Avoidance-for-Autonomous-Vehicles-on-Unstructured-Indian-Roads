@@ -1,0 +1,54 @@
+VIDEO 01/13 START Unmarked Village Road
+VIDEO 01/13 VALIDATED Unmarked Village Road | 24.2 s | 242 frames
+VIDEO 02/13 START Unsignalized Urban Intersection
+VIDEO 02/13 VALIDATED Unsignalized Urban Intersection | 15.6 s | 156 frames
+VIDEO 03/13 START Highway Slow-Vehicle Merge
+VIDEO 03/13 VALIDATED Highway Slow-Vehicle Merge | 21.8 s | 218 frames
+VIDEO 04/13 START Dense Mixed-Traffic Market
+VIDEO 04/13 VALIDATED Dense Mixed-Traffic Market | 27.2 s | 272 frames
+VIDEO 05/13 START Sudden Cattle Crossing
+VIDEO 05/13 VALIDATED Sudden Cattle Crossing | 22.4 s | 224 frames
+VIDEO 06/13 START Confidence Drop
+VIDEO 06/13 VALIDATED Confidence Drop | 20.2 s | 202 frames
+VIDEO 07/13 START Temporary Detection Loss
+VIDEO 07/13 VALIDATED Temporary Detection Loss | 20.2 s | 202 frames
+VIDEO 08/13 START Sudden Direction Reversal
+VIDEO 08/13 VALIDATED Sudden Direction Reversal | 28.6 s | 286 frames
+VIDEO 09/13 START Multiple Simultaneous Risks
+VIDEO 09/13 VALIDATED Multiple Simultaneous Risks | 30.6 s | 306 frames
+VIDEO 10/13 START Temporary Path Obstruction
+VIDEO 10/13 VALIDATED Temporary Path Obstruction | 24.6 s | 246 frames
+VIDEO 11/13 START Replan Failure Recovery
+VIDEO 11/13 VALIDATED Replan Failure Recovery | 32.6 s | 326 frames
+VIDEO 12/13 START Conservative Stop Recovery
+VIDEO 12/13 VALIDATED Conservative Stop Recovery | 30.6 s | 306 frames
+VIDEO 13/13 START Rapid Risk Fluctuation
+VIDEO 13/13 VALIDATED Rapid Risk Fluctuation | 21.4 s | 214 frames
+SCENARIO VIDEO EVIDENCE COMPLETE: 5/5 + 8/8 = 13/13 validated; 39 screenshots.
+
+PHASE 12.6 - FINAL PERCEPTION + VIDEO EVIDENCE
+IDD DATASET: NOT CONFIGURED
+IDD PARSING: PENDING
+YOLOX: UNAVAILABLE
+SUPPORTED GPU: UNAVAILABLE
+SMOKE TRAINING: NOT RUN
+FULL TRAINING: PENDING GPU
+IDD EVALUATION: NOT RUN
+IDD OVERLAYS: 0
+PHASE 8 VIDEOS: 5/5
+PHASE 9 VIDEOS: 8/8
+VIDEOS VALIDATED: 13/13
+SCENARIO SCREENSHOTS: 39
+CORE REGRESSION: NOT RUN BY THIS ENTRY; SEE PHASE 12.6 REGRESSION AUDIT
+ROADRUNNER RUNTIME: PENDING WINDOWS/LINUX
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+                  idd: [1×1 struct]
+               videos: [1×1 struct]
+    roadRunnerRuntime: "PENDING WINDOWS/LINUX"
+       coreRegression: "NOT RUN BY THIS ENTRY; SEE PHASE 12.6 REGRESSION AUDIT"
+
+

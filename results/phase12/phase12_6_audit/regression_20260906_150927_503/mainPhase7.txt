@@ -1,0 +1,28 @@
+============================================================
+ SIH26037 - Phase 7: Closed-Loop Motion and Online Replanning
+============================================================
+Termination:              Goal reached.
+Goal reached:             1
+Collision occurred:       0
+Simulation time:          14.80 s
+Distance travelled:       70.42 m
+Initial path length:      70.00 m
+Successful replans:       5
+Failed replans:           0
+Mean / max speed:         4.73 / 6.00 m/s
+Minimum actor distance:   12.16 m
+Mean / maximum risk:      0.263 / 0.647
+Time NORMAL:              10.80 s
+Time CAUTIOUS:            4.20 s
+Time CONSERVATIVE_STOP:   0.00 s
+State transition at 4.40 s: NORMAL -> CAUTIOUS (risk 0.358)
+State transition at 5.00 s: CAUTIOUS -> NORMAL (risk 0.236)
+State transition at 6.80 s: NORMAL -> CAUTIOUS (risk 0.382)
+State transition at 10.40 s: CAUTIOUS -> NORMAL (risk 0.241)
+Plan event at 0.00 s: success=1 initial=1 replaced=0 length=70.00 m
+Plan event at 3.00 s: success=1 initial=0 replaced=1 length=61.61 m
+Plan event at 4.40 s: success=1 initial=0 replaced=1 length=55.63 m
+Plan event at 6.40 s: success=1 initial=0 replaced=1 length=43.99 m
+Plan event at 9.60 s: success=1 initial=0 replaced=1 length=28.29 m
+Plan event at 12.80 s: success=1 initial=0 replaced=1 length=12.18 m
+

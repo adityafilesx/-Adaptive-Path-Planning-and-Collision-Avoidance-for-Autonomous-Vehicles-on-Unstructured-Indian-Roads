@@ -1,0 +1,29 @@
+Task,Status,Seconds,FreeGBBefore,Detail,Log
+testPerception,PASS,0.182824208333333,1.35300827026367,"",/Users/aditya1981/Downloads/SIH_Ps37/results/idd/regression_20260906_045748_028/testPerception.txt
+testTracking,PASS,0.0944014166666667,1.35296630859375,"",/Users/aditya1981/Downloads/SIH_Ps37/results/idd/regression_20260906_045748_028/testTracking.txt
+testOccupancy,PASS,0.716509583333333,1.35296249389648,"",/Users/aditya1981/Downloads/SIH_Ps37/results/idd/regression_20260906_045748_028/testOccupancy.txt
+testPlanning,PASS,1.14363733333333,1.35293960571289,"",/Users/aditya1981/Downloads/SIH_Ps37/results/idd/regression_20260906_045748_028/testPlanning.txt
+testACARG,PASS,0.144322291666667,1.35298156738281,"",/Users/aditya1981/Downloads/SIH_Ps37/results/idd/regression_20260906_045748_028/testACARG.txt
+testClosedLoop,PASS,3.81666916666667,1.35297775268555,"",/Users/aditya1981/Downloads/SIH_Ps37/results/idd/regression_20260906_045748_028/testClosedLoop.txt
+testPhase8Scenarios,PASS,27.3303942083333,1.35258483886719,"",/Users/aditya1981/Downloads/SIH_Ps37/results/idd/regression_20260906_045748_028/testPhase8Scenarios.txt
+testPhase9Robustness,PASS,97.3132885,1.34114456176758,"",/Users/aditya1981/Downloads/SIH_Ps37/results/idd/regression_20260906_045748_028/testPhase9Robustness.txt
+testRoadRunnerIntegration,FAIL,1.394586,1.57689666748047,"Error using testRoadRunnerIntegration (line 64)
+One or more Phase 10 tests failed.
+
+Error in runIDDRegressionAudit>execute (line 41)
+else,output=evalc(char(name));end
+            ^^^^^^^^^^^^^^^^^
+Error in runIDDRegressionAudit (line 23)
+            output=execute(name);status=""PASS"";
+                   ^^^^^^^^^^^^^",/Users/aditya1981/Downloads/SIH_Ps37/results/idd/regression_20260906_045748_028/testRoadRunnerIntegration.txt
+testPhase11Evaluation,PASS,108.458315875,1.57687377929688,"",/Users/aditya1981/Downloads/SIH_Ps37/results/idd/regression_20260906_045748_028/testPhase11Evaluation.txt
+testPhase12Demo,PASS,109.293180708333,1.21995544433594,"",/Users/aditya1981/Downloads/SIH_Ps37/results/idd/regression_20260906_045748_028/testPhase12Demo.txt
+testIDDIntegration,BLOCKED_DISK,0.0444800833333333,0.288867950439453,"Requires 0.30 GiB free (evidence plus reserve); no prior evidence deleted.",/Users/aditya1981/Downloads/SIH_Ps37/results/idd/regression_20260906_045748_028/testIDDIntegration.txt
+mainPhase6,BLOCKED_DISK,0.00351108333333333,0.288848876953125,"Requires 0.30 GiB free (evidence plus reserve); no prior evidence deleted.",/Users/aditya1981/Downloads/SIH_Ps37/results/idd/regression_20260906_045748_028/mainPhase6.txt
+mainPhase7,BLOCKED_DISK,0.001703375,0.288845062255859,"Requires 0.30 GiB free (evidence plus reserve); no prior evidence deleted.",/Users/aditya1981/Downloads/SIH_Ps37/results/idd/regression_20260906_045748_028/mainPhase7.txt
+mainPhase8,BLOCKED_DISK,0.00157991666666667,0.288841247558594,"Requires 0.30 GiB free (evidence plus reserve); no prior evidence deleted.",/Users/aditya1981/Downloads/SIH_Ps37/results/idd/regression_20260906_045748_028/mainPhase8.txt
+mainPhase9,BLOCKED_DISK,0.00412945833333333,0.277126312255859,"Requires 0.30 GiB free (evidence plus reserve); no prior evidence deleted.",/Users/aditya1981/Downloads/SIH_Ps37/results/idd/regression_20260906_045748_028/mainPhase9.txt
+mainPhase10,BLOCKED_DISK,0.00108291666666667,0.277030944824219,"Requires 0.30 GiB free (evidence plus reserve); no prior evidence deleted.",/Users/aditya1981/Downloads/SIH_Ps37/results/idd/regression_20260906_045748_028/mainPhase10.txt
+mainPhase11,BLOCKED_DISK,0.000735,0.276844024658203,"Requires 0.85 GiB free (evidence plus reserve); no prior evidence deleted.",/Users/aditya1981/Downloads/SIH_Ps37/results/idd/regression_20260906_045748_028/mainPhase11.txt
+mainPhase12,BLOCKED_DISK,0.000647333333333333,0.276798248291016,"Requires 0.30 GiB free (evidence plus reserve); no prior evidence deleted.",/Users/aditya1981/Downloads/SIH_Ps37/results/idd/regression_20260906_045748_028/mainPhase12.txt
+mainPhase12_5,BLOCKED_DISK,0.000711458333333333,0.276790618896484,"Requires 0.30 GiB free (evidence plus reserve); no prior evidence deleted.",/Users/aditya1981/Downloads/SIH_Ps37/results/idd/regression_20260906_045748_028/mainPhase12_5.txt

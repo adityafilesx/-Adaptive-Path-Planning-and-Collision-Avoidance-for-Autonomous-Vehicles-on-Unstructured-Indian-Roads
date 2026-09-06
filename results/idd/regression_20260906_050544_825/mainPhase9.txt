@@ -1,0 +1,97 @@
+============================================================
+ PHASE 9 - ROBUSTNESS AND ACARG EXPLAINABILITY
+============================================================
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+Unable to find obstacle-free path between start and goal. Adjust your desired poses or tune the planner parameters.
+
+Confidence Drop
+Goal / collision / safe termination: YES / NO / NO
+State sequence: NORMAL -> CAUTIOUS -> NORMAL
+Maximum risk: 0.641 | Replans / failed: 5 / 0
+Recovered: YES | Unsafe forward-command frames: 0
+
+Temporary Detection Loss
+Goal / collision / safe termination: YES / NO / NO
+State sequence: NORMAL -> CAUTIOUS -> NORMAL -> CAUTIOUS -> NORMAL
+Maximum risk: 0.589 | Replans / failed: 7 / 0
+Recovered: YES | Unsafe forward-command frames: 0
+
+Sudden Direction Reversal
+Goal / collision / safe termination: NO / NO / YES
+State sequence: NORMAL -> CAUTIOUS -> NORMAL
+Maximum risk: 0.693 | Replans / failed: 38 / 12
+Recovered: YES | Unsafe forward-command frames: 0
+
+Multiple Simultaneous Risks
+Goal / collision / safe termination: YES / NO / NO
+State sequence: NORMAL -> CAUTIOUS -> NORMAL
+Maximum risk: 0.694 | Replans / failed: 16 / 34
+Recovered: YES | Unsafe forward-command frames: 0
+
+Temporary Path Obstruction
+Goal / collision / safe termination: YES / NO / NO
+State sequence: NORMAL -> CAUTIOUS -> NORMAL -> CAUTIOUS -> NORMAL -> CAUTIOUS -> NORMAL -> CAUTIOUS -> NORMAL
+Maximum risk: 0.477 | Replans / failed: 13 / 0
+Recovered: YES | Unsafe forward-command frames: 0
+
+Replan Failure Recovery
+Goal / collision / safe termination: YES / NO / NO
+State sequence: NORMAL -> CAUTIOUS -> NORMAL
+Maximum risk: 0.660 | Replans / failed: 7 / 9
+Recovered: YES | Unsafe forward-command frames: 0
+
+Conservative Stop Recovery
+Goal / collision / safe termination: NO / NO / YES
+State sequence: NORMAL -> CAUTIOUS -> CONSERVATIVE_STOP -> CAUTIOUS -> CONSERVATIVE_STOP -> CAUTIOUS -> NORMAL -> CAUTIOUS -> NORMAL
+Maximum risk: 0.757 | Replans / failed: 23 / 29
+Recovered: YES | Unsafe forward-command frames: 0
+
+Rapid Risk Fluctuation
+Goal / collision / safe termination: YES / NO / NO
+State sequence: NORMAL -> CAUTIOUS -> NORMAL -> CAUTIOUS -> NORMAL
+Maximum risk: 0.660 | Replans / failed: 10 / 0
+Recovered: YES | Unsafe forward-command frames: 0
+
+Dense Market legacy classification: C. Genuine implementation defect (time urgency overrode spatial evidence).
+Legacy STOP: totalRisk 0.701145 vs threshold 0.70; actor 601 at 30.772 m.
+Post-fix Dense Market: goal=YES, collision=NO, maximum risk=0.655.
+
+Robustness: 8 scenarios, 8 collision-free, 8 recovered, 0 unexplained failures.
+Wall-clock time: 95.45 s
+Saved result: /Users/aditya1981/Downloads/SIH_Ps37/results/phase9/phase9Robustness_20260906_050926_923.mat
+

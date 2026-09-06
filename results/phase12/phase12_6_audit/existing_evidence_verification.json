@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "checkedFiles": 195,
+  "mismatches": [],
+  "checkedAt": "2026-09-06T14:42:23.887Z",
+  "baseline": "existing_evidence_sha256.json",
+  "scope": "Pre-existing Phase 11 and Phase 12 evidence captured before final exports/regression. Excludes .DS_Store, derived cache, all_scenarios additions and this audit directory. Every baseline file has identical byte size and SHA-256."
+}

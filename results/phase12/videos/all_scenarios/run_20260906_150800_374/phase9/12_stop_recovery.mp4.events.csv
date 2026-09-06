@@ -1,0 +1,79 @@
+Time,Type,Description,VideoTime
+0,REPLAN,PATH UPDATED: No active path.,1.5
+2.8,STATE,NORMAL > CAUTIOUS,4.3
+2.8,REPLAN,PATH UPDATED: Governor state changed.,4.3
+5.8,REPLAN,PATH UPDATED: Maximum replanning interval elapsed.,7.3
+6,REPLAN,PATH UPDATED: Upcoming active path is unsafe.,7.5
+6.4,REPLAN,PATH UPDATED: Upcoming active path is unsafe.,7.9
+6.6,REPLAN,PATH UPDATED: Upcoming active path is unsafe.,8.1
+6.8,REPLAN,PATH UPDATED: Upcoming active path is unsafe.,8.3
+7,REPLAN,PLAN FAILED: Upcoming active path is unsafe.,8.5
+7,PATH,Path unsafe; braking commanded,8.5
+7,STOP,Zero target speed commanded,8.5
+7.2,REPLAN,PATH UPDATED: No active path.,8.7
+7.4,REPLAN,PATH UPDATED: Upcoming active path is unsafe.,8.9
+7.6,REPLAN,PATH UPDATED: Upcoming active path is unsafe.,9.1
+7.8,REPLAN,PATH UPDATED: Upcoming active path is unsafe.,9.3
+8,STATE,CAUTIOUS > CONSERVATIVE_STOP,9.5
+8,REPLAN,PATH UPDATED: Upcoming active path is unsafe.,9.5
+8,STOP,Zero target speed commanded,9.5
+8.4,STATE,CONSERVATIVE_STOP > CAUTIOUS,9.9
+8.4,RECOVERY,Governor relaxes after risk falls,9.9
+9.6,REPLAN,PATH UPDATED: Upcoming active path is unsafe.,11.1
+9.8,REPLAN,PATH UPDATED: Upcoming active path is unsafe.,11.3
+10,REPLAN,PATH UPDATED: Upcoming active path is unsafe.,11.5
+10.2,REPLAN,PATH UPDATED: Upcoming active path is unsafe.,11.7
+10.4,REPLAN,PATH UPDATED: Upcoming active path is unsafe.,11.9
+10.6,REPLAN,PATH UPDATED: Upcoming active path is unsafe.,12.1
+10.8,REPLAN,PLAN FAILED: Upcoming active path is unsafe.,12.3
+10.8,PATH,Path unsafe; braking commanded,12.3
+10.8,STOP,Zero target speed commanded,12.3
+11,REPLAN,PATH UPDATED: No active path.,12.5
+11.2,REPLAN,PLAN FAILED: Upcoming active path is unsafe.,12.7
+11.2,PATH,Path unsafe; braking commanded,12.7
+11.2,STOP,Zero target speed commanded,12.7
+11.4,REPLAN,PLAN FAILED: No active path.,12.9
+11.6,REPLAN,PLAN FAILED: No active path.,13.1
+11.8,REPLAN,PLAN FAILED: No active path.,13.3
+12,REPLAN,PLAN FAILED: No active path.,13.5
+12.2,REPLAN,PLAN FAILED: No active path.,13.7
+12.4,REPLAN,PLAN FAILED: No active path.,13.9
+12.6,STATE,CAUTIOUS > CONSERVATIVE_STOP,14.1
+12.6,REPLAN,PLAN FAILED: No active path.,14.1
+12.8,REPLAN,PLAN FAILED: No active path.,14.3
+13,REPLAN,PLAN FAILED: No active path.,14.5
+13.2,REPLAN,PLAN FAILED: No active path.,14.7
+13.4,REPLAN,PLAN FAILED: No active path.,14.9
+13.6,REPLAN,PLAN FAILED: No active path.,15.1
+13.8,STATE,CONSERVATIVE_STOP > CAUTIOUS,15.3
+13.8,RECOVERY,Governor relaxes after risk falls,15.3
+13.8,REPLAN,PLAN FAILED: No active path.,15.3
+14,REPLAN,PLAN FAILED: No active path.,15.5
+14.2,REPLAN,PLAN FAILED: No active path.,15.7
+14.4,REPLAN,PLAN FAILED: No active path.,15.9
+14.6,REPLAN,PLAN FAILED: No active path.,16.1
+14.8,REPLAN,PLAN FAILED: No active path.,16.3
+15,REPLAN,PLAN FAILED: No active path.,16.5
+15.2,REPLAN,PLAN FAILED: No active path.,16.7
+15.4,REPLAN,PLAN FAILED: No active path.,16.9
+15.6,REPLAN,PLAN FAILED: No active path.,17.1
+15.8,REPLAN,PLAN FAILED: No active path.,17.3
+16,REPLAN,PLAN FAILED: No active path.,17.5
+16.2,REPLAN,PLAN FAILED: No active path.,17.7
+16.4,REPLAN,PATH UPDATED: No active path.,17.9
+16.6,REPLAN,PATH UPDATED: Upcoming active path is unsafe.,18.1
+16.8,REPLAN,PATH UPDATED: Upcoming active path is unsafe.,18.3
+17,REPLAN,PATH UPDATED: Upcoming active path is unsafe.,18.5
+17.2,REPLAN,PLAN FAILED: Upcoming active path is unsafe.,18.7
+17.2,PATH,Path unsafe; braking commanded,18.7
+17.2,STOP,Zero target speed commanded,18.7
+17.4,REPLAN,PATH UPDATED: No active path.,18.9
+18.6,REPLAN,PATH UPDATED: Risk changed significantly.,20.1
+21.4,STATE,CAUTIOUS > NORMAL,22.9
+21.4,RECOVERY,Governor relaxes after risk falls,22.9
+21.4,REPLAN,PATH UPDATED: Governor state changed.,22.9
+22.8,STATE,NORMAL > CAUTIOUS,24.3
+22.8,REPLAN,PATH UPDATED: Governor state changed. / Risk changed significantly.,24.3
+23,STATE,CAUTIOUS > NORMAL,24.5
+23,RECOVERY,Governor relaxes after risk falls,24.5
+25.9999999999999,REPLAN,PATH UPDATED: Maximum replanning interval elapsed.,27.4999999999999
